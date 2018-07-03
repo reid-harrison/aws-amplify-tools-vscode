@@ -1,0 +1,110 @@
+{
+    "setItem": {
+        "prefix": "setItem",
+        "body": [
+            "setItem"
+        ]
+    },
+    "getItem": {
+        "prefix": "getItem",
+        "body": [
+            "getItem"
+        ]
+    },
+    "removeItem": {
+        "prefix": "removeItem",
+        "body": [
+            "removeItem"
+        ]
+    },
+    "clear": {
+        "prefix": "clear",
+        "body": [
+            "clear"
+        ]
+    },
+    "getAllKeys": {
+        "prefix": "getAllKeys",
+        "body": [
+            "getAllKeys"
+        ]
+    },
+    "getCacheCurSize": {
+        "prefix": "getCacheCurSize",
+        "body": [
+            "getCacheCurSize"
+        ]
+    },
+    "configure": {
+        "prefix": "configure",
+        "body": [
+            "configure"
+        ]
+    },
+    "createInstance": {
+        "prefix": "createInstance",
+        "body": [
+            "createInstance"
+        ]
+    },
+    "keyPrefix": {
+        "prefix": "keyPrefix",
+        "body": [
+            "keyPrefix"
+        ]
+    },
+    "capacityInBytes": {
+        "prefix": "capacityInBytes",
+        "body": [
+            "capacityInBytes"
+        ]
+    },
+    "itemMaxSize": {
+        "prefix": "itemMaxSize",
+        "body": [
+            "itemMaxSize"
+        ]
+    },
+    "defaultTTL": {
+        "prefix": "defaultTTL",
+        "body": [
+            "defaultTTL"
+        ]
+    },
+    "defaultPriority": {
+        "prefix": "defaultPriority",
+        "body": [
+            "defaultPriority"
+        ]
+    },
+    "warningThreshold": {
+        "prefix": "warningThreshold",
+        "body": [
+            "warningThreshold"
+        ]
+    },
+    "storage": {
+        "prefix": "storage",
+        "body": [
+            "storage"
+        ]
+    },
+    "priority": {
+        "prefix": "priority",
+        "body": [
+            "priority"
+        ]
+    },
+    "expires": {
+        "prefix": "expires",
+        "body": [
+            "expires"
+        ]
+    },
+    "callback": {
+        "prefix": "callback",
+        "body": [
+            "callback"
+        ]
+    }
+}

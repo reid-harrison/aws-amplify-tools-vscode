@@ -1,0 +1,32 @@
+{
+    "Push Notifications Configuration": {
+        "prefix": "PushNotification.configure",
+        "body": [
+            "PushNotification.configure({",
+                "\t// ...",
+                "\tPushNotification: {",
+                    "\t\tappId: 'XXXXXXXXXXabcdefghij1234567890ab',",
+                "\t}",
+                "\t// ...",
+            "});"
+        ]
+    },
+    "FetchResult": {
+        "prefix": "FetchResult",
+        "body": [
+            "FetchResult"
+        ]
+    },
+    "onRegister": {
+        "prefix": "onRegister",
+        "body": [
+            "onRegister"
+        ]
+    },
+    "onNotification": {
+        "prefix": "onNotification",
+        "body": [
+            "onNotification"
+        ]
+    }
+}

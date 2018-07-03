@@ -1,0 +1,230 @@
+{
+    "Analytics": {
+        "prefix": "Analytics",
+        "body": [
+            "Analytics"
+        ]
+    },
+    "AsyncStorage": {
+        "prefix": "AsyncStorage",
+        "body": [
+            "AsyncStorage"
+        ]
+    },
+    "Auth": {
+        "prefix": "Auth",
+        "body": [
+            "Auth"
+        ]
+    },
+    "AuthenticationDetails": {
+        "prefix": "AuthenticationDetails",
+        "body": [
+            "AuthenticationDetails"
+        ]
+    },
+    "BUFFER_SIZE": {
+        "prefix": "BUFFER_SIZE",
+        "body": [
+            "BUFFER_SIZE"
+        ]
+    },
+    "CognitoAuth": {
+        "prefix": "CognitoAuth",
+        "body": [
+            "CognitoAuth"
+        ]
+    },
+    "CognitoUser": {
+        "prefix": "CognitoUser",
+        "body": [
+            "CognitoUser"
+        ]
+    },
+    "CognitoUserAttribute": {
+        "prefix": "CognitoUserAttribute",
+        "body": [
+            "CognitoUserAttribute"
+        ]
+    },
+    "CognitoUserPool": {
+        "prefix": "CognitoUserPool",
+        "body": [
+            "CognitoUserPool"
+        ]
+    },
+    "CookieStorage": {
+        "prefix": "CookieStorage",
+        "body": [
+            "CookieStorage"
+        ]
+    },
+    "DEFAULT_ALGORITHM": {
+        "prefix": "DEFAULT_ALGORITHM",
+        "body": [
+            "DEFAULT_ALGORITHM"
+        ]
+    },
+    "FLUSH_INTERVAL": {
+        "prefix": "FLUSH_INTERVAL",
+        "body": [
+            "FLUSH_INTERVAL"
+        ]
+    },
+    "FLUSH_SIZE": {
+        "prefix": "FLUSH_SIZE",
+        "body": [
+            "FLUSH_SIZE"
+        ]
+    },
+    "Hub": {
+        "prefix": "Hub",
+        "body": [
+            "Hub"
+        ]
+    },
+    "Linking": {
+        "prefix": "Linking",
+        "body": [
+            "Linking"
+        ]
+    },
+    "MIME_MAP": {
+        "prefix": "MIME_MAP",
+        "body": [
+            "MIME_MAP"
+        ]
+    },
+    "NON_RETRYABLE_EXCEPTIONS": {
+        "prefix": "NON_RETRYABLE_EXCEPTIONS",
+        "body": [
+            "NON_RETRYABLE_EXCEPTIONS"
+        ]
+    },
+    "OS": {
+        "prefix": "OS",
+        "body": [
+            "OS"
+        ]
+    },
+    "RESEND_LIMIT": {
+        "prefix": "RESEND_LIMIT",
+        "body": [
+            "RESEND_LIMIT"
+        ]
+    },
+    "SERVICE_NAME": {
+        "prefix": "SERVICE_NAME",
+        "body": [
+            "SERVICE_NAME"
+        ]
+    },
+    "Storage": {
+        "prefix": "Storage",
+        "body": [
+            "Storage"
+        ]
+    },
+    "StorageHelper": {
+        "prefix": "StorageHelper",
+        "body": [
+            "StorageHelper"
+        ]
+    },
+    "_config": {
+        "prefix": "_config",
+        "body": [
+            "_config"
+        ]
+    },
+    "_i18n": {
+        "prefix": "_i18n",
+        "body": [
+            "_i18n"
+        ]
+    },
+    "_instance": {
+        "prefix": "_instance",
+        "body": [
+            "_instance"
+        ]
+    },
+    "actions": {
+        "prefix": "actions",
+        "body": [
+            "actions"
+        ]
+    },
+    "analyticsConfigured": {
+        "prefix": "analyticsConfigured",
+        "body": [
+            "analyticsConfigured"
+        ]
+    },
+    "authConfigured": {
+        "prefix": "authConfigured",
+        "body": [
+            "authConfigured"
+        ]
+    },
+    "crypto": {
+        "prefix": "crypto",
+        "body": [
+            "crypto"
+        ]
+    },
+    "date": {
+        "prefix": "date",
+        "body": [
+            "date"
+        ]
+    },
+    "expireTime": {
+        "prefix": "expireTime",
+        "body": [
+            "expireTime"
+        ]
+    },
+    "instance": {
+        "prefix": "instance",
+        "body": [
+            "instance"
+        ]
+    },
+    "logger": {
+        "prefix": "logger",
+        "body": [
+            "logger"
+        ]
+    },
+    "preInteract": {
+        "prefix": "preInteract",
+        "body": [
+            "preInteract"
+        ]
+    },
+    "startsessionRecorded": {
+        "prefix": "startsessionRecorded",
+        "body": [
+            "startsessionRecorded"
+        ]
+    },
+    "url": {
+        "prefix": "url",
+        "body": [
+            "url"
+        ]
+    },
+    "urlLib": {
+        "prefix": "urlLib",
+        "body": [
+            "urlLib"
+        ]
+    },
+    "waitForInit": {
+        "prefix": "waitForInit",
+        "body": [
+            "waitForInit"
+        ]
+    }   
+}

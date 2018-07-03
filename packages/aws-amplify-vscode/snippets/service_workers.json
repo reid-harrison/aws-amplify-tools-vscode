@@ -1,0 +1,42 @@
+{
+    "register": {
+        "prefix": "register",
+        "body": [
+            "register"
+        ]
+    },
+    "enablePush": {
+        "prefix": "enablePush",
+        "body": [
+            "enablePush"
+        ]
+    },
+    "Service Worker Add Event Listener": {
+        "prefix": "addEventListener",
+        "body": [
+            "/**",
+            "* Listen for incoming Push events",
+            "*/",
+            "addEventListener('push', (event) => {",
+                "\tvar data = {};",
+                "\tconsole.log('[Service Worker] Push Received.');",
+                "\tconsole.log(`[Service Worker] Push had this data: \"${event.data.text()}\"`);\n",
+                "\tif (!(self.Notification && self.Notification.permission === 'granted'))",
+                "\t\treturn;\n",
+                "\tif (event.data)",
+                "\t\tdata = event.data.json();\n",
+                "\t// Customize the UI for the message box",
+                "\tvar title = data.title || \"Web Push Notification\";",
+                "\tvar message = data.message || \"New Push Notification Received\";",
+                "\tvar icon = \"images/notification-icon.png\";",
+                "\tvar badge = 'images/notification-badge.png';",
+                "\tvar options = {",
+                    "\t\tbody: message,",
+                    "\t\ticon: icon,",
+                    "\t\tbadge: badge",
+                "\t};\n",
+                "\tevent.waitUntil(self.registration.showNotification(title,options));\n",
+            "});"
+        ]
+    }
+}

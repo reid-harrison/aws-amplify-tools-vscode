@@ -1,0 +1,100 @@
+{
+    "Interactions Manual Configuration": {
+        "prefix": "Interactions",
+        "body": [
+            "import Amplify from 'aws-amplify';\n",
+            "Amplify.configure({",
+                "\tAuth: {",
+                    "\t\tidentityPoolId: 'us-east-1:xxx-xxx-xxx-xxx-xxx',",
+                    "\t\tregion: 'us-east-1'",
+                "\t},",
+                "\tInteractions: {",
+                    "\t\tbots: {",
+                        "\t\t\t\"BookTripMOBILEHUB\": {",
+                            "\t\t\t\t\"name\": \"BookTripMOBILEHUB\",",
+                            "\t\t\t\t\"alias\": \"$LATEST\",",
+                            "\t\t\t\t\"region\": \"us-east-1\",",
+                        "\t\t\t},",
+                    "\t\t}",
+                "\t}",
+            "});"
+        ]
+    },
+    "handleComplete React": {
+        "prefix": "handleComplete",
+        "body": [
+            "handleComplete = function (err, confirmation) {",
+                "\tif (err) {",
+                    "\t\talert('bot conversation failed')",
+                    "\t\treturn;",
+                "\t}",
+                "\talert('done: ' + JSON.stringify(confirmation, null, 2));\n",
+                "\treturn 'Trip booked. Thank you! What would you like to do next?';",
+            "}\n",
+            "Interactions.onComplete(botName, handleComplete );"
+        ]
+    },
+    "ChatBot React": {
+        "prefix": "<Chatbot",
+        "body": [
+            "<ChatBot",
+            "\ttitle=\"My Bot\"",
+            "\ttheme={myTheme}",
+            "\tbotName=\"BookTripMOBILEHUB\"",
+            "\twelcomeMessage=\"Welcome, how can I help you today?\"",
+            "\tonComplete={this.handleComplete.bind(this)}",
+            "\tclearonComplete={true}",
+            "/>"
+        ]
+    },
+    "ChatBot React Native": {
+        "prefix": "<Chatbot",
+        "body": [
+            "<ChatBot",
+            "\tbotName={botName}",
+            "\twelcomeMessage={welcomeMessage}",
+            "\tonComplete={this.handleComplete}",
+            "\tclearonComplete={false}",
+            "\tstyles={Stylesheet.create({",
+                "\t\titemMe: {",
+                    "\t\t\tcolor: 'red'",
+                "\t\t}",
+            "\t})}",
+            "/>"
+        ]
+    },
+    "handleComplete React Native": {
+        "prefix": "handleComplete",
+        "body": [
+            "handleComplete(err, confirmation) {",
+                "\tif (err) {",
+                    "\t\tAlert.alert('Error','Bot conversation failed', [{ text: 'OK' }]);",
+                    "\t\treturn;",
+                "\t}",
+                "\tAlert.alert('Done', JSON.stringify(confirmation, null, 2), [{ text: 'OK' }]);\n",
+                "\tthis.setState({",
+                "\tbotName: 'BookTripMOBILEHUB'",
+                "\t});",
+                "\treturn 'Trip booked. Thank you! What would you like to do next?';",
+            "}\n",
+            "render() {",
+                "\tconst { botName, showChatBot, welcomeMessage } = this.state;\n",
+                "\treturn (",
+                "\t<SafeAreaView style={styles.container}>",
+                "\t\t<ChatBot",
+                "\t\t\tbotName={botName}",
+                "\t\t\twelcomeMessage={welcomeMessage}",
+                "\t\t\tonComplete={this.handleComplete}",
+                "\t\t\tclearonComplete={false}",
+                "\t\t\tstyles={Stylesheet.create({",
+                    "\t\t\t\titemMe: {",
+                        "\t\t\t\t\tcolor: 'red'",
+                    "\t\t\t\t}",
+                "\t\t\t})}",
+                "\t\t/>",
+                "\t</SafeAreaView>",
+                "\t);",
+            "}"
+        ]
+    }
+}

@@ -1,0 +1,298 @@
+{
+    "Amplify API Configuration": {
+        "prefix": "API: ",
+        "body": [
+            "API: {",
+            "\tendpoints: [",
+            "\t\t{",
+                "\t\t\tname: \"MyAPIGatewayAPI\",",
+                "\t\t\tendpoint: \"https://1234567890-abcdefgh.amazonaws.com\"",
+            "\t\t},",
+            "\t\t{",
+                "\t\t\tname: \"MyCustomCloudFrontApi\",",
+                "\t\t\tendpoint: \"https://api.my-custom-cloudfront-domain.com\"",
+            "\t\t},",
+            "\t\t{",
+                "\t\t\tname: \"MyCustomLambdaApi\",",
+                "\t\t\tendpoint: \"https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/yourFuncName/invocations\",",
+                "\t\t\tservice: \"lambda\",",
+                "\t\t\tregion: \"us-east-1\"",
+            "\t\t},",
+            "\t]",
+            "}"
+        ]
+    },
+    "Amplify Get": {
+        "prefix": "API.get",
+        "body": [
+            "API.get(apiName, path, myInit)",
+            "\t.then((response) => {",
+            "\t\t// Add your code here",
+            "\t})",
+            "\t.catch((error) => {",
+            "\t\tconsole.log(error)",
+            "\t})"
+        ]
+    },
+    "Amplify Post": {
+        "prefix": "API.post",
+        "body": [
+            "API.post(apiName, path, myInit)",
+            "\t.then((response) => {",
+            "\t\t// Add your code here",
+            "\t})",
+            "\t.catch((error) => {",
+            "\t\tconsole.log(error)",
+            "\t})"
+        ]      
+    },
+    "Amplify Put": {
+        "prefix": "API.put",
+        "body": [
+            "API.put(apiName, path, myInit)",
+            "\t.then((response) => {",
+            "\t\t// Add your code here",
+            "\t})",
+            "\t.catch((error) => {",
+            "\t\tconsole.log(error)",
+            "\t})"
+        ]      
+    },
+    "Amplify Delete": {
+        "prefix": "API.del",
+        "body": [
+            "API.del(apiName, path, myInit)",
+            "\t.then((response) => {",
+            "\t\t// Add your code here",
+            "\t})",
+            "\t.catch((error) => {",
+            "\t\tconsole.log(error)",
+            "\t})"
+        ]      
+    },
+    "Amplify Head": {
+        "prefix": "API.head",
+        "body": [
+            "API.head(apiName, path, myInit)",
+            "\t.then((response) => {",
+            "\t\t// Add your code here",
+            "\t})"
+        ]      
+    },
+    "API async getData()": {
+        "prefix": "getData()",
+        "body": [
+            "getData() {",
+            "\tlet apiName = 'MyApiName';",
+            "\tlet path = '/path';",
+            "\tlet myInit = { // OPTIONAL",
+                "\t\theaders: {} // OPTIONAL",
+            "\t}",
+            "\treturn await API.get(apiName, path, myInit);",
+            "\t} \n",
+            "getData();"
+        ]
+    },
+    "API async postData()": {
+        "prefix": "postData()",
+        "body": [
+            "postData() {",
+            "\tlet apiName = 'MyApiName';",
+            "\tlet path = '/path';",
+            "\tlet myInit = { // OPTIONAL",
+                "\t\tbody: {}, // replace this with attributes you need",
+                "\t\theaders: {} // OPTIONAL",
+            "\t}",
+            "\treturn await API.post(apiName, path, myInit);",
+            "\t} \n",
+            "postData();"
+        ]
+    },
+    "API async putData()": {
+        "prefix": "putData()",
+        "body": [
+            "putData() {",
+            "\tlet apiName = 'MyApiName';",
+            "\tlet path = '/path';",
+            "\tlet myInit = { // OPTIONAL",
+                "\t\tbody: {}, // replace this with attributes you need",
+                "\t\theaders: {} // OPTIONAL",
+            "\t}",
+            "\treturn await API.put(apiName, path, myInit);",
+            "\t} \n",
+            "putData();"
+        ]
+    },
+    "API async deleteData()": {
+        "prefix": "deleteData()",
+        "body": [
+            "deleteData() {",
+            "\tlet apiName = 'MyApiName';",
+            "\tlet path = '/path';",
+            "\tlet myInit = { // OPTIONAL",
+                "\t\theaders: {} // OPTIONAL",
+            "\t}",
+            "\treturn await API.del(apiName, path, myInit);",
+            "\t} \n",
+            "deleteData();"
+        ]
+    },
+    "API async head()": {
+        "prefix": "head()",
+        "body": [
+            "head() {",
+            "\tlet apiName = 'MyApiName';",
+            "\tlet path = '/path';",
+            "\tlet myInit = { // OPTIONAL",
+                "\t\theaders: {} // OPTIONAL",
+            "\t}",
+            "\treturn await API.head(apiName, path, myInit);",
+            "\t} \n",
+            "head();"
+        ]
+    },
+    "APIGraphQL Endpoint": {
+        "prefix": "graphql_endpoint:",
+        "body": [
+            "graphql_endpoint: 'https:/www.example.com/my-graphql-endpoint'"
+        ]
+    },
+    "APIGraphQL Endpoint IAM Region": {
+        "prefix": "graphql_endpoint_iam_region:",
+        "body": [
+            "graphql_endpoint_iam_region: 'my_graphql_apigateway_region'"
+        ]
+    },
+    "APIGraphQL Operation": {
+        "prefix": "graphqlOperation",
+        "body": [
+            "graphqlOperation"
+        ]
+    },
+    "API AppSync Configuration": {
+        "prefix": "myAppConfig",
+        "body": [
+            "myAppConfig = {",
+                "\t// ...",
+                "\t'aws_appsync_graphqlEndpoint': 'https://xxxxxx.appsync-api.us-east-1.amazonaws.com/graphql',",
+                "\t'aws_appsync_region': 'us-east-1',",
+                "\t'aws_appsync_authenticationType': "
+        ]
+    },
+    "Query ListEvents": {
+        "prefix": "ListEvents",
+        "body": [
+            "ListEvents = `query ListEvents {",
+                "\tlistEvents {",
+                    "\t\titems {",
+                        "\t\t\tid",
+                        "\t\t\twhere",
+                        "\t\t\tdescription",
+                    "\t\t}",
+                "\t}",
+            "}`;"
+        ]
+    },
+    "Query GetEvent": {
+        "prefix": "GetEvent",
+        "body": [
+            "GetEvent = `query GetEvent($id: ID! $nextToken: String) {",
+                "\tgetEvent(id: $id) {",
+                    "\t\tid",
+                    "\t\tname",
+                    "\t\tdescription",
+                    "\t\tcomments(nextToken: $nextToken) {",
+                        "\t\t\titems {",
+                            "\t\t\t\tcontent",
+                        "\t\t\t}",
+                    "\t\t}",
+                "\t}",
+            "}`;"
+        ]
+    },
+    "Mutations CreateEvent": {
+        "prefix": "CreateEvent",
+        "body": [
+            "CreateEvent = `mutation CreateEvent($name: String!, $when: String!, $where: String!, $description: String!) {",
+                "\tcreateEvent(name: $name, when: $when, where: $where, description: $description) {",
+                    "\t\tid",
+                    "\t\tname",
+                    "\t\twhere",
+                    "\t\twhen",
+                    "\t\tdescription",
+                "\t}",
+            "};\n",
+            "// Mutation",
+            "const eventDetails = {",
+                "\tname: 'Party tonight!,",
+                "\twhen: '8:00pm',",
+                "\twhere: 'Ballroom',",
+                "\tdescription: 'Coming together as a team!'",
+            "};\n",
+            "const newEvent = await API.graphql(graphqlOperation(CreateEvent, eventDetails));",
+            "console.log(newEvent);"
+        ]
+    },
+    "Subscriptions SubscribeToEventComments": {
+        "prefix": "SubscribeToEventComments",
+        "body": [
+            "SubscribeToEventComments = `subscription SubscribeToEventComments($eventId: String!) {",
+                "\tsubscribeToEventComments(eventId: $eventId) {",
+                    "\t\teventId",
+                    "\t\tcommentId",
+                    "\t\tcontent",
+                "\t}",
+            "}`;\n",
+            "// Subscribe with eventId 123",
+            "const subscription = API.graphql(",
+            "\tgraphqlOperation(SubscribeToEventComments, { eventId: '123' })",
+            ").subscribe({",
+                "\tnext: (eventData) => console.log(eventData)",
+            "});\n",
+            "\\ Stop receiving data updates from the subscription",
+            "subscription.unsubscribe();"
+        ]
+    },
+    "queryStringParameters": {
+        "prefix": "queryStringParameters",
+        "body": [
+            "queryStringParameters"
+        ]
+    },
+    "awsServerlessExpressMiddleware": {
+        "prefix": "awsServerlessExpressMiddleware",
+        "body": [
+            "awsServerlessExpressMiddleware"
+        ]
+    },
+    "apiGateway": {
+        "prefix": "apiGateway",
+        "body": [
+            "apiGateway"
+        ]
+    },
+    "custom_header": {
+        "prefix": "custom_header",
+        "body": [
+            "custom_header: async () => {",
+                "\treturn { Authorization : 'token' }",
+                "\t// Alternatively, with Cognito User Pools use this:",
+                "\t// return { (await Auth.currentSession()).idToken.jwtToken }",
+            "}"
+        ]
+    },
+    "React Connect": {
+        "prefix": "<Connect",
+        "body": [
+            "<Connect query={graphqlOperation(GetEvent, { id: currEventId })}",
+            "\t\tsubscription={graphqlOperation(SubscribeToEventComments, { eventId: currEventId })}",
+            "\t\tonSubscriptionsMsg={(prev, { subscribeToEventComments }) => {",
+                "\t\t\tconsole.log ( subscribeToEventComments);",
+                "\t\t\treturn prev; }}",
+            "\t{({ data: { listEvents } }) => (",
+            "\t\t<AllEvents events={listEvents ? listEvents.items : []} />",
+            "\t)}",
+            "</Connect>"
+        ]
+    }
+}

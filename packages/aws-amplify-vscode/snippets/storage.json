@@ -1,0 +1,191 @@
+{
+    "Amplify Manual Storage Configuration": {
+        "prefix": "Storage:",
+        "body": [
+            "Storage: {",
+            "\tbucket: '', // REQUIRED - Amazon  S3 bucket",
+            "\tregion: 'XX-XXXX-X' // OPTIONAL - Amazon service region",
+            "}"
+        ]
+    },
+    "Manual Storage Configuration": {
+        "prefix": "Storage.configure",
+        "body": [
+            "Storage.configure({",
+                "\tbucket: // Your bucket ARN;",
+                "\tregion: // Specify the region your bucket was created in;",
+                "\tidentityPoolId: // Specify your identityPoolId for Auth and Unauth access to your bucket;",
+            "});"
+        ]
+    },
+    "Storage Get": {
+        "prefix": "Storage.get",
+        "body": [
+            "Storage.get('test.txt', { level: 'private' })",
+            "\t.then ( (result) => { ",
+            "\t\tconsole.log(result); ", 
+            "\t})",
+            "\t.catch( (err) => { ",
+            "\t\tconsole.log(err);",
+            "\t});"
+        ]
+    },
+    "Storage Put": {
+        "prefix": "Storage.put",
+        "body": [
+            "Storage.put('test.txt', 'Protected Content', {",
+            "\tlevel: 'private',",
+            "\tcontentType: 'text/plain'",
+            "})",
+            ".then ( (result) => { ",
+            "\tconsole.log(result); ", 
+            "})",
+            ".catch( (err) => { ",
+            "\tconsole.log(err);",
+            "});"
+        ]
+    },
+    "S3ImageUpload": {
+        "prefix": "S3ImageUpload",
+        "body": [
+            "S3ImageUpload"
+        ]
+    },
+    "onChange": {
+        "prefix": "onChange",
+        "body": [
+            "onChange"
+        ]
+    },
+    "RNFetchBlob": {
+        "prefix": "RNFetchBlob",
+        "body": [
+            "RNFetchBlob"
+        ]
+    },
+    "readFile": {
+        "prefix": "readFile",
+        "body": [
+            "readFile"
+        ]
+    },
+    "contentType": {
+        "prefix": "contentType",
+        "body": [
+            "contentType"
+        ]
+    },
+    "imageType": {
+        "prefix": "imageType",
+        "body": [
+            "imageType"
+        ]
+    },
+    "react-native-fetch-blob": {
+        "prefix": "react-native-fetch-blob",
+        "body": [
+            "react-native-fetch-blob"
+        ]
+    },
+    "Storage Remove": {
+        "prefix": "Storage.remove",
+        "body": [
+            "Storage.remove('test.txt', { level: 'private' })",
+            "\t.then ( (result) => { ",
+            "\t\tconsole.log(result); ", 
+            "\t})",
+            "\t.catch( (err) => { ",
+            "\t\tconsole.log(err);",
+            "\t});"
+        ]
+    },
+    "Storage List": {
+        "prefix": "Storage.list",
+        "body": [
+            "Storage.list('photos/', { level: 'protected' })",
+            "\t.then ( (result) => { ",
+            "\t\tconsole.log(result); ", 
+            "\t})",
+            "\t.catch( (err) => { ",
+            "\t\tconsole.log(err);",
+            "\t});"
+        ]
+    },
+    "PhotoPicker": {
+        "prefix": "PhotoPicker",
+        "body": [
+            "PhotoPicker"
+        ]
+    },
+    "onLoad": {
+        "prefix": "onLoad",
+        "body": [
+            "onLoad"
+        ]
+    },
+    "aws-amplify-react": {
+        "prefix": "aws-amplify-react",
+        "body": [
+            "aws-amplify-react"
+        ]
+    },
+    "S3Image": {
+        "prefix": "S3Image",
+        "body": [
+            "S3Image"
+        ]
+    },
+    "imgKey": {
+        "prefix": "imgKey",
+        "body": [
+            "imgKey"
+        ]
+    },
+    "fileToKey": {
+        "prefix": "fileToKey",
+        "body": [
+            "fileToKey(data) {",
+                "\tconst { name, size, type } = data;",
+                "\treturn 'test_' + name;",
+            "}"
+        ]
+    },
+    "S3Album": {
+        "prefix": "<S3Album",
+        "body": [
+            "<S3Album",
+            "\tlevel=\"private\"",
+            "\tpath={path}",
+            "\tfilter={(item) => /jpg/i.test(item.path)}",
+            "/>"
+        ]
+    },
+    "amplify-photo-picker": {
+        "prefix": "<amplify-photo-picker",
+        "body": [
+            "<amplify-photo-picker",
+            "\t(loaded)=\"onImagePreviewLoaded($event)\"",
+            "\t(picked)=\"onImageSelected($event)\">",
+            "</amplify-photo-picker>"
+        ]
+    },
+    "amplify-s3-album": {
+        "prefix": "<amplify-s3-album",
+        "body": [
+            "<amplify-s3-album",
+            "\tpath=\"\"",
+            "\t(selected)=\"onAlbumImageSelected($event)\">",
+            "</amplify-s3-album>"
+        ]
+    },
+    "Custom Upload Path": {
+        "prefix": "customPrefix",
+        "body": [
+            "customPrefix: {",
+                "\tpublic: 'myPublicPrefix/',",
+                "\tprotected: 'myProtectedPrefix/',",
+                "\tprivate: 'myPrivatePrefix/'",
+            "};"
+        ]
+    }
+}

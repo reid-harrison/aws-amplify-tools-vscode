@@ -1,0 +1,224 @@
+{
+    "APIClass": {
+        "prefix": "APIClass",
+        "body": [
+            "APIClass"
+        ]
+    },
+    "AWSAppSyncProvider": {
+        "prefix": "AWSAppSyncProvider",
+        "body": [
+            "AWSAppSyncProvider"
+        ]
+    },
+    "AWSCredentials": {
+        "prefix": "AWSCredentials",
+        "body": [
+            "AWSCredentials"
+        ]
+    },
+    "AWSIoTProvider": {
+        "prefix": "AWSIoTProvider",
+        "body": [
+            "AWSIoTProvider"
+        ]
+    },
+    "AWSKinesisProvider": {
+        "prefix": "AWSKinesisProvider",
+        "body": [
+            "AWSKinesisProvider"
+        ]
+    },
+    "AWSLexProvider": {
+        "prefix": "AWSLexProvider",
+        "body": [
+            "AWSLexProvider"
+        ]
+    },
+    "AWSPinpointProvider": {
+        "prefix": "AWSPinpointProvider",
+        "body": [
+            "AWSPinpointProvider"
+        ]
+    },
+    "AbstractInteractionsProvider": {
+        "prefix": "AbstractInteractionsProvider",
+        "body": [
+            "AbstractInteractionsProvider"
+        ]
+    },
+    "AbstractPubSubProvider": {
+        "prefix": "AbstractPubSubProvider",
+        "body": [
+            "AbstractPubSubProvider"
+        ]
+    },
+    "Amplify": {
+        "prefix": "Amplify",
+        "body": [
+            "Amplify"
+        ]
+    },
+    "AnalyticsClass": {
+        "prefix": "AnalyticsClass",
+        "body": [
+            "AnalyticsClass"
+        ]
+    },
+    "AsyncStorageCache": {
+        "prefix": "AsyncStorageCache",
+        "body": [
+            "AsyncStorageCache"
+        ]
+    },
+    "AuthClass": {
+        "prefix": "AuthClass",
+        "body": [
+            "AuthClass"
+        ]
+    },
+    "BrowserStorageCache": {
+        "prefix": "BrowserStorageCache",
+        "body": [
+            "BrowserStorageCache"
+        ]
+    },
+    "CacheList": {
+        "prefix": "CacheList",
+        "body": [
+            "CacheList"
+        ]
+    },
+    "CacheObject": {
+        "prefix": "CacheObject",
+        "body": [
+            "CacheObject"
+        ]
+    },
+    "ClientDevice": {
+        "prefix": "ClientDevice",
+        "body": [
+            "ClientDevice"
+        ]
+    },
+    "ClientsQueue": {
+        "prefix": "ClientsQueue",
+        "body": [
+            "ClientsQueue"
+        ]
+    },
+    "ConsoleLogger": {
+        "prefix": "ConsoleLogger",
+        "body": [
+            "ConsoleLogger"
+        ]
+    },
+    "Credentials": {
+        "prefix": "Credentials",
+        "body": [
+            "Credentials"
+        ]
+    },
+    "DoubleLinkedNode": {
+        "prefix": "DoubleLinkedNode",
+        "body": [
+            "DoubleLinkedNode"
+        ]
+    },
+    "FacebookOAuth": {
+        "prefix": "FacebookOAuth",
+        "body": [
+            "FacebookOAuth"
+        ]
+    },
+    "GoogleOAuth": {
+        "prefix": "GoogleOAuth",
+        "body": [
+            "GoogleOAuth"
+        ]
+    },
+    "HubClass": {
+        "prefix": "HubClass",
+        "body": [
+            "HubClass"
+        ]
+    },
+    "I18n": {
+        "prefix": "I18n",
+        "body": [
+            "I18n"
+        ]
+    },
+    "I18nOptions": {
+        "prefix": "I18nOptions",
+        "body": [
+            "I18nOptions"
+        ]
+    },
+    "InMemoryCache": {
+        "prefix": "InMemoryCache",
+        "body": [
+            "InMemoryCache"
+        ]
+    },
+    "JS": {
+        "prefix": "JS",
+        "body": [
+            "JS"
+        ]
+    },
+    "MqttOverWSProvider": {
+        "prefix": "MqttOverWSProvider",
+        "body": [
+            "MqttOverWSProvider"
+        ]
+    },
+    "Parser": {
+        "prefix": "Parser",
+        "body": [
+            "Parser"
+        ]
+    },
+    "PubSub": {
+        "prefix": "PubSub",
+        "body": [
+            "PubSub"
+        ]
+    },
+    "RestClient": {
+        "prefix": "RestClient",
+        "body": [
+            "RestClient"
+        ]
+    },
+    "RestClientOptions": {
+        "prefix": "RestClientOptions",
+        "body": [
+            "RestClientOptions"
+        ]
+    },
+    "ServiceWorkerClass": {
+        "prefix": "ServiceWorkerClass",
+        "body": [
+            "ServiceWorkerClass"
+        ]
+    },
+    "Signer": {
+        "prefix": "Signer",
+        "body": [
+            "Signer"
+        ]
+    },
+    "StorageCache": {
+        "prefix": "StorageCache",
+        "body": [
+            "StorageCache"
+        ]
+    },
+    "StorageClass": {
+        "prefix": "StorageClass",
+        "body": [
+            "StorageClass"
+        ]
+    }
+}

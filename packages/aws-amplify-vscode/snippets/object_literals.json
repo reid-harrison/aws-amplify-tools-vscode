@@ -1,0 +1,32 @@
+{
+    "AppState": {
+        "prefix": "AppState",
+        "body": [
+            "AppState"
+        ]
+    },
+    "Constants": {
+        "prefix": "Constants",
+        "body": [
+            "Constants"
+        ]
+    },
+    "LOG_LEVELS": {
+        "prefix": "LOG_LEVELS",
+        "body": [
+            "LOG_LEVELS"
+        ]
+    },
+    "Platform": {
+        "prefix": "Platform",
+        "body": [
+            "Platform"
+        ]
+    },
+    "defaultConfig": {
+        "prefix": "defaultConfig",
+        "body": [
+            "defaultConfig"
+        ]
+    }   
+}

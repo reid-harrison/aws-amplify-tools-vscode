@@ -1,0 +1,206 @@
+{
+    "_isInteger": {
+        "prefix": "_isInteger",
+        "body": [
+            "_isInteger"
+        ]
+    },
+    "analyticsEvent": {
+        "prefix": "analyticsEvent",
+        "body": [
+            "analyticsEvent"
+        ]
+    },
+    "authEvent": {
+        "prefix": "authEvent",
+        "body": [
+            "authEvent"
+        ]
+    },
+    "autoSessionRecord": {
+        "prefix": "autoSessionRecord",
+        "body": [
+            "autoSessionRecord"
+        ]
+    },
+    "browserClientInfo": {
+        "prefix": "browserClientInfo",
+        "body": [
+            "browserClientInfo"
+        ]
+    },
+    "browserTimezone": {
+        "prefix": "browserTimezone",
+        "body": [
+            "browserTimezone"
+        ]
+    },
+    "browserType": {
+        "prefix": "browserType",
+        "body": [
+            "browserType"
+        ]
+    },
+    "canonical_headers": {
+        "prefix": "canonical_headers",
+        "body": [
+            "canonical_headers"
+        ]
+    },
+    "canonical_request": {
+        "prefix": "canonical_request",
+        "body": [
+            "canonical_request"
+        ]
+    },
+    "clientInfo": {
+        "prefix": "clientInfo",
+        "body": [
+            "clientInfo"
+        ]
+    },
+    "credential_scope": {
+        "prefix": "credential_scope",
+        "body": [
+            "credential_scope"
+        ]
+    },
+    "dimToMake": {
+        "prefix": "dimToMake",
+        "body": [
+            "dimToMake"
+        ]
+    },
+    "dimension": {
+        "prefix": "dimension",
+        "body": [
+            "dimension"
+        ]
+    },
+    "dispatchAnalyticsEvent": {
+        "prefix": "dispatchAnalyticsEvent",
+        "body": [
+            "dispatchAnalyticsEvent"
+        ]
+    },
+    "dispatchAppStateEvent": {
+        "prefix": "dispatchAppStateEvent",
+        "body": [
+            "dispatchAppStateEvent"
+        ]
+    },
+    "dispatchAuthEvent": {
+        "prefix": "dispatchAuthEvent",
+        "body": [
+            "dispatchAuthEvent"
+        ]
+    },
+    "dispatchStorageEvent": {
+        "prefix": "dispatchStorageEvent",
+        "body": [
+            "dispatchStorageEvent"
+        ]
+    },
+    "encrypt": {
+        "prefix": "encrypt",
+        "body": [
+            "encrypt"
+        ]
+    },
+    "getByteLength": {
+        "prefix": "getByteLength",
+        "body": [
+            "getByteLength"
+        ]
+    },
+    "getCurrTime": {
+        "prefix": "getCurrTime",
+        "body": [
+            "getCurrTime"
+        ]
+    },
+    "get_authorization_header": {
+        "prefix": "get_authorization_header",
+        "body": [
+            "get_authorization_header"
+        ]
+    },
+    "get_signature": {
+        "prefix": "get_signature",
+        "body": [
+            "get_signature"
+        ]
+    },
+    "get_signing_key": {
+        "prefix": "get_signing_key",
+        "body": [
+            "get_signing_key"
+        ]
+    },
+    "graphqlOperation": {
+        "prefix": "graphqlOperation",
+        "body": [
+            "graphqlOperation"
+        ]
+    },
+    "hash": {
+        "prefix": "hash",
+        "body": [
+            "hash"
+        ]
+    },
+    "invalidParameter": {
+        "prefix": "invalidParameter",
+        "body": [
+            "invalidParameter"
+        ]
+    },
+    "isInteger": {
+        "prefix": "isInteger",
+        "body": [
+            "isInteger"
+        ]
+    },
+    "missingConfig": {
+        "prefix": "missingConfig",
+        "body": [
+            "missingConfig"
+        ]
+    },
+    "parse_service_info": {
+        "prefix": "parse_service_info",
+        "body": [
+            "parse_service_info"
+        ]
+    },
+    "sign": {
+        "prefix": "sign",
+        "body": [
+            "sign"
+        ]
+    },
+    "signUrl": {
+        "prefix": "signUrl",
+        "body": [
+            "signUrl"
+        ]
+    },
+    "signed_headers": {
+        "prefix": "signed_headers",
+        "body": [
+            "signed_headers"
+        ]
+    },
+    "storageEvent": {
+        "prefix": "storageEvent",
+        "body": [
+            "storageEvent"
+        ]
+    },
+    "string_to_sign": {
+        "prefix": "string_to_sign",
+        "body": [
+            "string_to_sign"
+        ]
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "Angular/Ionic amplify-photo-picker": {
+        "prefix": "<amplify-photo-picker",
+        "body": [
+            "<amplify-photo-picker",
+            "\t(picked)=\"onImagePicked($event)\"",
+            "\t(loaded)=\"onImageLoaded($event)\">",
+            "</amplify-photo-picker>"
+        ]
+    },
+    "Angluar onImagePicked": {
+        "prefix": "onImagePicked",
+        "body": [
+            "onImagePicked( file ) {\n",
+                "\tlet key = `pics/${file.name}`;\n",
+                "\tthis.amplify.storage().put( key, file, {",
+                    "\t\t'level': 'private',",
+                    "\t\t'contentType': file.type",
+                "\t})",
+                "\t.then (result => console.log('uploaded: ', result))",
+                "\t.catch(err => console.log('upload error: ', err));\n",
+                "}"
+        ]
+    },
+    "AmplifyAngularModule": {
+        "prefix": "AmplifyAngularModule",
+        "body": [
+            "AmplifyAngularModule"
+        ]
+    },
+    "NgModule": {
+        "prefix": "NgModule",
+        "body": [
+            "NgModule"
+        ]
+    },
+    "AmplifyService": {
+        "prefix": "AmplifyService",
+        "body": [
+            "AmplifyService"
+        ]
+    },
+    "navCtrl": {
+        "prefix": "navCtrl",
+        "body": [
+            "navCtrl"
+        ]
+    },
+    "NavController": {
+        "prefix": "NavController",
+        "body": [
+            "NavController"
+        ]
+    },
+    "amplifyService": {
+        "prefix": "amplifyService",
+        "body": [
+            "amplifyService"
+        ]
+    },
+    "modalCtrl": {
+        "prefix": "modalCtrl",
+        "body": [
+            "modalCtrl"
+        ]
+    },
+    "ModalController": {
+        "prefix": "ModalController",
+        "body": [
+            "ModalController"
+        ]
+    },
+    "selector": {
+        "prefix": "selector",
+        "body": [
+            "selector"
+        ]
+    },
+    "templateUrl": {
+        "prefix": "templateUrl",
+        "body": [
+            "templateUrl"
+        ]
+    },
+    "styleUrls": {
+        "prefix": "styleUrls",
+        "body": [
+            "styleUrls"
+        ]
+    },
+    "onAlbumImageSelected": {
+        "prefix": "onAlbumImageSelected",
+        "body": [
+            "onAlbumImageSelected"
+        ]
+    }
+}

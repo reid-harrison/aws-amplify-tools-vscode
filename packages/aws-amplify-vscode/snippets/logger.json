@@ -1,0 +1,56 @@
+{
+    "info": {
+        "prefix": "info",
+        "body": [
+            "info"
+        ]
+    },
+    "debug": {
+        "prefix": "debug",
+        "body": [
+            "debug"
+        ]
+    },
+    "warn": {
+        "prefix": "warn",
+        "body": [
+            "warn"
+        ]
+    },
+    "error": {
+        "prefix": "error",
+        "body": [
+            "error"
+        ]
+    },
+    "ERROR": {
+        "prefix": "ERROR",
+        "body": [
+            "ERROR"
+        ]
+    },
+    "WARN": {
+        "prefix": "WARN",
+        "body": [
+            "WARN"
+        ]
+    },
+    "INFO": {
+        "prefix": "INFO",
+        "body": [
+            "INFO"
+        ]
+    },
+    "DEBUG": {
+        "prefix": "DEBUG",
+        "body": [
+            "DEBUG"
+        ]
+    },
+    "VERBOSE": {
+        "prefix": "VERBOSE",
+        "body": [
+            "VERBOSE"
+        ]
+    }
+}

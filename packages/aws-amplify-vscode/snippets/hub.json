@@ -1,0 +1,41 @@
+{
+    "dispatch": {
+        "prefix": "dispatch",
+        "body": [
+            "dispatch"
+        ]
+    },
+    "listen": {
+        "prefix": "listen",
+        "body": [
+            "listen"
+        ]
+    },
+    "onHubCapsule": {
+        "prefix": "onHubCapsule",
+        "body": [
+            "onHubCapsule"
+        ]
+    },
+    "Hub Capsule Switch": {
+        "prefix": "Hub Capsule Switch",
+        "body": [
+            "alex.onHubCapsule = (capsule) => {\n",
+                "\tswitch (capsule.payload.event) {\n",
+                    "\t\tcase 'signIn':",
+                    "\t\t\talex.error('user signed in'); //[ERROR] Alexander_the_auth_watcher - user signed in",
+                    "\t\t\tbreak;",
+                    "\t\tcase 'signUp':",
+                    "\t\t\talex.error('user signed up');",
+                    "\t\t\tbreak;",
+                    "\t\tcase 'signOut':",
+                    "\t\t\talex.error('user signed out');",
+                    "\t\t\tbreak;",
+                    "\t\tcase 'signIn_failure':",
+                    "\t\t\talex.error('user sign in failed');",
+                    "\t\t\tbreak;",
+                "\t}",
+            "}"
+        ]
+    }
+}
