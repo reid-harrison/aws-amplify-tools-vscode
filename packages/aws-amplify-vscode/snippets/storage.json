@@ -3,8 +3,8 @@
         "prefix": "Storage:",
         "body": [
             "Storage: {",
-            "\tbucket: '', // REQUIRED - Amazon  S3 bucket",
-            "\tregion: 'XX-XXXX-X' // OPTIONAL - Amazon service region",
+            "\tbucket: ${1:''}, // REQUIRED - Amazon  S3 bucket",
+            "\tregion: ${2:'XX-XXXX-X'} // OPTIONAL - Amazon service region",
             "}"
         ]
     },
@@ -21,7 +21,7 @@
     "Storage Get": {
         "prefix": "Storage.get",
         "body": [
-            "Storage.get('test.txt', { level: 'private' })",
+            "Storage.get(${1:'test.txt'}, { level: ${2:'private'} })",
             "\t.then ( (result) => { ",
             "\t\tconsole.log(result); ", 
             "\t})",
@@ -33,9 +33,9 @@
     "Storage Put": {
         "prefix": "Storage.put",
         "body": [
-            "Storage.put('test.txt', 'Protected Content', {",
-            "\tlevel: 'private',",
-            "\tcontentType: 'text/plain'",
+            "Storage.put(${1:'test.txt'}, ${2:'Protected Content'}, {",
+            "\tlevel: ${3:'private'},",
+            "\tcontentType: ${4:'text/plain'}",
             "})",
             ".then ( (result) => { ",
             "\tconsole.log(result); ", 
@@ -90,7 +90,7 @@
     "Storage Remove": {
         "prefix": "Storage.remove",
         "body": [
-            "Storage.remove('test.txt', { level: 'private' })",
+            "Storage.remove(${1:'test.txt'}, { level: ${2:'private'} })",
             "\t.then ( (result) => { ",
             "\t\tconsole.log(result); ", 
             "\t})",
@@ -102,7 +102,7 @@
     "Storage List": {
         "prefix": "Storage.list",
         "body": [
-            "Storage.list('photos/', { level: 'protected' })",
+            "Storage.list(${1:'photos/'}, { level: ${2:'protected'} })",
             "\t.then ( (result) => { ",
             "\t\tconsole.log(result); ", 
             "\t})",
@@ -154,9 +154,9 @@
         "prefix": "<S3Album",
         "body": [
             "<S3Album",
-            "\tlevel=\"private\"",
+            "\tlevel=${1:\"private\"}",
             "\tpath={path}",
-            "\tfilter={(item) => /jpg/i.test(item.path)}",
+            "\tfilter={(item) => ${2:/jpg/i.test(item.path)}}",
             "/>"
         ]
     },
@@ -182,9 +182,9 @@
         "prefix": "customPrefix",
         "body": [
             "customPrefix: {",
-                "\tpublic: 'myPublicPrefix/',",
-                "\tprotected: 'myProtectedPrefix/',",
-                "\tprivate: 'myPrivatePrefix/'",
+                "\tpublic: ${1:'myPublicPrefix/'},",
+                "\tprotected: ${2:'myProtectedPrefix/'},",
+                "\tprivate: ${3:'myPrivatePrefix/'}",
             "};"
         ]
     }

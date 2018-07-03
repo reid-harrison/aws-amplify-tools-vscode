@@ -6,8 +6,8 @@
             "import { AWSIoTProvider } from 'aws-amplify/lib/PubSub/Providers';\n",
             "// Apply plugin with configuration",
             "Amplify.addPluggable(new AWSIoTProvider({",
-            "\taws_pubsub_region: '<YOUR-AWS-REGION>',",
-            "\taws_pubsub_endpoint: 'wss://xxxxxxxxxxxxx.iot.<YOUR-AWS-REGION>.amazonaws.com/mqtt',",
+            "\taws_pubsub_region: ${1:'<YOUR-AWS-REGION>'},",
+            "\taws_pubsub_endpoint: ${2:'wss://xxxxxxxxxxxxx.iot.<YOUR-AWS-REGION>.amazonaws.com/mqtt'},",
             "}));"
         ]
     },
@@ -18,14 +18,14 @@
             "import { MqttOverWSProvider } from 'aws-amplify/lib/PubSub/Providers';\n",
             "// Apply plugin with configuration",
             "Amplify.addPluggable(new MqttOverWSProvider({",
-            "\taws_pubsub_endpoint: 'wss://iot.eclipse.org:443/mqtt',",
+            "\taws_pubsub_endpoint: ${1:'wss://iot.eclipse.org:443/mqtt'},",
             "}));"
         ]
     },
     "PubSub.subscribe": {
         "prefix": "PubSub.subscribe",
         "body":[
-            "PubSub.subscribe('myTopic').subscribe({",
+            "PubSub.subscribe(${1:'myTopic'}).subscribe({",
             "\tnext: data => console.log('Message received', data),",
             "\terror: error => console.error(error),",
             "\tclose: () => console.log('Done'),",
@@ -33,15 +33,15 @@
         ]
     },
     "Publish One Topic PubSub": {
-        "prefix": "PubSub.publish",
+        "prefix": "PubSub.publish One Topic",
         "body": [
-            "PubSub.publish('myTopic1', { msg: 'Hello to all subscribers!' });"
+            "PubSub.publish(${2:'myTopic1'}, { msg: ${2:'Hello to all subscribers!'} });"
         ]
     },
     "Publish Multiple Topics PubSub": {
-        "prefix": "PubSub.publish",
+        "prefix": "PubSub.publish Multiple Topics",
         "body": [
-            "PubSub.publish(['myTopic1','myTopic2'], { msg: 'Hello to all subscribers!' });"
+            "PubSub.publish(${1:['myTopic1','myTopic2']}, { ${2:msg: 'Hello to all subscribers!'} });"
         ]
     }
 }

@@ -5,9 +5,30 @@
             "PushNotification.configure({",
                 "\t// ...",
                 "\tPushNotification: {",
-                    "\t\tappId: 'XXXXXXXXXXabcdefghij1234567890ab',",
+                    "\t\tappId: ${1:'XXXXXXXXXXabcdefghij1234567890ab'},",
                 "\t}",
                 "\t// ...",
+            "});"
+        ]
+    },
+    "Push Notifications onNotification": {
+        "prefix": "PushNotification.onNotification",
+        "body": [
+            "// get the notification data",
+            "PushNotification.onNotification((notification) => {",
+                "\t// Note that the notification object structure is different from Android and IOS",
+                "\tconsole.log('in app notification', notification);\n",
+                "\t// required on iOS only (see fetchCompletionHandler docs: https://facebook.github.io/react-native/docs/pushnotificationios.html)",
+                "\tnotification.finish(PushNotificationIOS.FetchResult.NoData);",
+            "});"
+        ]
+    },
+    "Push Notifications onRegister": {
+        "prefix": "PushNotification.onRegister",
+        "body": [
+            "// get the registration token",
+            "PushNotification.onRegister((token) => {",
+                "\tconsole.log('in app registration', token);",
             "});"
         ]
     },

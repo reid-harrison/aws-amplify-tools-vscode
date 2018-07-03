@@ -70,6 +70,10 @@
             },
             {
                 "language": "javascript",
+                "path": "./snippets/push_notifications.json"
+            },
+            {
+                "language": "javascript",
                 "path": "./snippets/storage.json"
             },
             {
