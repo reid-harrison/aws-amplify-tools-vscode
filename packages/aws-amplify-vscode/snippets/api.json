@@ -5,18 +5,18 @@
             "API: {",
             "\tendpoints: [",
             "\t\t{",
-                "\t\t\tname: \"MyAPIGatewayAPI\",",
-                "\t\t\tendpoint: \"https://1234567890-abcdefgh.amazonaws.com\"",
+                "\t\t\tname: ${1:\"MyAPIGatewayAPI\"},",
+                "\t\t\tendpoint: ${2:\"https://1234567890-abcdefgh.amazonaws.com\"}",
             "\t\t},",
             "\t\t{",
-                "\t\t\tname: \"MyCustomCloudFrontApi\",",
-                "\t\t\tendpoint: \"https://api.my-custom-cloudfront-domain.com\"",
+                "\t\t\tname: ${3:\"MyCustomCloudFrontApi\"},",
+                "\t\t\tendpoint: ${4:\"https://api.my-custom-cloudfront-domain.com\"}",
             "\t\t},",
             "\t\t{",
-                "\t\t\tname: \"MyCustomLambdaApi\",",
-                "\t\t\tendpoint: \"https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/yourFuncName/invocations\",",
-                "\t\t\tservice: \"lambda\",",
-                "\t\t\tregion: \"us-east-1\"",
+                "\t\t\tname: ${5:\"MyCustomLambdaApi\"},",
+                "\t\t\tendpoint: ${6:\"https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/yourFuncName/invocations\"},",
+                "\t\t\tservice: ${7:\"lambda\"},",
+                "\t\t\tregion: ${8:\"us-east-1\"}",
             "\t\t},",
             "\t]",
             "}"
@@ -25,56 +25,56 @@
     "Amplify Get": {
         "prefix": "API.get",
         "body": [
-            "API.get(apiName, path, myInit)",
-            "\t.then((response) => {",
+            "API.get(${1:apiName, path, myInit})",
+            "\t.then(response => {",
             "\t\t// Add your code here",
             "\t})",
-            "\t.catch((error) => {",
-            "\t\tconsole.log(error)",
+            "\t.catch(error => {",
+            "\t\tconsole.log(error.response)",
             "\t})"
         ]
     },
     "Amplify Post": {
         "prefix": "API.post",
         "body": [
-            "API.post(apiName, path, myInit)",
-            "\t.then((response) => {",
+            "API.post(${1:apiName, path, myInit})",
+            "\t.then(response => {",
             "\t\t// Add your code here",
             "\t})",
-            "\t.catch((error) => {",
-            "\t\tconsole.log(error)",
+            "\t.catch(error => {",
+            "\t\tconsole.log(error.response)",
             "\t})"
         ]      
     },
     "Amplify Put": {
         "prefix": "API.put",
         "body": [
-            "API.put(apiName, path, myInit)",
-            "\t.then((response) => {",
+            "API.put(${1:apiName, path, myInit})",
+            "\t.then(response => {",
             "\t\t// Add your code here",
             "\t})",
-            "\t.catch((error) => {",
-            "\t\tconsole.log(error)",
+            "\t.catch(error => {",
+            "\t\tconsole.log(error.response)",
             "\t})"
         ]      
     },
     "Amplify Delete": {
         "prefix": "API.del",
         "body": [
-            "API.del(apiName, path, myInit)",
-            "\t.then((response) => {",
+            "API.del(${1:apiName, path, myInit})",
+            "\t.then(response => {",
             "\t\t// Add your code here",
             "\t})",
-            "\t.catch((error) => {",
-            "\t\tconsole.log(error)",
+            "\t.catch(error => {",
+            "\t\tconsole.log(error.response)",
             "\t})"
         ]      
     },
     "Amplify Head": {
         "prefix": "API.head",
         "body": [
-            "API.head(apiName, path, myInit)",
-            "\t.then((response) => {",
+            "API.head(${1:apiName, path, myInit})",
+            "\t.then(response => {",
             "\t\t// Add your code here",
             "\t})"
         ]      
@@ -83,8 +83,8 @@
         "prefix": "getData()",
         "body": [
             "getData() {",
-            "\tlet apiName = 'MyApiName';",
-            "\tlet path = '/path';",
+            "\tlet apiName = ${1:'MyApiName'};",
+            "\tlet path = ${2:'/path'};",
             "\tlet myInit = { // OPTIONAL",
                 "\t\theaders: {} // OPTIONAL",
             "\t}",
@@ -97,8 +97,8 @@
         "prefix": "postData()",
         "body": [
             "postData() {",
-            "\tlet apiName = 'MyApiName';",
-            "\tlet path = '/path';",
+            "\tlet apiName = ${1:'MyApiName'};",
+            "\tlet path = ${2:'/path'};",
             "\tlet myInit = { // OPTIONAL",
                 "\t\tbody: {}, // replace this with attributes you need",
                 "\t\theaders: {} // OPTIONAL",
@@ -112,8 +112,8 @@
         "prefix": "putData()",
         "body": [
             "putData() {",
-            "\tlet apiName = 'MyApiName';",
-            "\tlet path = '/path';",
+            "\tlet apiName = ${1:'MyApiName'};",
+            "\tlet path = ${2:'/path'};",
             "\tlet myInit = { // OPTIONAL",
                 "\t\tbody: {}, // replace this with attributes you need",
                 "\t\theaders: {} // OPTIONAL",
@@ -127,8 +127,8 @@
         "prefix": "deleteData()",
         "body": [
             "deleteData() {",
-            "\tlet apiName = 'MyApiName';",
-            "\tlet path = '/path';",
+            "\tlet apiName = ${1:'MyApiName'};",
+            "\tlet path = ${2:'/path'};",
             "\tlet myInit = { // OPTIONAL",
                 "\t\theaders: {} // OPTIONAL",
             "\t}",
@@ -141,8 +141,8 @@
         "prefix": "head()",
         "body": [
             "head() {",
-            "\tlet apiName = 'MyApiName';",
-            "\tlet path = '/path';",
+            "\tlet apiName = ${1:'MyApiName'};",
+            "\tlet path = ${2:'/path'};",
             "\tlet myInit = { // OPTIONAL",
                 "\t\theaders: {} // OPTIONAL",
             "\t}",
@@ -154,13 +154,13 @@
     "APIGraphQL Endpoint": {
         "prefix": "graphql_endpoint:",
         "body": [
-            "graphql_endpoint: 'https:/www.example.com/my-graphql-endpoint'"
+            "graphql_endpoint: ${1:'https:/www.example.com/my-graphql-endpoint'}"
         ]
     },
     "APIGraphQL Endpoint IAM Region": {
         "prefix": "graphql_endpoint_iam_region:",
         "body": [
-            "graphql_endpoint_iam_region: 'my_graphql_apigateway_region'"
+            "graphql_endpoint_iam_region: ${1:'my_graphql_apigateway_region'}"
         ]
     },
     "APIGraphQL Operation": {
@@ -174,9 +174,12 @@
         "body": [
             "myAppConfig = {",
                 "\t// ...",
-                "\t'aws_appsync_graphqlEndpoint': 'https://xxxxxx.appsync-api.us-east-1.amazonaws.com/graphql',",
-                "\t'aws_appsync_region': 'us-east-1',",
-                "\t'aws_appsync_authenticationType': "
+                "\t'aws_appsync_graphqlEndpoint': ${1:'https://xxxxxx.appsync-api.us-east-1.amazonaws.com/graphql'},",
+                "\t'aws_appsync_region': ${2:'us-east-1'},",
+                "\t'aws_appsync_authenticationType': ${3:'OPENID_CONNECT'}, // Before calling API.graphql(...) is required to do Auth.federatedSignIn(...) check authentication guide for details.",
+                "\t// ...",
+            "}\n",
+            "Amplify.configure(myAppConfig)"
         ]
     },
     "Query ListEvents": {
@@ -221,13 +224,13 @@
                     "\t\twhen",
                     "\t\tdescription",
                 "\t}",
-            "};\n",
+            "}`;\n",
             "// Mutation",
             "const eventDetails = {",
-                "\tname: 'Party tonight!,",
-                "\twhen: '8:00pm',",
-                "\twhere: 'Ballroom',",
-                "\tdescription: 'Coming together as a team!'",
+                "\tname: ${1:'Party tonight!}',",
+                "\twhen: ${2:'8:00pm'},",
+                "\twhere: ${3:'Ballroom'},",
+                "\tdescription: ${4:'Coming together as a team!'}",
             "};\n",
             "const newEvent = await API.graphql(graphqlOperation(CreateEvent, eventDetails));",
             "console.log(newEvent);"
@@ -245,11 +248,11 @@
             "}`;\n",
             "// Subscribe with eventId 123",
             "const subscription = API.graphql(",
-            "\tgraphqlOperation(SubscribeToEventComments, { eventId: '123' })",
+            "\tgraphqlOperation(SubscribeToEventComments, { eventId: ${1:'123'} })",
             ").subscribe({",
                 "\tnext: (eventData) => console.log(eventData)",
             "});\n",
-            "\\ Stop receiving data updates from the subscription",
+            "// Stop receiving data updates from the subscription",
             "subscription.unsubscribe();"
         ]
     },
@@ -275,7 +278,7 @@
         "prefix": "custom_header",
         "body": [
             "custom_header: async () => {",
-                "\treturn { Authorization : 'token' }",
+                "\treturn { Authorization : ${1:'token'} }",
                 "\t// Alternatively, with Cognito User Pools use this:",
                 "\t// return { (await Auth.currentSession()).idToken.jwtToken }",
             "}"
@@ -288,7 +291,7 @@
             "\t\tsubscription={graphqlOperation(SubscribeToEventComments, { eventId: currEventId })}",
             "\t\tonSubscriptionsMsg={(prev, { subscribeToEventComments }) => {",
                 "\t\t\tconsole.log ( subscribeToEventComments);",
-                "\t\t\treturn prev; }}",
+                "\t\t\treturn prev; }}>",
             "\t{({ data: { listEvents } }) => (",
             "\t\t<AllEvents events={listEvents ? listEvents.items : []} />",
             "\t)}",
