@@ -12,13 +12,13 @@
         "prefix": "onImagePicked",
         "body": [
             "onImagePicked( file ) {\n",
-                "\tlet key = `pics/${file.name}`;\n",
+                "\tlet key = ${1:`pics/}${file.name}`;\n",
                 "\tthis.amplify.storage().put( key, file, {",
-                    "\t\t'level': 'private',",
+                    "\t\t'level': ${2:'private'},",
                     "\t\t'contentType': file.type",
                 "\t})",
                 "\t.then (result => console.log('uploaded: ', result))",
-                "\t.catch(err => console.log('upload error: ', err));\n",
+                "\t.catch(err => console.log('upload error: ', err));",
                 "}"
         ]
     },

@@ -1,20 +1,8 @@
 {
-    "Analytics": {
-        "prefix": "Analytics",
-        "body": [
-            "Analytics"
-        ]
-    },
     "AsyncStorage": {
         "prefix": "AsyncStorage",
         "body": [
             "AsyncStorage"
-        ]
-    },
-    "Auth": {
-        "prefix": "Auth",
-        "body": [
-            "Auth"
         ]
     },
     "AuthenticationDetails": {

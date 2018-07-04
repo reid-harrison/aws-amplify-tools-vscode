@@ -1,0 +1,170 @@
+{
+    "AmplifyConfig": {
+        "prefix": "AmplifyConfig",
+        "body": [
+            "AmplifyConfig"
+        ]
+    },
+    "AnalyticsOptions": {
+        "prefix": "AnalyticsOptions",
+        "body": [
+            "AnalyticsOptions"
+        ]
+    },
+    "AnalyticsProvider": {
+        "prefix": "AnalyticsProvider",
+        "body": [
+            "AnalyticsProvider"
+        ]
+    },
+    "AuthOptions": {
+        "prefix": "AuthOptions",
+        "body": [
+            "AuthOptions"
+        ]
+    },
+    "CacheConfig": {
+        "prefix": "CacheConfig",
+        "body": [
+            "CacheConfig"
+        ]
+    },
+    "CacheItem": {
+        "prefix": "CacheItem",
+        "body": [
+            "CacheItem"
+        ]
+    },
+    "CacheItemOptions": {
+        "prefix": "CacheItemOptions",
+        "body": [
+            "CacheItemOptions"
+        ]
+    },
+    "ConfirmSignUpOptions": {
+        "prefix": "ConfirmSignUpOptions",
+        "body": [
+            "ConfirmSignUpOptions"
+        ]
+    },
+    "EventAttributes": {
+        "prefix": "EventAttributes",
+        "body": [
+            "EventAttributes"
+        ]
+    },
+    "EventMetrics": {
+        "prefix": "EventMetrics",
+        "body": [
+            "EventMetrics"
+        ]
+    },
+    "FederatedResponse": {
+        "prefix": "FederatedResponse",
+        "body": [
+            "FederatedResponse"
+        ]
+    },
+    "GraphQLOptions": {
+        "prefix": "GraphQLOptions",
+        "body": [
+            "GraphQLOptions"
+        ]
+    },
+    "GraphQLResult": {
+        "prefix": "GraphQLResult",
+        "body": [
+            "GraphQLResult"
+        ]
+    },
+    "ICache": {
+        "prefix": "ICache",
+        "body": [
+            "ICache"
+        ]
+    },
+    "InteractionsOptions": {
+        "prefix": "InteractionsOptions",
+        "body": [
+            "InteractionsOptions"
+        ]
+    },
+    "InteractionsProvider": {
+        "prefix": "InteractionsProvider",
+        "body": [
+            "InteractionsProvider"
+        ]
+    },
+    "InteractionsProviders": {
+        "prefix": "InteractionsProviders",
+        "body": [
+            "InteractionsProviders"
+        ]
+    },
+    "InteractionsResponse": {
+        "prefix": "InteractionsResponse",
+        "body": [
+            "InteractionsResponse"
+        ]
+    },
+    "Logger": {
+        "prefix": "Logger",
+        "body": [
+            "Logger"
+        ]
+    },
+    "MfaRequiredDetails": {
+        "prefix": "MfaRequiredDetails",
+        "body": [
+            "MfaRequiredDetails"
+        ]
+    },
+    "MqttProvidertOptions": {
+        "prefix": "MqttProvidertOptions",
+        "body": [
+            "MqttProvidertOptions"
+        ]
+    },
+    "OAuth": {
+        "prefix": "OAuth",
+        "body": [
+            "OAuth"
+        ]
+    },
+    "ProvidertOptions": {
+        "prefix": "ProvidertOptions",
+        "body": [
+            "ProvidertOptions"
+        ]
+    },
+    "PubSubOptions": {
+        "prefix": "PubSubOptions",
+        "body": [
+            "PubSubOptions"
+        ]
+    },
+    "PubSubProvider": {
+        "prefix": "PubSubProvider",
+        "body": [
+            "PubSubProvider"
+        ]
+    },
+    "SignUpParams": {
+        "prefix": "SignUpParams",
+        "body": [
+            "SignUpParams"
+        ]
+    },
+    "StorageOptions": {
+        "prefix": "StorageOptions",
+        "body": [
+            "StorageOptions"
+        ]
+    },
+    "apiOptions": {
+        "prefix": "apiOptions",
+        "body": [
+            "apiOptions"
+        ]
+    }
+}
