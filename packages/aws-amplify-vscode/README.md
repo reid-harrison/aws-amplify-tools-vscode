@@ -421,7 +421,7 @@ Amplify.configure({
         // OPTIONAL - Enforce user authentication prior to accessing AWS resources or not
         mandatorySignIn: false,
         // OPTIONAL - Configuration for cookie storage
-            cookieStorage: {
+        cookieStorage: {
             // REQUIRED - Cookie domain (only required if cookieStorage is provided)
             domain: '.yourdomain.com',
             // OPTIONAL - Cookie path
