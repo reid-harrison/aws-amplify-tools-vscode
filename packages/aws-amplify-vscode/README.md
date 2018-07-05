@@ -8,8 +8,6 @@ Code snippets and completion for the [AWS Amplify](https://aws.github.io/aws-amp
 
 Start typing an AWS Amplify API command and choose the appropriate snippet.
 
-# AWS Amplify VS Code Extension
-
 ## Code Snippets
 
 ##### prefix: ```Analytics.configure```
