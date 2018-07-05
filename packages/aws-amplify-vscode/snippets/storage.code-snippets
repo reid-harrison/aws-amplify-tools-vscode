@@ -1,6 +1,7 @@
 {
     "Amplify Manual Storage Configuration": {
         "prefix": "Storage:",
+        "scope": "javascript,javascriptreact",
         "body": [
             "Storage: {",
             "\tbucket: ${1:''}, // REQUIRED - Amazon  S3 bucket",
@@ -10,6 +11,7 @@
     },
     "Manual Storage Configuration": {
         "prefix": "Storage.configure",
+        "scope": "javascript,javascriptreact",
         "body": [
             "Storage.configure({",
                 "\tbucket: // Your bucket ARN;",
@@ -20,6 +22,7 @@
     },
     "Storage Get": {
         "prefix": "Storage.get",
+        "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get(${1:'test.txt'}, { level: ${2:'private'} })",
             "\t.then ( (result) => { ",
@@ -32,6 +35,7 @@
     },
     "Storage Put": {
         "prefix": "Storage.put",
+        "scope": "javascript,javascriptreact",
         "body": [
             "Storage.put(${1:'test.txt'}, ${2:'Protected Content'}, {",
             "\tlevel: ${3:'private'},",
@@ -47,48 +51,56 @@
     },
     "S3ImageUpload": {
         "prefix": "S3ImageUpload",
+        "scope": "javascript,javascriptreact",
         "body": [
             "S3ImageUpload"
         ]
     },
     "onChange": {
         "prefix": "onChange",
+        "scope": "javascript,javascriptreact",
         "body": [
             "onChange"
         ]
     },
     "RNFetchBlob": {
         "prefix": "RNFetchBlob",
+        "scope": "javascript,javascriptreact",
         "body": [
             "RNFetchBlob"
         ]
     },
     "readFile": {
         "prefix": "readFile",
+        "scope": "javascript,javascriptreact",
         "body": [
             "readFile"
         ]
     },
     "contentType": {
         "prefix": "contentType",
+        "scope": "javascript,javascriptreact",
         "body": [
             "contentType"
         ]
     },
     "imageType": {
         "prefix": "imageType",
+        "scope": "javascript,javascriptreact",
         "body": [
             "imageType"
         ]
     },
     "react-native-fetch-blob": {
         "prefix": "react-native-fetch-blob",
+        "scope": "javascript,javascriptreact",
         "body": [
             "react-native-fetch-blob"
         ]
     },
     "Storage Remove": {
         "prefix": "Storage.remove",
+        "scope": "javascript,javascriptreact",
         "body": [
             "Storage.remove(${1:'test.txt'}, { level: ${2:'private'} })",
             "\t.then ( (result) => { ",
@@ -101,6 +113,7 @@
     },
     "Storage List": {
         "prefix": "Storage.list",
+        "scope": "javascript,javascriptreact",
         "body": [
             "Storage.list(${1:'photos/'}, { level: ${2:'protected'} })",
             "\t.then ( (result) => { ",
@@ -113,36 +126,42 @@
     },
     "PhotoPicker": {
         "prefix": "PhotoPicker",
+        "scope": "javascript,javascriptreact",
         "body": [
             "PhotoPicker"
         ]
     },
     "onLoad": {
         "prefix": "onLoad",
+        "scope": "javascript,javascriptreact",
         "body": [
             "onLoad"
         ]
     },
     "aws-amplify-react": {
         "prefix": "aws-amplify-react",
+        "scope": "javascript,javascriptreact",
         "body": [
             "aws-amplify-react"
         ]
     },
     "S3Image": {
         "prefix": "S3Image",
+        "scope": "javascript,javascriptreact",
         "body": [
             "S3Image"
         ]
     },
     "imgKey": {
         "prefix": "imgKey",
+        "scope": "javascript,javascriptreact",
         "body": [
             "imgKey"
         ]
     },
     "fileToKey": {
         "prefix": "fileToKey",
+        "scope": "javascript,javascriptreact",
         "body": [
             "fileToKey(data) {",
                 "\tconst { name, size, type } = data;",
@@ -152,6 +171,7 @@
     },
     "S3Album": {
         "prefix": "<S3Album",
+        "scope": "javascript,javascriptreact",
         "body": [
             "<S3Album",
             "\tlevel=${1:\"private\"}",
@@ -162,6 +182,7 @@
     },
     "amplify-photo-picker": {
         "prefix": "<amplify-photo-picker",
+        "scope": "javascript,javascriptreact",
         "body": [
             "<amplify-photo-picker",
             "\t(loaded)=\"onImagePreviewLoaded($event)\"",
@@ -171,6 +192,7 @@
     },
     "amplify-s3-album": {
         "prefix": "<amplify-s3-album",
+        "scope": "javascript,javascriptreact",
         "body": [
             "<amplify-s3-album",
             "\tpath=\"\"",
@@ -180,6 +202,7 @@
     },
     "Custom Upload Path": {
         "prefix": "customPrefix",
+        "scope": "javascript,javascriptreact",
         "body": [
             "customPrefix: {",
                 "\tpublic: ${1:'myPublicPrefix/'},",

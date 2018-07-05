@@ -1,6 +1,7 @@
 {
     "Amplify Auth Configuration": {
         "prefix": "Amplify.configure",
+        "scope": "javascript,javascriptreact",
         "body": [
             "Amplify.configure({",
             "\tAuth: {",
@@ -31,6 +32,7 @@
     },
     "Auth.signIn": {
         "prefix": "Auth.signIn",
+        "scope": "javascript,javascriptreact",
         "body": [
             "Auth.signIn(username, password)",
             "\t.then(user => console.log(user))",
@@ -39,6 +41,7 @@
     },
     "Auth.confirmSignIn": {
         "prefix": "Auth.confirmSignIn",
+        "scope": "javascript,javascriptreact",
         "body": [
             "// If MFA enabled, sign-in should be confirmed with the confirmation code",
             "// `user` : Return object from Auth.signIn()",
@@ -51,6 +54,7 @@
     },
     "Auth.signUp": {
         "prefix": "Auth.signUp",
+        "scope": "javascript,javascriptreact",
         "body": [
             "Auth.signUp({",
             "\tusername,",
@@ -68,6 +72,7 @@
     },
     "Auth.confirmSignUp": {
         "prefix": "Auth.confirmSignUp",
+        "scope": "javascript,javascriptreact",
         "body": [
             "// After retrieveing the confirmation code from the user",
             "Auth.confirmSignUp(username, code, {",
@@ -79,6 +84,7 @@
     },
     "Auth.signOut": {
         "prefix": "Auth.signOut",
+        "scope": "javascript,javascriptreact",
         "body": [
             "Auth.signOut()",
             "\t.then(data => console.log(data))",
@@ -87,6 +93,7 @@
     },
     "Auth Change Password": {
         "prefix": "Auth.currentAuthenticatedUser",
+        "scope": "javascript,javascriptreact",
         "body": [
             "Auth.currentAuthenticatedUser()",
             "\t.then(user => {",
@@ -98,6 +105,7 @@
     },
     "Auth Forgot Password": {
         "prefix": "Auth.forgotPassword",
+        "scope": "javascript,javascriptreact",
         "body": [
             "Auth.forgotPassword(username)",
             "\t.then(data => console.log(data))",
@@ -106,6 +114,7 @@
     },
     "Auth Forgot Password Submit": {
         "prefix": "Auth.forgotPasswordSubmit",
+        "scope": "javascript,javascriptreact",
         "body": [
             "// Collect confirmation code and new password , then",
             "Auth.forgotPasswordSubmit(username, code, new_password)",
@@ -115,6 +124,7 @@
     },
     "Auth oauth": {
         "prefix": "oauth",
+        "scope": "javascript,javascriptreact",
         "body": [
             "oauth = {",
             "\t// Domain name",
@@ -138,30 +148,35 @@
     },
     "logInWithReadPermissionsAsync": {
         "prefix": "logInWithReadPermissionsAsync",
+        "scope": "javascript,javascriptreact",
         "body": [
             "logInWithReadPermissionsAsync"
         ]
     },
     "handleAuthStateChange": {
         "prefix": "handleAuthStateChange",
+        "scope": "javascript,javascriptreact",
         "body": [
             "handleAuthStateChange"
         ]
     },
     "userPoolWebClientId": {
         "prefix": "userPoolWebClientId",
+        "scope": "javascript,javascriptreact",
         "body": [
             "userPoolWebClientId"
         ]
     },
     "OAuthSignIn": {
         "prefix": "OAuthSignIn",
+        "scope": "javascript,javascriptreact",
         "body": [
             "OAuthSignIn"
         ]
     },
     "Auth.verifyTotpToken": {
         "prefix": "Auth.verifyTotpToken",
+        "scope": "javascript,javascriptreact",
         "body": [
             "// Then you will have your TOTP account in your TOTP-generating app (like Google Authenticator)",
             "// Use the generated one-time password to verify the setup",
@@ -176,72 +191,84 @@
     },
     "setPreferredMFA": {
         "prefix": "setPreferredMFA",
+        "scope": "javascript,javascriptreact",
         "body": [
             "setPreferredMFA"
         ]
     },
     "publicChallengeParameters": {
         "prefix": "publicChallengeParameters",
+        "scope": "javascript,javascriptreact",
         "body": [
             "publicChallengeParameters"
         ]
     },
     "privateChallengeParameters": {
         "prefix": "privateChallengeParameters",
+        "scope": "javascript,javascriptreact",
         "body": [
             "privateChallengeParameters"
         ]
     },
     "challengeMetadata": {
         "prefix": "challengeMetadata",
+        "scope": "javascript,javascriptreact",
         "body": [
             "challengeMetadata"
         ]
     },
     "challengeName": {
         "prefix": "challengeName",
+        "scope": "javascript,javascriptreact",
         "body": [
             "challengeName"
         ]
     },
     "failAuthentication": {
         "prefix": "failAuthentication",
+        "scope": "javascript,javascriptreact",
         "body": [
             "failAuthentication"
         ]
     },
     "issueTokens": {
         "prefix": "issueTokens",
+        "scope": "javascript,javascriptreact",
         "body": [
             "issueTokens"
         ]
     },
     "length": {
         "prefix": "length",
+        "scope": "javascript,javascriptreact",
         "body": [
             "length"
         ]
     },
     "challengeResult": {
         "prefix": "challengeResult",
+        "scope": "javascript,javascriptreact",
         "body": [
             "challengeResult"
         ]
     },
     "challengeAnswer": {
         "prefix": "challengeAnswer",
+        "scope": "javascript,javascriptreact",
         "body": [
             "challengeAnswer"
         ]
     },
     "answerCorrect": {
         "prefix": "answerCorrect",
+        "scope": "javascript,javascriptreact",
         "body": [
             "answerCorrect"
         ]
     },
     "authScreenLabels": {
         "prefix": "authScreenLabels",
+        "scope": "javascript,javascriptreact",
         "body": [
             "authScreenLabels = {",
                 "\ten: {",
@@ -255,6 +282,7 @@
     },
     "Auth.currentCredentials": {
         "prefix": "Auth.currentCredentials",
+        "scope": "javascript,javascriptreact",
         "body": [
             "Auth.currentCredentials()",
             "\t.then(credentials => {",

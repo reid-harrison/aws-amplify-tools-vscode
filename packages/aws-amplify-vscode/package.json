@@ -21,84 +21,64 @@
     "contributes": {
         "snippets": [
             {
-                "language": "javascript",
-                "path": "./snippets/api.json"
+                "path": "./snippets/api.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/auth.json"
+                "path": "./snippets/auth.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/configure.json"
+                "path": "./snippets/configure.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/storage.json"
+                "path": "./snippets/storage.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/analytics.json"
+                "path": "./snippets/analytics.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/pubsub.json"
+                "path": "./snippets/pubsub.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/classes.json"
+                "path": "./snippets/classes.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/interfaces.json"
+                "path": "./snippets/interfaces.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/variables.json"
+                "path": "./snippets/variables.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/functions.json"
+                "path": "./snippets/functions.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/object_literals.json"
+                "path": "./snippets/object_literals.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/interactions.json"
+                "path": "./snippets/interactions.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/push_notifications.json"
+                "path": "./snippets/push_notifications.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/storage.json"
+                "path": "./snippets/storage.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/cache.json"
+                "path": "./snippets/cache.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/hub.json"
+                "path": "./snippets/hub.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/I18n.json"
+                "path": "./snippets/I18n.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/logger.json"
+                "path": "./snippets/logger.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/service_workers.json"
+                "path": "./snippets/service_workers.code-snippets"
             },
             {
-                "language": "javascript",
-                "path": "./snippets/angular.json"
+                "path": "./snippets/angular.code-snippets"
             }
         ]
     }
