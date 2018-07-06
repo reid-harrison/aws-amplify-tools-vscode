@@ -12,19 +12,18 @@ Start typing an AWS Amplify API command and choose the appropriate snippet.
 
 ### Code Block Snippets
 #### Click each documentation page for snippets taken from that page
-[Analytics](#analytics)
-[API](#api)
-[Authentication](#authentication)
-[Interactions](#interactions)
-[PubSub](#pubsub)
-[Push Notifications](#push-notifications)
-[Storage](#storage)
-[Hub](#hub)
-[I18n](#i18n)
-[Service Worker](#service-worker)
-[Angular](#angular)
-
-Additionally, for Mobile Hub Configuration: [Configuration](#configuration)
+-[Analytics](#analytics)
+-[API](#api)
+-[Authentication](#authentication)
+-[Interactions](#interactions)
+-[PubSub](#pubsub)
+-[Push Notifications](#push-notifications)
+-[Storage](#storage)
+-[Hub](#hub)
+-[I18n](#i18n)
+-[Service Worker](#service-worker)
+-[Angular](#angular)
+-Additionally, for Mobile Hub Configuration: [Configuration](#configuration)
 
 ### [Click for single word snippets](#single-word-snippets)
 
