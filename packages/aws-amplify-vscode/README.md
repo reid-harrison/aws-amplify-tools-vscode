@@ -10,6 +10,10 @@ Start typing an AWS Amplify API command and choose the appropriate snippet.
 
 ## Code Snippets
 
+### Code Block Snippets
+
+[Single Word Snippets](#single-word-snippets)
+
 ##### prefix: ```Analytics.configure```
 ##### body:
 ```js
