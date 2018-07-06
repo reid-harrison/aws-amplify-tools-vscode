@@ -25,7 +25,7 @@ Start typing an AWS Amplify API command and choose the appropriate snippet.
 - [Angular](#angular)
 - Additionally, for Mobile Hub Configuration: [Configuration](#configuration)
 
-##### [Click for single word snippets](#single-word-snippets)
+[Click for single word snippets](#single-word-snippets)
 
 ### Analytics
 
