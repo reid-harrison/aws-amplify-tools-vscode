@@ -867,8 +867,8 @@ fileToKey(data) {
 ##### body:
 ```js
 <amplify-photo-picker
-    (picked)="onImagePicked(event)"
-    (loaded)="onImageLoaded(event)">
+    (picked)="onImagePicked($event)"
+    (loaded)="onImageLoaded($event)">
 </amplify-photo-picker>
 ```
 ##### prefix: ```<amplify-s3-album```
@@ -876,7 +876,7 @@ fileToKey(data) {
 ```js
 <amplify-s3-album
     path=""
-    (selected)="onAlbumImageSelected(event)">
+    (selected)="onAlbumImageSelected($event)">
 </amplify-s3-album>
 ```
 ##### prefix: ```customPrefix```
@@ -974,8 +974,8 @@ addEventListener('push', (event) => {
 ##### body:
 ```js
 <amplify-photo-picker
-    (picked)="onImagePicked(event)"
-    (loaded)="onImageLoaded(event)">
+    (picked)="onImagePicked($event)"
+    (loaded)="onImageLoaded($event)">
 </amplify-photo-picker>
 ```
 ##### prefix: ```onImagePicked```
