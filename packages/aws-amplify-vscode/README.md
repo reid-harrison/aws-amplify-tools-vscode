@@ -11,8 +11,9 @@ Start typing an AWS Amplify API command and choose the appropriate snippet.
 ## Code Snippets
 
 ### Code Block Snippets
+[Analytics.configure](#prefix:-analytics.configure)
 
-[Single Word Snippets](#single-word-snippets)
+### [Click for Single Word Snippets](#single-word-snippets)
 
 ##### prefix: ```Analytics.configure```
 ##### body:
