@@ -185,8 +185,8 @@
         "scope": "javascript,javascriptreact",
         "body": [
             "<amplify-photo-picker",
-            "\t(loaded)=\"onImagePreviewLoaded($event)\"",
-            "\t(picked)=\"onImageSelected($event)\">",
+            "\t(loaded)=\"onImagePreviewLoaded(\\$event)\"",
+            "\t(picked)=\"onImageSelected(\\$event)\">",
             "</amplify-photo-picker>"
         ]
     },
@@ -196,7 +196,7 @@
         "body": [
             "<amplify-s3-album",
             "\tpath=\"\"",
-            "\t(selected)=\"onAlbumImageSelected($event)\">",
+            "\t(selected)=\"onAlbumImageSelected(\\$event)\">",
             "</amplify-s3-album>"
         ]
     },

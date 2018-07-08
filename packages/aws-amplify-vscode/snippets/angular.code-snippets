@@ -4,8 +4,8 @@
         "scope": "javascript,javascriptreact",
         "body": [
             "<amplify-photo-picker",
-            "\t(picked)=\"onImagePicked($event)\"",
-            "\t(loaded)=\"onImageLoaded($event)\">",
+            "\t(picked)=\"onImagePicked(\\$event)\"",
+            "\t(loaded)=\"onImageLoaded(\\$event)\">",
             "</amplify-photo-picker>"
         ]
     },
