@@ -10,6 +10,25 @@ Start typing an AWS Amplify API command and choose the appropriate snippet.
 
 ## Code Snippets
 
+### Code Block Snippets
+#### Click each documentation page for snippets taken from that page
+- [Analytics](#analytics)
+- [API](#api)
+- [Authentication](#authentication)
+- [Interactions](#interactions)
+- [PubSub](#pubsub)
+- [Push Notifications](#push-notifications)
+- [Storage](#storage)
+- [Hub](#hub)
+- [I18n](#i18n)
+- [Service Worker](#service-worker)
+- [Angular](#angular)
+- Additionally, for Mobile Hub Configuration: [Configuration](#configuration)
+
+[Click for single word snippets](#single-word-snippets)
+
+### Analytics
+
 ##### prefix: ```Analytics.configure```
 ##### body:
 ```js
@@ -140,6 +159,9 @@ AnalyticsProvider {
     getProvider(): string;
 }
 ```
+
+### API
+
 ##### prefix: ```API: ```
 ##### body:
 ```js
@@ -405,6 +427,9 @@ custom_header: async () => {
     )}
 </Connect>
 ```
+
+### Authentication
+
 ##### prefix: ```Amplify.configure```
 ##### body:
 ```js
@@ -572,6 +597,9 @@ authScreenLabels = {
 I18n.setLanguage('en');
 I18n.putVocabularies(authScreenLabels);
 ```
+
+### Interactions
+
 ##### prefix: ```Interactions```
 ##### body:
 ```js
@@ -671,6 +699,9 @@ render() {
     })}
 />
 ```
+
+### PubSub
+
 ##### prefix: ```PubSub```
 ##### body:
 ```js
@@ -714,6 +745,9 @@ PubSub.publish('myTopic1', { msg: 'myTopic1' });
 ```js
 PubSub.publish(['myTopic1','myTopic2'], { msg: 'Hello to all subscribers!' });
 ```
+
+### Push Notifications
+
 ##### prefix: ```PushNotification.configure```
 ##### body:
 ```js
@@ -745,6 +779,9 @@ PushNotification.onRegister((token) => {
     console.log('in app registration', token);
 });
 ```
+
+### Storage
+
 ##### prefix: ```Storage:```
 ##### body:
 ```js
@@ -830,8 +867,8 @@ fileToKey(data) {
 ##### body:
 ```js
 <amplify-photo-picker
-    (picked)="onImagePicked(event)"
-    (loaded)="onImageLoaded(event)">
+    (picked)="onImagePicked($event)"
+    (loaded)="onImageLoaded($event)">
 </amplify-photo-picker>
 ```
 ##### prefix: ```<amplify-s3-album```
@@ -839,7 +876,7 @@ fileToKey(data) {
 ```js
 <amplify-s3-album
     path=""
-    (selected)="onAlbumImageSelected(event)">
+    (selected)="onAlbumImageSelected($event)">
 </amplify-s3-album>
 ```
 ##### prefix: ```customPrefix```
@@ -851,6 +888,9 @@ customPrefix: {
     private: 'myPrivatePrefix/'
 };
 ```
+
+### Hub
+
 ##### prefix: ```Hub Capsule Switch```
 ##### body:
 ```js
@@ -873,6 +913,9 @@ alex.onHubCapsule = (capsule) => {
     }
 }
 ```
+
+### I18n
+
 ##### prefix: ```I18n Custom Dictionary```
 ##### body:
 ```js
@@ -889,6 +932,9 @@ const dict = {
 
 I18n.putVocabularies(dict);
 ```
+
+### Service Worker
+
 ##### prefix: ```addEventListener```
 ##### body:
 ```js
@@ -921,12 +967,15 @@ addEventListener('push', (event) => {
 
 });
 ```
+
+### Angular
+
 ##### prefix: ```<amplify-photo-picker```
 ##### body:
 ```js
 <amplify-photo-picker
-    (picked)="onImagePicked(event)"
-    (loaded)="onImageLoaded(event)">
+    (picked)="onImagePicked($event)"
+    (loaded)="onImageLoaded($event)">
 </amplify-photo-picker>
 ```
 ##### prefix: ```onImagePicked```
@@ -944,6 +993,9 @@ onImagePicked( file ) {
     .catch(err => console.log('upload error: ', err));
 }
 ```
+
+### Configuration
+
 ##### prefix: ```Amplify.configure```
 ##### body:
 ```js
