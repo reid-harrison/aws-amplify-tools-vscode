@@ -14,7 +14,7 @@ for guide in guides:
     line_index = 0
     while line_index < len(lines):
         if lines[line_index] == '```js\n':
-            docs.write('##### prefix: ' + title + ' ' + str(snippet_index) + '\n' + '```js\n')
+            docs.write('##### prefix: ```' + title + ' ' + str(snippet_index) + '```\n```js\n')
             snippets.write('    "' + title + ' ' + str(snippet_index) + '": {\n')
             snippets.write('        "prefix": "' + title + ' ' + str(snippet_index) + '",\n')
             snippets.write('        "scope": "javascript,javascriptreact",\n')

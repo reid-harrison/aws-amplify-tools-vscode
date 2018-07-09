@@ -1,5 +1,5 @@
 # Automatically Generated Snippet Documentation
-##### prefix: analytics 1
+##### prefix: ```analytics 1```
 ```js
 import Amplify, { Analytics } from 'aws-amplify';
 
@@ -10,7 +10,7 @@ import aws_exports from './aws-exports';
 Amplify.configure(aws_exports);
 
 ```
-##### prefix: analytics 2
+##### prefix: ```analytics 2```
 ```js
 import { Analytics } from 'aws-amplify';
 
@@ -103,7 +103,7 @@ Analytics.configure({
 });
 
 ```
-##### prefix: analytics 3
+##### prefix: ```analytics 3```
 ```js
 import { Analytics } from 'aws-amplify';
 
@@ -112,7 +112,7 @@ import { Analytics } from 'aws-amplify';
 Analytics.record({ name: 'albumVisit' });
 
 ```
-##### prefix: analytics 4
+##### prefix: ```analytics 4```
 ```js
 import { Analytics } from 'aws-amplify';
 
@@ -127,7 +127,7 @@ Analytics.record({
 });
 
 ```
-##### prefix: analytics 5
+##### prefix: ```analytics 5```
 ```js
 import { Analytics } from 'aws-amplify';
 
@@ -144,7 +144,7 @@ Analytics.record({
 });
 
 ```
-##### prefix: analytics 6
+##### prefix: ```analytics 6```
 ```js
 import { Analytics } from 'aws-amplify';
 
@@ -161,7 +161,7 @@ Analytics.disable();
 Analytics.enable();
 
 ```
-##### prefix: analytics 7
+##### prefix: ```analytics 7```
 ```js
 import { Analytics } from 'aws-amplify';
 
@@ -196,7 +196,7 @@ Analytics.record({
 });
 
 ```
-##### prefix: analytics 8
+##### prefix: ```analytics 8```
 ```js
 import { Analytics } from 'aws-amplify';
 
@@ -231,7 +231,7 @@ Analytics.updateEndpoint({
 })
 
 ```
-##### prefix: analytics 9
+##### prefix: ```analytics 9```
 ```js
 import { Analytics, AWSKinesisProvider } from 'aws-amplify';
 
@@ -240,7 +240,7 @@ Analytics.addPluggable(new AWSKinesisProvider());
 
 
 ```
-##### prefix: analytics 10
+##### prefix: ```analytics 10```
 ```js
 
 
@@ -287,7 +287,7 @@ Analytics.configure({
 
 
 ```
-##### prefix: analytics 11
+##### prefix: ```analytics 11```
 ```js
 Analytics.record({
 
@@ -306,7 +306,7 @@ Analytics.record({
 }, 'AWSKinesis');
 
 ```
-##### prefix: analytics 12
+##### prefix: ```analytics 12```
 ```js
 import { Analytics, AnalyticsProvider } from 'aws-amplify';
 
@@ -349,7 +349,7 @@ export default class MyAnalyticsProvider implements AnalyticsProvider {
 }
 
 ```
-##### prefix: analytics 13
+##### prefix: ```analytics 13```
 ```js
 // add the plugin
 
@@ -384,7 +384,7 @@ Analytics.configure({
 
 
 ```
-##### prefix: angular 1
+##### prefix: ```angular 1```
 ```js
 "scripts": {
 
@@ -395,7 +395,7 @@ Analytics.configure({
 }
 
 ```
-##### prefix: angular 2
+##### prefix: ```angular 2```
 ```js
 import Amplify from 'aws-amplify';
 
@@ -404,7 +404,7 @@ import awsmobile from './aws-exports';
 Amplify.configure(awsmobile);
 
 ```
-##### prefix: angular 3
+##### prefix: ```angular 3```
 ```js
 "defaults": {
 
@@ -421,7 +421,7 @@ Amplify.configure(awsmobile);
   }
 
 ```
-##### prefix: angular 4
+##### prefix: ```angular 4```
 ```js
 import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';
 
@@ -454,7 +454,7 @@ import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';
 });
 
 ```
-##### prefix: angular 5
+##### prefix: ```angular 5```
 ```js
 import { AmplifyService } from 'aws-amplify-angular';
 
@@ -479,7 +479,7 @@ constructor(
 ...
 
 ```
-##### prefix: angular 6
+##### prefix: ```angular 6```
 ```js
 import { Component } from '@angular/core';
 
@@ -534,7 +534,7 @@ export class AppComponent {
 }
 
 ```
-##### prefix: angular 7
+##### prefix: ```angular 7```
 ```js
 import { AmplifyService }  from 'aws-amplify-angular';
 
@@ -575,7 +575,7 @@ constructor( public amplifyService: AmplifyService ) {
 }
 
 ```
-##### prefix: angular 8
+##### prefix: ```angular 8```
 ```js
 onImagePicked( file ) {
 
@@ -602,7 +602,7 @@ onImagePicked( file ) {
 }
 
 ```
-##### prefix: angular 9
+##### prefix: ```angular 9```
 ```js
 onAlbumImageSelected( event ) {
 
@@ -611,7 +611,7 @@ onAlbumImageSelected( event ) {
 }
 
 ```
-##### prefix: api 1
+##### prefix: ```api 1```
 ```js
 import Amplify, { API } from 'aws-amplify';
 
@@ -622,7 +622,7 @@ import aws_exports from './aws-exports';
 Amplify.configure(aws_exports);
 
 ```
-##### prefix: api 2
+##### prefix: ```api 2```
 ```js
 import Amplify, { API } from 'aws-amplify';
 
@@ -691,7 +691,7 @@ Amplify.configure({
 });
 
 ```
-##### prefix: api 3
+##### prefix: ```api 3```
 ```js
 API: {
 
@@ -714,7 +714,7 @@ API: {
 }
 
 ```
-##### prefix: api 4
+##### prefix: ```api 4```
 ```js
 let apiName = 'MyApiName';
 
@@ -741,7 +741,7 @@ API.get(apiName, path, myInit).then(response => {
 });
 
 ```
-##### prefix: api 5
+##### prefix: ```api 5```
 ```js
 async function getData() { 
 
@@ -764,7 +764,7 @@ async function getData() {
 getData();
 
 ```
-##### prefix: api 6
+##### prefix: ```api 6```
 ```js
 let items = await API.get('myCloudApi', '/items', {
 
@@ -777,7 +777,7 @@ let items = await API.get('myCloudApi', '/items', {
 });
 
 ```
-##### prefix: api 7
+##### prefix: ```api 7```
 ```js
 exports.handler = function(event, context, callback) {
 
@@ -786,14 +786,14 @@ exports.handler = function(event, context, callback) {
 }
 
 ```
-##### prefix: api 8
+##### prefix: ```api 8```
 ```js
 var awsServerlessExpressMiddleware = require('aws-serverless-express/middleware')
 
 app.use(awsServerlessExpressMiddleware.eventContext())
 
 ```
-##### prefix: api 9
+##### prefix: ```api 9```
 ```js
 app.get('/items', function(req, res) {
 
@@ -804,12 +804,12 @@ app.get('/items', function(req, res) {
 });
 
 ```
-##### prefix: api 10
+##### prefix: ```api 10```
 ```js
 API.get('sampleCloudApi', '/items?q=test');
 
 ```
-##### prefix: api 11
+##### prefix: ```api 11```
 ```js
 let apiName = 'MyApiName'; // replace this with your api name.
 
@@ -836,7 +836,7 @@ API.post(apiName, path, myInit).then(response => {
 });
 
 ```
-##### prefix: api 12
+##### prefix: ```api 12```
 ```js
 async function postData() { 
 
@@ -861,7 +861,7 @@ async function postData() {
 postData();
 
 ```
-##### prefix: api 13
+##### prefix: ```api 13```
 ```js
 let apiName = 'MyApiName'; // replace this with your api name.
 
@@ -888,7 +888,7 @@ API.put(apiName, path, myInit).then(response => {
 });
 
 ```
-##### prefix: api 14
+##### prefix: ```api 14```
 ```js
 async function putData() { 
 
@@ -913,7 +913,7 @@ async function putData() {
 putData();
 
 ```
-##### prefix: api 15
+##### prefix: ```api 15```
 ```js
 const params = {
 
@@ -930,7 +930,7 @@ const params = {
 const apiResponse = await API.put('MyTableCRUD', '/manage-items', params);
 
 ```
-##### prefix: api 16
+##### prefix: ```api 16```
 ```js
 let apiName = 'MyApiName'; // replace this with your api name.
 
@@ -955,7 +955,7 @@ API.del(apiName, path, myInit).then(response => {
 });
 
 ```
-##### prefix: api 17
+##### prefix: ```api 17```
 ```js
 async function deleteData() { 
 
@@ -978,7 +978,7 @@ async function deleteData() {
 deleteData();
 
 ```
-##### prefix: api 18
+##### prefix: ```api 18```
 ```js
 let apiName = 'MyApiName'; // replace this with your api name.
 
@@ -997,7 +997,7 @@ API.head(apiName, path, myInit).then(response => {
 });
 
 ```
-##### prefix: api 19
+##### prefix: ```api 19```
 ```js
 async function head() { 
 
@@ -1020,7 +1020,7 @@ async function head() {
 head();
 
 ```
-##### prefix: api 20
+##### prefix: ```api 20```
 ```js
 Amplify.configure({
 
@@ -1053,7 +1053,7 @@ Amplify.configure({
 });
 
 ```
-##### prefix: api 21
+##### prefix: ```api 21```
 ```js
 
 
@@ -1084,7 +1084,7 @@ Amplify.configure({
 
 
 ```
-##### prefix: api 22
+##### prefix: ```api 22```
 ```js
 Amplify.configure({
 
@@ -1101,14 +1101,14 @@ Amplify.configure({
 });
 
 ```
-##### prefix: api 23
+##### prefix: ```api 23```
 ```js
 import aws_config from "./aws-exports";
 
 Amplify.configure(aws_config);
 
 ```
-##### prefix: api 24
+##### prefix: ```api 24```
 ```js
 let myAppConfig = {
 
@@ -1131,7 +1131,7 @@ let myAppConfig = {
 Amplify.configure(myAppConfig);
 
 ```
-##### prefix: api 25
+##### prefix: ```api 25```
 ```js
 let myAppConfig = {
 
@@ -1152,7 +1152,7 @@ let myAppConfig = {
 Amplify.configure(myAppConfig);
 
 ```
-##### prefix: api 26
+##### prefix: ```api 26```
 ```js
 let myAppConfig = {
 
@@ -1173,7 +1173,7 @@ let myAppConfig = {
 Amplify.configure(myAppConfig);
 
 ```
-##### prefix: api 27
+##### prefix: ```api 27```
 ```js
 let myAppConfig = {
 
@@ -1194,7 +1194,7 @@ let myAppConfig = {
 Amplify.configure(myAppConfig);
 
 ```
-##### prefix: api 28
+##### prefix: ```api 28```
 ```js
 const ListEvents = `query ListEvents {
 
@@ -1215,7 +1215,7 @@ const ListEvents = `query ListEvents {
 }`;
 
 ```
-##### prefix: api 29
+##### prefix: ```api 29```
 ```js
 const GetEvent = `query GetEvent($id: ID! $nextToken: String) {
 
@@ -1242,7 +1242,7 @@ const GetEvent = `query GetEvent($id: ID! $nextToken: String) {
 }`;
 
 ```
-##### prefix: api 30
+##### prefix: ```api 30```
 ```js
 import Amplify, { API, graphqlOperation } from "aws-amplify";
 
@@ -1309,7 +1309,7 @@ console.log(oneEvent);
 
 
 ```
-##### prefix: api 31
+##### prefix: ```api 31```
 ```js
 import Amplify, { API, graphqlOperation } from "aws-amplify";
 
@@ -1356,7 +1356,7 @@ const newEvent = await API.graphql(graphqlOperation(CreateEvent, eventDetails));
 console.log(newEvent);
 
 ```
-##### prefix: api 32
+##### prefix: ```api 32```
 ```js
 import Amplify, { API, graphqlOperation } from "aws-amplify";
 
@@ -1399,7 +1399,7 @@ subscription.unsubscribe();
 
 
 ```
-##### prefix: api 33
+##### prefix: ```api 33```
 ```js
 Amplify.configure({
 
@@ -1432,7 +1432,7 @@ Amplify.configure({
 });
 
 ```
-##### prefix: api 34
+##### prefix: ```api 34```
 ```js
 Amplify.configure({
 
@@ -1447,7 +1447,7 @@ Amplify.configure({
 });
 
 ```
-##### prefix: api 35
+##### prefix: ```api 35```
 ```js
 import React from 'react';
 
@@ -1528,7 +1528,7 @@ export default App;
 
 
 ```
-##### prefix: api 36
+##### prefix: ```api 36```
 ```js
 
 
@@ -1553,7 +1553,7 @@ export default App;
 
 
 ```
-##### prefix: api 37
+##### prefix: ```api 37```
 ```js
 class CreateEvent extends React.Component {
 
@@ -1576,7 +1576,7 @@ class CreateEvent extends React.Component {
 </Connect>
 
 ```
-##### prefix: authentication 1
+##### prefix: ```authentication 1```
 ```js
 import Amplify, { Auth } from 'aws-amplify';
 
@@ -1585,7 +1585,7 @@ import aws_exports from './aws-exports'; // specify the location of aws-exports.
 Amplify.configure(aws_exports);
 
 ```
-##### prefix: authentication 2
+##### prefix: ```authentication 2```
 ```js
 import Amplify from 'aws-amplify';
 
@@ -1654,12 +1654,12 @@ Amplify.configure({
 });
 
 ```
-##### prefix: authentication 3
+##### prefix: ```authentication 3```
 ```js
 global.fetch = require('node-fetch');
 
 ```
-##### prefix: authentication 4
+##### prefix: ```authentication 4```
 ```js
 import { Auth } from 'aws-amplify';
 
@@ -1688,7 +1688,7 @@ Auth.confirmSignIn(user, code, mfaType)
     .catch(err => console.log(err));
 
 ```
-##### prefix: authentication 5
+##### prefix: ```authentication 5```
 ```js
 import { Auth } from 'aws-amplify';
 
@@ -1733,7 +1733,7 @@ Auth.confirmSignUp(username, code, {
   .catch(err => console.log(err));
 
 ```
-##### prefix: authentication 6
+##### prefix: ```authentication 6```
 ```js
 import { Auth } from 'aws-amplify';
 
@@ -1746,7 +1746,7 @@ Auth.signOut()
     .catch(err => console.log(err));
 
 ```
-##### prefix: authentication 7
+##### prefix: ```authentication 7```
 ```js
 import { Auth } from 'aws-amplify';
 
@@ -1765,7 +1765,7 @@ Auth.currentAuthenticatedUser()
     .catch(err => console.log(err));
 
 ```
-##### prefix: authentication 8
+##### prefix: ```authentication 8```
 ```js
 import { Auth } from 'aws-amplify';
 
@@ -1788,14 +1788,14 @@ Auth.forgotPasswordSubmit(username, code, new_password)
     .catch(err => console.log(err));
 
 ```
-##### prefix: authentication 9
+##### prefix: ```authentication 9```
 ```js
 let session = Auth.currentSession();
 
 // CognitoUserSession => { idToken, refreshToken, accessToken }
 
 ```
-##### prefix: authentication 10
+##### prefix: ```authentication 10```
 ```js
 var data = { UserPoolId : 'us-east-1_resgd', ClientId : 'xyz' };
 
@@ -1854,7 +1854,7 @@ if (cognitoUser != null) {
 
 
 ```
-##### prefix: authentication 11
+##### prefix: ```authentication 11```
 ```js
 import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native';
 
@@ -1863,7 +1863,7 @@ import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-
 export default withAuthenticator(App);
 
 ```
-##### prefix: authentication 12
+##### prefix: ```authentication 12```
 ```js
 const AppWithAuth = withAuthenticator(App);
 
@@ -1884,7 +1884,7 @@ const federated = {
 ReactDOM.render(<AppWithAuth federated={federated}/>, document.getElementById('root'));
 
 ```
-##### prefix: authentication 13
+##### prefix: ```authentication 13```
 ```js
 import { Auth } from 'aws-amplify';
 
@@ -1941,7 +1941,7 @@ ga.signIn().then(googleUser => {
 });
 
 ```
-##### prefix: authentication 14
+##### prefix: ```authentication 14```
 ```js
 import { Cache } from 'aws-amplify';
 
@@ -1956,12 +1956,12 @@ Cache.getItem('federatedInfo').then(federatedInfo => {
 });
 
 ```
-##### prefix: authentication 15
+##### prefix: ```authentication 15```
 ```js
 export default withAuthenticator(App, { includeGreetings: true });
 
 ```
-##### prefix: authentication 16
+##### prefix: ```authentication 16```
 ```js
 import { Authenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native'
 
@@ -1996,12 +1996,12 @@ class AppWithAuth extends Component {
 export default AppWithAuth;
 
 ```
-##### prefix: authentication 17
+##### prefix: ```authentication 17```
 ```js
 this._validAuthStates = ['signedIn'];
 
 ```
-##### prefix: authentication 18
+##### prefix: ```authentication 18```
 ```js
 import Expo from 'expo';
 
@@ -2068,7 +2068,7 @@ export default class App extends React.Component {
 }
 
 ```
-##### prefix: authentication 19
+##### prefix: ```authentication 19```
 ```js
 import Amplify from 'aws-amplify';
 
@@ -2139,7 +2139,7 @@ Amplify.configure({
 });
 
 ```
-##### prefix: authentication 20
+##### prefix: ```authentication 20```
 ```js
 const config = Auth.configure();
 
@@ -2166,7 +2166,7 @@ const url = 'https://' + domain + '/login?redirect_uri=' + redirectSignIn + '&re
 window.location.assign(url);
 
 ```
-##### prefix: authentication 21
+##### prefix: ```authentication 21```
 ```js
 import { withOAuth } from 'aws-amplify-react';
 
@@ -2275,7 +2275,7 @@ Auth.verifyTotpToken(user, challengeAnswer).then(() => {
 });
 
 ```
-##### prefix: authentication 22
+##### prefix: ```authentication 22```
 ```js
 import { Auth } from 'aws-amplify';
 
@@ -2306,7 +2306,7 @@ Auth.setPreferredMFA(user, 'SMS');
 Auth.setPreferredMFA(user, 'NOMFA');
 
 ```
-##### prefix: authentication 23
+##### prefix: ```authentication 23```
 ```js
 import Amplify from 'aws-amplify';
 
@@ -2359,7 +2359,7 @@ class App extends Component {
 export default withAuthenticator(App, true);
 
 ```
-##### prefix: authentication 24
+##### prefix: ```authentication 24```
 ```js
 export const handler = async (event) => {
 
@@ -2386,7 +2386,7 @@ export const handler = async (event) => {
 };
 
 ```
-##### prefix: authentication 25
+##### prefix: ```authentication 25```
 ```js
 export const handler = async (event) => {
 
@@ -2425,7 +2425,7 @@ export const handler = async (event) => {
 };
 
 ```
-##### prefix: authentication 26
+##### prefix: ```authentication 26```
 ```js
 export const handler = async (event, context) => {
 
@@ -2446,7 +2446,7 @@ export const handler = async (event, context) => {
 };
 
 ```
-##### prefix: authentication 27
+##### prefix: ```authentication 27```
 ```js
 import { Auth } from 'aws-amplify';
 
@@ -2477,7 +2477,7 @@ Auth.signIn(username)
     .catch(err => console.log(err));
 
 ```
-##### prefix: authentication 28
+##### prefix: ```authentication 28```
 ```js
 Auth.signUp({
 
@@ -2502,12 +2502,12 @@ Auth.signUp({
 });
 
 ```
-##### prefix: authentication 29
+##### prefix: ```authentication 29```
 ```js
 let user = await Auth.currentAuthenticatedUser();
 
 ```
-##### prefix: authentication 30
+##### prefix: ```authentication 30```
 ```js
 let result = await Auth.updateUserAttributes(user, {
 
@@ -2520,12 +2520,12 @@ let result = await Auth.updateUserAttributes(user, {
 console.log(result); // SUCCESS
 
 ```
-##### prefix: authentication 31
+##### prefix: ```authentication 31```
 ```js
 let result = await Auth.verifyCurrentUserAttributeSubmit('email', 'abc123');
 
 ```
-##### prefix: authentication 32
+##### prefix: ```authentication 32```
 ```js
 import Route53 from 'aws-sdk/clients/route53';
 
@@ -2552,7 +2552,7 @@ Auth.currentCredentials()
   })
 
 ```
-##### prefix: authentication 33
+##### prefix: ```authentication 33```
 ```js
 import React, { Component } from 'react';
 
@@ -2603,17 +2603,17 @@ export default withAuthenticator(App, false, [
 ]);
 
 ```
-##### prefix: cache 1
+##### prefix: ```cache 1```
 ```js
 import { Cache } from 'aws-amplify';
 
 ```
-##### prefix: cache 2
+##### prefix: ```cache 2```
 ```js
 Cache.setItem(key, value, [options]);
 
 ```
-##### prefix: cache 3
+##### prefix: ```cache 3```
 ```js
 // Standard case
 
@@ -2634,19 +2634,19 @@ const expiration = new Date(2018, 1, 1);
 Cache.setItem('key', 'value', { expires: expiration.getTime() });
 
 ```
-##### prefix: cache 4
+##### prefix: ```cache 4```
 ```js
 Cache.setItem('mothersBirthday', 'July 18th', { priority: 1 });
 
 Cache.setItem('breakfastFoodOrder', 'Pancakes', { priority: 3 });
 
 ```
-##### prefix: cache 5
+##### prefix: ```cache 5```
 ```js
 Cache.getItem(key[, options]);
 
 ```
-##### prefix: cache 6
+##### prefix: ```cache 6```
 ```js
 // Standard case
 
@@ -2663,27 +2663,27 @@ Cache.getItem('key');
 Cache.getItem('key', { callback: callback });
 
 ```
-##### prefix: cache 7
+##### prefix: ```cache 7```
 ```js
 Cache.removeItem(key);
 
 ```
-##### prefix: cache 8
+##### prefix: ```cache 8```
 ```js
 Cache.clear();
 
 ```
-##### prefix: cache 9
+##### prefix: ```cache 9```
 ```js
 Cache.getAllKeys();
 
 ```
-##### prefix: cache 10
+##### prefix: ```cache 10```
 ```js
 const size = Cache.getCacheCurSize();
 
 ```
-##### prefix: cache 11
+##### prefix: ```cache 11```
 ```js
 const config = {
 
@@ -2704,7 +2704,7 @@ const myCacheConfig = Cache.configure(config);
 // But don't try to modify keyPrefix which is the identifier of Cache.
 
 ```
-##### prefix: cache 12
+##### prefix: ```cache 12```
 ```js
 const config = {
 
@@ -2721,17 +2721,17 @@ const newCache = Cache.createInstance(config);
 // Please provide a new keyPrefix which is the identifier of Cache.
 
 ```
-##### prefix: hub 1
+##### prefix: ```hub 1```
 ```js
 import { Hub } from 'aws-amplify';
 
 ```
-##### prefix: hub 2
+##### prefix: ```hub 2```
 ```js
 Hub.dispatch('auth', { event: 'signIn', data: user }, 'Auth');
 
 ```
-##### prefix: hub 3
+##### prefix: ```hub 3```
 ```js
 import { Hub, Logger } from 'aws-amplify';
 
@@ -2764,7 +2764,7 @@ class MyClass {
 }
 
 ```
-##### prefix: hub 4
+##### prefix: ```hub 4```
 ```js
 import { Hub, Logger } from 'aws-amplify';
 
@@ -2817,17 +2817,17 @@ alex.onHubCapsule = (capsule) => {
 Hub.listen('auth', alex);
 
 ```
-##### prefix: i18n 1
+##### prefix: ```i18n 1```
 ```js
 import { I18n } from 'aws-amplify';
 
 ```
-##### prefix: i18n 2
+##### prefix: ```i18n 2```
 ```js
 I18n.setLanguage('fr');
 
 ```
-##### prefix: i18n 3
+##### prefix: ```i18n 3```
 ```js
 const dict = {
 
@@ -2854,12 +2854,12 @@ const dict = {
 I18n.putVocabularies(dict);
 
 ```
-##### prefix: i18n 4
+##### prefix: ```i18n 4```
 ```js
 I18n.get('Sign In');
 
 ```
-##### prefix: interactions 1
+##### prefix: ```interactions 1```
 ```js
 import Amplify, { Auth } from 'aws-amplify';
 
@@ -2868,7 +2868,7 @@ import aws_exports from './aws-exports'; // specify the location of aws-exports.
 Amplify.configure(aws_exports);
 
 ```
-##### prefix: interactions 2
+##### prefix: ```interactions 2```
 ```js
 import Amplify from 'aws-amplify';
 
@@ -2905,12 +2905,12 @@ Amplify.configure({
 });
 
 ```
-##### prefix: interactions 3
+##### prefix: ```interactions 3```
 ```js
 import { Interactions } from 'aws-amplify';
 
 ```
-##### prefix: interactions 4
+##### prefix: ```interactions 4```
 ```js
 import { Interactions } from 'aws-amplify';
 
@@ -2931,7 +2931,7 @@ const response = await Interactions.send("BookTripMOBILEHUB", userInput);
 console.log (response.message);
 
 ```
-##### prefix: interactions 5
+##### prefix: ```interactions 5```
 ```js
 
 
@@ -2958,7 +2958,7 @@ var handleComplete = function (err, confirmation) {
 Interactions.onComplete(botName, handleComplete );
 
 ```
-##### prefix: interactions 6
+##### prefix: ```interactions 6```
 ```js
 import React, { Component } from 'react';
 
@@ -3085,14 +3085,14 @@ class App extends Component {
 export default App;
 
 ```
-##### prefix: logger 1
+##### prefix: ```logger 1```
 ```js
 import { Logger } from 'aws-amplify';
 
 
 
 ```
-##### prefix: logger 2
+##### prefix: ```logger 2```
 ```js
 
 
@@ -3109,7 +3109,7 @@ logger.warn('warn bar');
 logger.error('error bar');
 
 ```
-##### prefix: logger 3
+##### prefix: ```logger 3```
 ```js
 try {
 
@@ -3122,7 +3122,7 @@ try {
 }
 
 ```
-##### prefix: logger 4
+##### prefix: ```logger 4```
 ```js
 const logger = new Logger('foo', 'INFO');
 
@@ -3131,7 +3131,7 @@ const logger = new Logger('foo', 'INFO');
 logger.debug('callback data', data); // this will not write the message
 
 ```
-##### prefix: logger 5
+##### prefix: ```logger 5```
 ```js
 Amplify.Logger.LOG_LEVEL = 'DEBUG';
 
@@ -3144,19 +3144,19 @@ const logger = new Logger('foo', 'INFO');
 logger.debug('callback data', data); //  this will write the message since the global log level is 'DEBUG'
 
 ```
-##### prefix: logger 6
+##### prefix: ```logger 6```
 ```js
 window.LOG_LEVEL = 'DEBUG';
 
 ```
-##### prefix: pub_sub 1
+##### prefix: ```pub_sub 1```
 ```js
 import Amplify, { PubSub } from 'aws-amplify';
 
 import { AWSIoTProvider } from 'aws-amplify/lib/PubSub/Providers';
 
 ```
-##### prefix: pub_sub 2
+##### prefix: ```pub_sub 2```
 ```js
 // Apply plugin with configuration
 
@@ -3169,7 +3169,7 @@ Amplify.addPluggable(new AWSIoTProvider({
    }));
 
 ```
-##### prefix: pub_sub 3
+##### prefix: ```pub_sub 3```
 ```js
     Auth.currentCredentials().then((info) => {
 
@@ -3178,14 +3178,14 @@ Amplify.addPluggable(new AWSIoTProvider({
     });
 
 ```
-##### prefix: pub_sub 4
+##### prefix: ```pub_sub 4```
 ```js
 import { PubSub } from 'aws-amplify';
 
 import { MqttOverWSProvider } from "aws-amplify/lib/PubSub/Providers";
 
 ```
-##### prefix: pub_sub 5
+##### prefix: ```pub_sub 5```
 ```js
 // Apply plugin with configuration
 
@@ -3196,7 +3196,7 @@ Amplify.addPluggable(new MqttOverWSProvider({
 }));
 
 ```
-##### prefix: pub_sub 6
+##### prefix: ```pub_sub 6```
 ```js
 PubSub.subscribe('myTopic').subscribe({
 
@@ -3209,7 +3209,7 @@ PubSub.subscribe('myTopic').subscribe({
 });
 
 ```
-##### prefix: pub_sub 7
+##### prefix: ```pub_sub 7```
 ```js
 PubSub.subscribe(['myTopic1','myTopic1']).subscribe({
 
@@ -3218,17 +3218,17 @@ PubSub.subscribe(['myTopic1','myTopic1']).subscribe({
 });
 
 ```
-##### prefix: pub_sub 8
+##### prefix: ```pub_sub 8```
 ```js
 await PubSub.publish('myTopic1', { msg: 'Hello to all subscribers!' });
 
 ```
-##### prefix: pub_sub 9
+##### prefix: ```pub_sub 9```
 ```js
 await PubSub.publish(['myTopic1','myTopic2'], { msg: 'Hello to all subscribers!' });
 
 ```
-##### prefix: pub_sub 10
+##### prefix: ```pub_sub 10```
 ```js
 const sub1 = PubSub.subscribe('myTopicA').subscribe({
 
@@ -3247,7 +3247,7 @@ sub1.unsubscribe();
 // You will no longer get messages for 'myTopicA'
 
 ```
-##### prefix: push_notifications_setup.m 1
+##### prefix: ```push_notifications_setup.m 1```
 ```js
 $ react-native init myapp
 
@@ -3262,7 +3262,7 @@ $ npm install aws-amplify-react-native --save
 $ react-native link aws-amplify-react-native
 
 ```
-##### prefix: push_notifications_setup.m 2
+##### prefix: ```push_notifications_setup.m 2```
 ```js
 import { PushNotificationIOS } from 'react-native';
 
@@ -3301,7 +3301,7 @@ PushNotification.configure({
 });
 
 ```
-##### prefix: push_notifications_setup.m 3
+##### prefix: ```push_notifications_setup.m 3```
 ```js
 import { PushNotificationIOS } from 'react-native';
 
@@ -3322,7 +3322,7 @@ Amplify.configure(aws_exports);
 PushNotification.configure(aws_exports);
 
 ```
-##### prefix: push_notifications_setup.m 4
+##### prefix: ```push_notifications_setup.m 4```
 ```js
 // get the notification data
 
@@ -3351,7 +3351,7 @@ PushNotification.onRegister((token) => {
 });
 
 ```
-##### prefix: storage 1
+##### prefix: ```storage 1```
 ```js
 import Amplify, { Storage } from 'aws-amplify';
 
@@ -3360,7 +3360,7 @@ import aws_exports from './aws-exports';
 Amplify.configure(aws_exports);
 
 ```
-##### prefix: storage 2
+##### prefix: ```storage 2```
 ```js
 import Amplify from 'aws-amplify';
 
@@ -3393,7 +3393,7 @@ Amplify.configure({
 
 
 ```
-##### prefix: storage 3
+##### prefix: ```storage 3```
 ```js
 Storage.configure({ level: 'private' });
 
@@ -3402,27 +3402,27 @@ Storage.configure({ level: 'private' });
 Storage.get('welcome.png'); // Gets the welcome.png belongs to current user
 
 ```
-##### prefix: storage 4
+##### prefix: ```storage 4```
 ```js
 Storage.get('welcome.png', { level: 'public' }); // Gets welcome.png in public space
 
 ```
-##### prefix: storage 5
+##### prefix: ```storage 5```
 ```js
 Storage.get('welcome.png'); // Get welcome.png in public space
 
 ```
-##### prefix: storage 6
+##### prefix: ```storage 6```
 ```js
 Storage.vault.get('welcome.png'); // Get the welcome.png belonging to current user
 
 ```
-##### prefix: storage 7
+##### prefix: ```storage 7```
 ```js
 import { Storage } from 'aws-amplify';
 
 ```
-##### prefix: storage 8
+##### prefix: ```storage 8```
 ```js
 Storage.configure({
 
@@ -3435,7 +3435,7 @@ Storage.configure({
 });
 
 ```
-##### prefix: storage 9
+##### prefix: ```storage 9```
 ```js
 Storage.put('test.txt', 'Hello')
 
@@ -3444,7 +3444,7 @@ Storage.put('test.txt', 'Hello')
     .catch(err => console.log(err));
 
 ```
-##### prefix: storage 10
+##### prefix: ```storage 10```
 ```js
 Storage.put('test.txt', 'Protected Content', {
 
@@ -3459,7 +3459,7 @@ Storage.put('test.txt', 'Protected Content', {
 .catch(err => console.log(err));
 
 ```
-##### prefix: storage 11
+##### prefix: ```storage 11```
 ```js
 Storage.put('test.txt', 'Private Content', {
 
@@ -3474,7 +3474,7 @@ Storage.put('test.txt', 'Private Content', {
 .catch(err => console.log(err));
 
 ```
-##### prefix: storage 12
+##### prefix: ```storage 12```
 ```js
 class S3ImageUpload extends React.Component {
 
@@ -3515,7 +3515,7 @@ class S3ImageUpload extends React.Component {
 }
 
 ```
-##### prefix: storage 13
+##### prefix: ```storage 13```
 ```js
 import RNFetchBlob from 'react-native-fetch-blob';
 
@@ -3544,7 +3544,7 @@ readFile(imagePath).then(buffer => {
 });
 
 ```
-##### prefix: storage 14
+##### prefix: ```storage 14```
 ```js
 Storage.get('test.txt')
 
@@ -3553,7 +3553,7 @@ Storage.get('test.txt')
     .catch(err => console.log(err));
 
 ```
-##### prefix: storage 15
+##### prefix: ```storage 15```
 ```js
 Storage.get('test.txt', { level: 'protected' })
 
@@ -3562,7 +3562,7 @@ Storage.get('test.txt', { level: 'protected' })
     .catch(err => console.log(err));
 
 ```
-##### prefix: storage 16
+##### prefix: ```storage 16```
 ```js
 Storage.get('test.txt', { 
 
@@ -3577,7 +3577,7 @@ Storage.get('test.txt', {
 .catch(err => console.log(err));
 
 ```
-##### prefix: storage 17
+##### prefix: ```storage 17```
 ```js
 Storage.get('test.txt', {level: 'private'})
 
@@ -3586,7 +3586,7 @@ Storage.get('test.txt', {level: 'private'})
     .catch(err => console.log(err));
 
 ```
-##### prefix: storage 18
+##### prefix: ```storage 18```
 ```js
 Storage.get('test.txt', {expires: 60})
 
@@ -3595,7 +3595,7 @@ Storage.get('test.txt', {expires: 60})
     .catch(err => console.log(err));
 
 ```
-##### prefix: storage 19
+##### prefix: ```storage 19```
 ```js
 Storage.remove('test.txt')
 
@@ -3604,7 +3604,7 @@ Storage.remove('test.txt')
     .catch(err => console.log(err));
 
 ```
-##### prefix: storage 20
+##### prefix: ```storage 20```
 ```js
 Storage.remove('test.txt', {level: 'protected'})
 
@@ -3613,7 +3613,7 @@ Storage.remove('test.txt', {level: 'protected'})
     .catch(err => console.log(err));
 
 ```
-##### prefix: storage 21
+##### prefix: ```storage 21```
 ```js
 Storage.remove('test.txt', {level: 'private'})
 
@@ -3622,7 +3622,7 @@ Storage.remove('test.txt', {level: 'private'})
     .catch(err => console.log(err));
 
 ```
-##### prefix: storage 22
+##### prefix: ```storage 22```
 ```js
 Storage.list('photos/')
 
@@ -3631,7 +3631,7 @@ Storage.list('photos/')
     .catch(err => console.log(err));
 
 ```
-##### prefix: storage 23
+##### prefix: ```storage 23```
 ```js
 Storage.list('photos/', { level: 'protected' })
 
@@ -3640,7 +3640,7 @@ Storage.list('photos/', { level: 'protected' })
     .catch(err => console.log(err));
 
 ```
-##### prefix: storage 24
+##### prefix: ```storage 24```
 ```js
 Storage.list('photos/', { 
 
@@ -3655,7 +3655,7 @@ Storage.list('photos/', {
 .catch(err => console.log(err));
 
 ```
-##### prefix: storage 25
+##### prefix: ```storage 25```
 ```js
 Storage.list('photos/', {level: 'private'})
 
@@ -3664,17 +3664,17 @@ Storage.list('photos/', {level: 'private'})
     .catch(err => console.log(err));
 
 ```
-##### prefix: storage 26
+##### prefix: ```storage 26```
 ```js
 Storage.configure({ track: true })
 
 ```
-##### prefix: storage 27
+##### prefix: ```storage 27```
 ```js
 Storage.get('welcome.png', { track: true });
 
 ```
-##### prefix: storage 28
+##### prefix: ```storage 28```
 ```js
 const customPrefix: {
 
