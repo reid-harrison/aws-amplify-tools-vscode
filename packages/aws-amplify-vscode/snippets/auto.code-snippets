@@ -1,6 +1,6 @@
 {
     "Analytics Automated Setup": {
-        "prefix": "Automated Setup ",
+        "prefix": "Automated Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { Analytics } from 'aws-amplify';",
@@ -10,7 +10,7 @@
         ]
     },
     "Analytics Manual Setup": {
-        "prefix": "Manual Setup ",
+        "prefix": "Manual Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics } from 'aws-amplify';",
@@ -61,7 +61,7 @@
         ]
     },
     "Analytics Recording A Custom Tracking Event": {
-        "prefix": "Recording A Custom Tracking Event ",
+        "prefix": "Recording A Custom Tracking Event",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics } from 'aws-amplify';",
@@ -70,7 +70,7 @@
         ]
     },
     "Analytics Record A Custom Tracking Event With Attributes": {
-        "prefix": "Record A Custom Tracking Event With Attributes ",
+        "prefix": "Record A Custom Tracking Event With Attributes",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics } from 'aws-amplify';",
@@ -82,7 +82,7 @@
         ]
     },
     "Analytics Record Engagement Metrics": {
-        "prefix": "Record Engagement Metrics ",
+        "prefix": "Record Engagement Metrics",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics } from 'aws-amplify';",
@@ -95,7 +95,7 @@
         ]
     },
     "Analytics Disable/Enable Analytics": {
-        "prefix": "Disable/Enable Analytics ",
+        "prefix": "Disable/Enable Analytics",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics } from 'aws-amplify';",
@@ -108,7 +108,7 @@
         ]
     },
     "Analytics Record Authentication Events": {
-        "prefix": "Record Authentication Events ",
+        "prefix": "Record Authentication Events",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics } from 'aws-amplify';",
@@ -130,7 +130,7 @@
         ]
     },
     "Analytics Update User Attributes": {
-        "prefix": "Update User Attributes ",
+        "prefix": "Update User Attributes",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics } from 'aws-amplify';",
@@ -152,7 +152,7 @@
         ]
     },
     "Analytics Installation And Configuration": {
-        "prefix": "Installation And Configuration ",
+        "prefix": "Installation And Configuration",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics, AWSKinesisProvider } from 'aws-amplify';",
@@ -161,7 +161,7 @@
         ]
     },
     "Analytics Installation And Configuration 2": {
-        "prefix": "Installation And Configuration  2",
+        "prefix": "Installation And Configuration 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "",
@@ -189,7 +189,7 @@
         ]
     },
     "Analytics Working With The Api": {
-        "prefix": "Working With The Api ",
+        "prefix": "Working With The Api",
         "scope": "javascript,javascriptreact",
         "body": [
             "Analytics.record({",
@@ -203,7 +203,7 @@
         ]
     },
     "Analytics Using A Custom Plugin": {
-        "prefix": "Using A Custom Plugin ",
+        "prefix": "Using A Custom Plugin",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics, AnalyticsProvider } from 'aws-amplify';",
@@ -229,7 +229,7 @@
         ]
     },
     "Analytics Using A Custom Plugin 2": {
-        "prefix": "Using A Custom Plugin  2",
+        "prefix": "Using A Custom Plugin 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "// add the plugin",
@@ -251,7 +251,7 @@
         ]
     },
     "Angular Setup": {
-        "prefix": "Setup ",
+        "prefix": "Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "\"scripts\": {",
@@ -261,7 +261,7 @@
         ]
     },
     "Angular Setup 2": {
-        "prefix": "Setup  2",
+        "prefix": "Setup 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify from 'aws-amplify';",
@@ -270,7 +270,7 @@
         ]
     },
     "Angular Setup 3": {
-        "prefix": "Setup  3",
+        "prefix": "Setup 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "\"defaults\": {",
@@ -283,7 +283,7 @@
         ]
     },
     "Angular Importing Amplify": {
-        "prefix": "Importing Amplify ",
+        "prefix": "Importing Amplify",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';",
@@ -304,7 +304,7 @@
         ]
     },
     "Angular Using Dependency Injection": {
-        "prefix": "Using Dependency Injection ",
+        "prefix": "Using Dependency Injection",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { AmplifyService } from 'aws-amplify-angular';",
@@ -321,7 +321,7 @@
         ]
     },
     "Angular Using Aws Amplify Categories": {
-        "prefix": "Using Aws Amplify Categories ",
+        "prefix": "Using Aws Amplify Categories",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Component } from '@angular/core';",
@@ -353,7 +353,7 @@
         ]
     },
     "Angular Usage Example: Subscribe To Authentication State Changes": {
-        "prefix": "Usage Example: Subscribe To Authentication State Changes ",
+        "prefix": "Usage Example: Subscribe To Authentication State Changes",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { AmplifyService }  from 'aws-amplify-angular';",
@@ -378,7 +378,7 @@
         ]
     },
     "Angular Photo Picker": {
-        "prefix": "Photo Picker ",
+        "prefix": "Photo Picker",
         "scope": "javascript,javascriptreact",
         "body": [
             "onImagePicked( file ) {",
@@ -396,7 +396,7 @@
         ]
     },
     "Angular S3 Album": {
-        "prefix": "S3 Album ",
+        "prefix": "S3 Album",
         "scope": "javascript,javascriptreact",
         "body": [
             "onAlbumImageSelected( event ) {",
@@ -405,7 +405,7 @@
         ]
     },
     "Api Automated Setup": {
-        "prefix": "Automated Setup ",
+        "prefix": "Automated Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { API } from 'aws-amplify';",
@@ -415,7 +415,7 @@
         ]
     },
     "Api Manual Setup": {
-        "prefix": "Manual Setup ",
+        "prefix": "Manual Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { API } from 'aws-amplify';",
@@ -454,7 +454,7 @@
         ]
     },
     "Api Aws Regional Endpoints": {
-        "prefix": "Aws Regional Endpoints ",
+        "prefix": "Aws Regional Endpoints",
         "scope": "javascript,javascriptreact",
         "body": [
             "API: {",
@@ -470,7 +470,7 @@
         ]
     },
     "Api Get**": {
-        "prefix": "Get** ",
+        "prefix": "Get**",
         "scope": "javascript,javascriptreact",
         "body": [
             "let apiName = 'MyApiName';",
@@ -488,7 +488,7 @@
         ]
     },
     "Api Get** 2": {
-        "prefix": "Get**  2",
+        "prefix": "Get** 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "async function getData() { ",
@@ -504,7 +504,7 @@
         ]
     },
     "Api Get** 3": {
-        "prefix": "Get**  3",
+        "prefix": "Get** 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "let items = await API.get('myCloudApi', '/items', {",
@@ -515,7 +515,7 @@
         ]
     },
     "Api Get** 4": {
-        "prefix": "Get**  4",
+        "prefix": "Get** 4",
         "scope": "javascript,javascriptreact",
         "body": [
             "exports.handler = function(event, context, callback) {",
@@ -524,7 +524,7 @@
         ]
     },
     "Api Get** 5": {
-        "prefix": "Get**  5",
+        "prefix": "Get** 5",
         "scope": "javascript,javascriptreact",
         "body": [
             "var awsServerlessExpressMiddleware = require('aws-serverless-express/middleware')",
@@ -532,7 +532,7 @@
         ]
     },
     "Api Get** 6": {
-        "prefix": "Get**  6",
+        "prefix": "Get** 6",
         "scope": "javascript,javascriptreact",
         "body": [
             "app.get('/items', function(req, res) {",
@@ -542,14 +542,14 @@
         ]
     },
     "Api Get** 7": {
-        "prefix": "Get**  7",
+        "prefix": "Get** 7",
         "scope": "javascript,javascriptreact",
         "body": [
             "API.get('sampleCloudApi', '/items?q=test');",
         ]
     },
     "Api Post**": {
-        "prefix": "Post** ",
+        "prefix": "Post**",
         "scope": "javascript,javascriptreact",
         "body": [
             "let apiName = 'MyApiName'; // replace this with your api name.",
@@ -567,7 +567,7 @@
         ]
     },
     "Api Post** 2": {
-        "prefix": "Post**  2",
+        "prefix": "Post** 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "async function postData() { ",
@@ -584,7 +584,7 @@
         ]
     },
     "Api Put**": {
-        "prefix": "Put** ",
+        "prefix": "Put**",
         "scope": "javascript,javascriptreact",
         "body": [
             "let apiName = 'MyApiName'; // replace this with your api name.",
@@ -602,7 +602,7 @@
         ]
     },
     "Api Put** 2": {
-        "prefix": "Put**  2",
+        "prefix": "Put** 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "async function putData() { ",
@@ -619,7 +619,7 @@
         ]
     },
     "Api Put** 3": {
-        "prefix": "Put**  3",
+        "prefix": "Put** 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "const params = {",
@@ -632,7 +632,7 @@
         ]
     },
     "Api Delete**": {
-        "prefix": "Delete** ",
+        "prefix": "Delete**",
         "scope": "javascript,javascriptreact",
         "body": [
             "let apiName = 'MyApiName'; // replace this with your api name.",
@@ -649,7 +649,7 @@
         ]
     },
     "Api Delete** 2": {
-        "prefix": "Delete**  2",
+        "prefix": "Delete** 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "async function deleteData() { ",
@@ -665,7 +665,7 @@
         ]
     },
     "Api Head**": {
-        "prefix": "Head** ",
+        "prefix": "Head**",
         "scope": "javascript,javascriptreact",
         "body": [
             "let apiName = 'MyApiName'; // replace this with your api name.",
@@ -679,7 +679,7 @@
         ]
     },
     "Api Head** 2": {
-        "prefix": "Head**  2",
+        "prefix": "Head** 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "async function head() { ",
@@ -695,7 +695,7 @@
         ]
     },
     "Api Custom Request Headers": {
-        "prefix": "Custom Request Headers ",
+        "prefix": "Custom Request Headers",
         "scope": "javascript,javascriptreact",
         "body": [
             "Amplify.configure({",
@@ -716,7 +716,7 @@
         ]
     },
     "Api Configuration For Graphql Server": {
-        "prefix": "Configuration For Graphql Server ",
+        "prefix": "Configuration For Graphql Server",
         "scope": "javascript,javascriptreact",
         "body": [
             "",
@@ -736,7 +736,7 @@
         ]
     },
     "Api Set Custom Request Headers For Graphql ": {
-        "prefix": "Set Custom Request Headers For Graphql  ",
+        "prefix": "Set Custom Request Headers For Graphql ",
         "scope": "javascript,javascriptreact",
         "body": [
             "Amplify.configure({",
@@ -749,7 +749,7 @@
         ]
     },
     "Api Automated Configuration With Cli": {
-        "prefix": "Automated Configuration With Cli ",
+        "prefix": "Automated Configuration With Cli",
         "scope": "javascript,javascriptreact",
         "body": [
             "import aws_config from \"./aws-exports\";",
@@ -757,7 +757,7 @@
         ]
     },
     "Api Using Api_Key": {
-        "prefix": "Using Api_Key ",
+        "prefix": "Using Api_Key",
         "scope": "javascript,javascriptreact",
         "body": [
             "let myAppConfig = {",
@@ -773,7 +773,7 @@
         ]
     },
     "Api Using Aws_Iam": {
-        "prefix": "Using Aws_Iam ",
+        "prefix": "Using Aws_Iam",
         "scope": "javascript,javascriptreact",
         "body": [
             "let myAppConfig = {",
@@ -788,7 +788,7 @@
         ]
     },
     "Api Using Amazon_Cognito_User_Pools": {
-        "prefix": "Using Amazon_Cognito_User_Pools ",
+        "prefix": "Using Amazon_Cognito_User_Pools",
         "scope": "javascript,javascriptreact",
         "body": [
             "let myAppConfig = {",
@@ -803,7 +803,7 @@
         ]
     },
     "Api Using Openid_Connect": {
-        "prefix": "Using Openid_Connect ",
+        "prefix": "Using Openid_Connect",
         "scope": "javascript,javascriptreact",
         "body": [
             "let myAppConfig = {",
@@ -818,7 +818,7 @@
         ]
     },
     "Api Query Declarations": {
-        "prefix": "Query Declarations ",
+        "prefix": "Query Declarations",
         "scope": "javascript,javascriptreact",
         "body": [
             "const ListEvents = `query ListEvents {",
@@ -833,7 +833,7 @@
         ]
     },
     "Api Query Declarations 2": {
-        "prefix": "Query Declarations  2",
+        "prefix": "Query Declarations 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "const GetEvent = `query GetEvent(\\$id: ID! \\$nextToken: String) {",
@@ -851,7 +851,7 @@
         ]
     },
     "Api Simple Query": {
-        "prefix": "Simple Query ",
+        "prefix": "Simple Query",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { API, graphqlOperation } from \"aws-amplify\";",
@@ -889,7 +889,7 @@
         ]
     },
     "Api Mutations": {
-        "prefix": "Mutations ",
+        "prefix": "Mutations",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { API, graphqlOperation } from \"aws-amplify\";",
@@ -917,7 +917,7 @@
         ]
     },
     "Api Subscriptions": {
-        "prefix": "Subscriptions ",
+        "prefix": "Subscriptions",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { API, graphqlOperation } from \"aws-amplify\";",
@@ -943,7 +943,7 @@
         ]
     },
     "Api Subscriptions 2": {
-        "prefix": "Subscriptions  2",
+        "prefix": "Subscriptions 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Amplify.configure({",
@@ -964,7 +964,7 @@
         ]
     },
     "Api Signing Request With Iam": {
-        "prefix": "Signing Request With Iam ",
+        "prefix": "Signing Request With Iam",
         "scope": "javascript,javascriptreact",
         "body": [
             "Amplify.configure({",
@@ -976,7 +976,7 @@
         ]
     },
     "Api Connect": {
-        "prefix": "Connect ",
+        "prefix": "Connect",
         "scope": "javascript,javascriptreact",
         "body": [
             "import React from 'react';",
@@ -1021,7 +1021,7 @@
         ]
     },
     "Api Connect 2": {
-        "prefix": "Connect  2",
+        "prefix": "Connect 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "",
@@ -1038,7 +1038,7 @@
         ]
     },
     "Api Connect 3": {
-        "prefix": "Connect  3",
+        "prefix": "Connect 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "class CreateEvent extends React.Component {",
@@ -1054,7 +1054,7 @@
         ]
     },
     "Authentication Automated Setup": {
-        "prefix": "Automated Setup ",
+        "prefix": "Automated Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { Auth } from 'aws-amplify';",
@@ -1063,7 +1063,7 @@
         ]
     },
     "Authentication Manual Setup": {
-        "prefix": "Manual Setup ",
+        "prefix": "Manual Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify from 'aws-amplify';",
@@ -1102,14 +1102,14 @@
         ]
     },
     "Authentication Node.Js Support": {
-        "prefix": "Node.Js Support ",
+        "prefix": "Node.Js Support",
         "scope": "javascript,javascriptreact",
         "body": [
             "global.fetch = require('node-fetch');",
         ]
     },
     "Authentication Sign In": {
-        "prefix": "Sign In ",
+        "prefix": "Sign In",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Auth } from 'aws-amplify';",
@@ -1128,7 +1128,7 @@
         ]
     },
     "Authentication Sign Up": {
-        "prefix": "Sign Up ",
+        "prefix": "Sign Up",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Auth } from 'aws-amplify';",
@@ -1155,7 +1155,7 @@
         ]
     },
     "Authentication Sign Out": {
-        "prefix": "Sign Out ",
+        "prefix": "Sign Out",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Auth } from 'aws-amplify';",
@@ -1166,7 +1166,7 @@
         ]
     },
     "Authentication Change Password": {
-        "prefix": "Change Password ",
+        "prefix": "Change Password",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Auth } from 'aws-amplify';",
@@ -1180,7 +1180,7 @@
         ]
     },
     "Authentication Forgot Password": {
-        "prefix": "Forgot Password ",
+        "prefix": "Forgot Password",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Auth } from 'aws-amplify';",
@@ -1196,7 +1196,7 @@
         ]
     },
     "Authentication Retrieve Current Session": {
-        "prefix": "Retrieve Current Session ",
+        "prefix": "Retrieve Current Session",
         "scope": "javascript,javascriptreact",
         "body": [
             "let session = Auth.currentSession();",
@@ -1204,7 +1204,7 @@
         ]
     },
     "Authentication Managing Security Tokens": {
-        "prefix": "Managing Security Tokens ",
+        "prefix": "Managing Security Tokens",
         "scope": "javascript,javascriptreact",
         "body": [
             "var data = { UserPoolId : 'us-east-1_resgd', ClientId : 'xyz' };",
@@ -1238,7 +1238,7 @@
         ]
     },
     "Authentication Using Withauthenticator Hoc": {
-        "prefix": "Using Withauthenticator Hoc ",
+        "prefix": "Using Withauthenticator Hoc",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native';",
@@ -1247,7 +1247,7 @@
         ]
     },
     "Authentication Enabling Federated Identities": {
-        "prefix": "Enabling Federated Identities ",
+        "prefix": "Enabling Federated Identities",
         "scope": "javascript,javascriptreact",
         "body": [
             "const AppWithAuth = withAuthenticator(App);",
@@ -1262,7 +1262,7 @@
         ]
     },
     "Authentication Enabling Federated Identities 2": {
-        "prefix": "Enabling Federated Identities  2",
+        "prefix": "Enabling Federated Identities 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Auth } from 'aws-amplify';",
@@ -1295,7 +1295,7 @@
         ]
     },
     "Authentication Enabling Federated Identities 3": {
-        "prefix": "Enabling Federated Identities  3",
+        "prefix": "Enabling Federated Identities 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Cache } from 'aws-amplify';",
@@ -1307,14 +1307,14 @@
         ]
     },
     "Authentication Rendering A Sign Out Button": {
-        "prefix": "Rendering A Sign Out Button ",
+        "prefix": "Rendering A Sign Out Button",
         "scope": "javascript,javascriptreact",
         "body": [
             "export default withAuthenticator(App, { includeGreetings: true });",
         ]
     },
     "Authentication Wrapping Your Component": {
-        "prefix": "Wrapping Your Component ",
+        "prefix": "Wrapping Your Component",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Authenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native'",
@@ -1336,14 +1336,14 @@
         ]
     },
     "Authentication Show Your App After Sign-In": {
-        "prefix": "Show Your App After Sign-In ",
+        "prefix": "Show Your App After Sign-In",
         "scope": "javascript,javascriptreact",
         "body": [
             "this._validAuthStates = ['signedIn'];",
         ]
     },
     "Authentication Federated Identities (Social Sign-In)": {
-        "prefix": "Federated Identities (Social Sign-In) ",
+        "prefix": "Federated Identities (Social Sign-In)",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Expo from 'expo';",
@@ -1381,7 +1381,7 @@
         ]
     },
     "Authentication Configuring The Hosted Ui": {
-        "prefix": "Configuring The Hosted Ui ",
+        "prefix": "Configuring The Hosted Ui",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify from 'aws-amplify';",
@@ -1421,7 +1421,7 @@
         ]
     },
     "Authentication Launching The Hosted Ui": {
-        "prefix": "Launching The Hosted Ui ",
+        "prefix": "Launching The Hosted Ui",
         "scope": "javascript,javascriptreact",
         "body": [
             "const config = Auth.configure();",
@@ -1439,7 +1439,7 @@
         ]
     },
     "Authentication Launching The Hosted Ui In React ": {
-        "prefix": "Launching The Hosted Ui In React  ",
+        "prefix": "Launching The Hosted Ui In React ",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { withOAuth } from 'aws-amplify-react';",
@@ -1498,7 +1498,7 @@
         ]
     },
     "Authentication Setup Mfa Type": {
-        "prefix": "Setup Mfa Type ",
+        "prefix": "Setup Mfa Type",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Auth } from 'aws-amplify';",
@@ -1518,7 +1518,7 @@
         ]
     },
     "Authentication Letting User Select Mfa Type": {
-        "prefix": "Letting User Select Mfa Type ",
+        "prefix": "Letting User Select Mfa Type",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify from 'aws-amplify';",
@@ -1549,7 +1549,7 @@
         ]
     },
     "Authentication Creating A Captcha": {
-        "prefix": "Creating A Captcha ",
+        "prefix": "Creating A Captcha",
         "scope": "javascript,javascriptreact",
         "body": [
             "export const handler = async (event) => {",
@@ -1567,7 +1567,7 @@
         ]
     },
     "Authentication Defining A Custom Challange": {
-        "prefix": "Defining A Custom Challange ",
+        "prefix": "Defining A Custom Challange",
         "scope": "javascript,javascriptreact",
         "body": [
             "export const handler = async (event) => {",
@@ -1591,7 +1591,7 @@
         ]
     },
     "Authentication Defining A Custom Challange 2": {
-        "prefix": "Defining A Custom Challange  2",
+        "prefix": "Defining A Custom Challange 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "export const handler = async (event, context) => {",
@@ -1606,7 +1606,7 @@
         ]
     },
     "Authentication Using A Custom Challange ": {
-        "prefix": "Using A Custom Challange  ",
+        "prefix": "Using A Custom Challange ",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Auth } from 'aws-amplify';",
@@ -1626,7 +1626,7 @@
         ]
     },
     "Authentication Working With User Attributes": {
-        "prefix": "Working With User Attributes ",
+        "prefix": "Working With User Attributes",
         "scope": "javascript,javascriptreact",
         "body": [
             "Auth.signUp({",
@@ -1643,14 +1643,14 @@
         ]
     },
     "Authentication Working With User Attributes 2": {
-        "prefix": "Working With User Attributes  2",
+        "prefix": "Working With User Attributes 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "let user = await Auth.currentAuthenticatedUser();",
         ]
     },
     "Authentication Working With User Attributes 3": {
-        "prefix": "Working With User Attributes  3",
+        "prefix": "Working With User Attributes 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "let result = await Auth.updateUserAttributes(user, {",
@@ -1661,14 +1661,14 @@
         ]
     },
     "Authentication Working With User Attributes 4": {
-        "prefix": "Working With User Attributes  4",
+        "prefix": "Working With User Attributes 4",
         "scope": "javascript,javascriptreact",
         "body": [
             "let result = await Auth.verifyCurrentUserAttributeSubmit('email', 'abc123');",
         ]
     },
     "Authentication Working With Aws Service Objects": {
-        "prefix": "Working With Aws Service Objects ",
+        "prefix": "Working With Aws Service Objects",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Route53 from 'aws-sdk/clients/route53';",
@@ -1686,7 +1686,7 @@
         ]
     },
     "Authentication Customize `Withauthenticator`": {
-        "prefix": "Customize `Withauthenticator` ",
+        "prefix": "Customize `Withauthenticator`",
         "scope": "javascript,javascriptreact",
         "body": [
             "import React, { Component } from 'react';",
@@ -1716,21 +1716,21 @@
         ]
     },
     "Cache Working With The Api": {
-        "prefix": "Working With The Api ",
+        "prefix": "Working With The Api",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Cache } from 'aws-amplify';",
         ]
     },
     "Cache Setitem()": {
-        "prefix": "Setitem() ",
+        "prefix": "Setitem()",
         "scope": "javascript,javascriptreact",
         "body": [
             "Cache.setItem(key, value, [options]);",
         ]
     },
     "Cache Setitem() 2": {
-        "prefix": "Setitem()  2",
+        "prefix": "Setitem() 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "// Standard case",
@@ -1745,7 +1745,7 @@
         ]
     },
     "Cache Setitem() 3": {
-        "prefix": "Setitem()  3",
+        "prefix": "Setitem() 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "Cache.setItem('mothersBirthday', 'July 18th', { priority: 1 });",
@@ -1753,14 +1753,14 @@
         ]
     },
     "Cache Getitem()": {
-        "prefix": "Getitem() ",
+        "prefix": "Getitem()",
         "scope": "javascript,javascriptreact",
         "body": [
             "Cache.getItem(key[, options]);",
         ]
     },
     "Cache Getitem() 2": {
-        "prefix": "Getitem()  2",
+        "prefix": "Getitem() 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "// Standard case",
@@ -1773,35 +1773,35 @@
         ]
     },
     "Cache Removeitem()": {
-        "prefix": "Removeitem() ",
+        "prefix": "Removeitem()",
         "scope": "javascript,javascriptreact",
         "body": [
             "Cache.removeItem(key);",
         ]
     },
     "Cache Clear()": {
-        "prefix": "Clear() ",
+        "prefix": "Clear()",
         "scope": "javascript,javascriptreact",
         "body": [
             "Cache.clear();",
         ]
     },
     "Cache Getallkeys()": {
-        "prefix": "Getallkeys() ",
+        "prefix": "Getallkeys()",
         "scope": "javascript,javascriptreact",
         "body": [
             "Cache.getAllKeys();",
         ]
     },
     "Cache Getcachecursize()": {
-        "prefix": "Getcachecursize() ",
+        "prefix": "Getcachecursize()",
         "scope": "javascript,javascriptreact",
         "body": [
             "const size = Cache.getCacheCurSize();",
         ]
     },
     "Cache Configure()": {
-        "prefix": "Configure() ",
+        "prefix": "Configure()",
         "scope": "javascript,javascriptreact",
         "body": [
             "const config = {",
@@ -1816,7 +1816,7 @@
         ]
     },
     "Cache Createinstance()": {
-        "prefix": "Createinstance() ",
+        "prefix": "Createinstance()",
         "scope": "javascript,javascriptreact",
         "body": [
             "const config = {",
@@ -1829,21 +1829,21 @@
         ]
     },
     "Hub Installation": {
-        "prefix": "Installation ",
+        "prefix": "Installation",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Hub } from 'aws-amplify';",
         ]
     },
     "Hub Dispatch()": {
-        "prefix": "Dispatch() ",
+        "prefix": "Dispatch()",
         "scope": "javascript,javascriptreact",
         "body": [
             "Hub.dispatch('auth', { event: 'signIn', data: user }, 'Auth');",
         ]
     },
     "Hub Listen()": {
-        "prefix": "Listen() ",
+        "prefix": "Listen()",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Hub, Logger } from 'aws-amplify';",
@@ -1864,7 +1864,7 @@
         ]
     },
     "Hub Listening Authentication Events": {
-        "prefix": "Listening Authentication Events ",
+        "prefix": "Listening Authentication Events",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Hub, Logger } from 'aws-amplify';",
@@ -1895,21 +1895,21 @@
         ]
     },
     "I18N Installation": {
-        "prefix": "Installation ",
+        "prefix": "Installation",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { I18n } from 'aws-amplify';",
         ]
     },
     "I18N Setlanguage()": {
-        "prefix": "Setlanguage() ",
+        "prefix": "Setlanguage()",
         "scope": "javascript,javascriptreact",
         "body": [
             "I18n.setLanguage('fr');",
         ]
     },
     "I18N Putvocabularies()": {
-        "prefix": "Putvocabularies() ",
+        "prefix": "Putvocabularies()",
         "scope": "javascript,javascriptreact",
         "body": [
             "const dict = {",
@@ -1927,14 +1927,14 @@
         ]
     },
     "I18N Get()": {
-        "prefix": "Get() ",
+        "prefix": "Get()",
         "scope": "javascript,javascriptreact",
         "body": [
             "I18n.get('Sign In');",
         ]
     },
     "Interactions Automated Setup": {
-        "prefix": "Automated Setup ",
+        "prefix": "Automated Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { Auth } from 'aws-amplify';",
@@ -1943,7 +1943,7 @@
         ]
     },
     "Interactions Manual Setup": {
-        "prefix": "Manual Setup ",
+        "prefix": "Manual Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify from 'aws-amplify';",
@@ -1966,14 +1966,14 @@
         ]
     },
     "Interactions Working With The Api": {
-        "prefix": "Working With The Api ",
+        "prefix": "Working With The Api",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Interactions } from 'aws-amplify';",
         ]
     },
     "Interactions Send() Method": {
-        "prefix": "Send() Method ",
+        "prefix": "Send() Method",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Interactions } from 'aws-amplify';",
@@ -1988,7 +1988,7 @@
         ]
     },
     "Interactions Oncomplete() Method": {
-        "prefix": "Oncomplete() Method ",
+        "prefix": "Oncomplete() Method",
         "scope": "javascript,javascriptreact",
         "body": [
             "",
@@ -2006,7 +2006,7 @@
         ]
     },
     "Interactions Using With React": {
-        "prefix": "Using With React ",
+        "prefix": "Using With React",
         "scope": "javascript,javascriptreact",
         "body": [
             "import React, { Component } from 'react';",
@@ -2074,7 +2074,7 @@
         ]
     },
     "Logger Installation": {
-        "prefix": "Installation ",
+        "prefix": "Installation",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Logger } from 'aws-amplify';",
@@ -2082,7 +2082,7 @@
         ]
     },
     "Logger Working With The Api": {
-        "prefix": "Working With The Api ",
+        "prefix": "Working With The Api",
         "scope": "javascript,javascriptreact",
         "body": [
             "",
@@ -2095,7 +2095,7 @@
         ]
     },
     "Logger Working With The Api 2": {
-        "prefix": "Working With The Api  2",
+        "prefix": "Working With The Api 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "try {",
@@ -2106,7 +2106,7 @@
         ]
     },
     "Logger Setting Logging Levels": {
-        "prefix": "Setting Logging Levels ",
+        "prefix": "Setting Logging Levels",
         "scope": "javascript,javascriptreact",
         "body": [
             "const logger = new Logger('foo', 'INFO');",
@@ -2115,7 +2115,7 @@
         ]
     },
     "Logger Setting Logging Levels 2": {
-        "prefix": "Setting Logging Levels  2",
+        "prefix": "Setting Logging Levels 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Amplify.Logger.LOG_LEVEL = 'DEBUG';",
@@ -2126,14 +2126,14 @@
         ]
     },
     "Logger Setting Logging Levels 3": {
-        "prefix": "Setting Logging Levels  3",
+        "prefix": "Setting Logging Levels 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "window.LOG_LEVEL = 'DEBUG';",
         ]
     },
     "Pub_Sub Aws Iot": {
-        "prefix": "Aws Iot ",
+        "prefix": "Aws Iot",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { PubSub } from 'aws-amplify';",
@@ -2141,7 +2141,7 @@
         ]
     },
     "Pub_Sub Aws Iot 2": {
-        "prefix": "Aws Iot  2",
+        "prefix": "Aws Iot 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "// Apply plugin with configuration",
@@ -2152,7 +2152,7 @@
         ]
     },
     "Pub_Sub Aws Iot 3": {
-        "prefix": "Aws Iot  3",
+        "prefix": "Aws Iot 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "\tAuth.currentCredentials().then((info) => {",
@@ -2161,7 +2161,7 @@
         ]
     },
     "Pub_Sub Third Party Mqtt Providers": {
-        "prefix": "Third Party Mqtt Providers ",
+        "prefix": "Third Party Mqtt Providers",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { PubSub } from 'aws-amplify';",
@@ -2169,7 +2169,7 @@
         ]
     },
     "Pub_Sub Third Party Mqtt Providers 2": {
-        "prefix": "Third Party Mqtt Providers  2",
+        "prefix": "Third Party Mqtt Providers 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "// Apply plugin with configuration",
@@ -2179,7 +2179,7 @@
         ]
     },
     "Pub_Sub Subscribe To A Topic": {
-        "prefix": "Subscribe To A Topic ",
+        "prefix": "Subscribe To A Topic",
         "scope": "javascript,javascriptreact",
         "body": [
             "PubSub.subscribe('myTopic').subscribe({",
@@ -2190,7 +2190,7 @@
         ]
     },
     "Pub_Sub Subscribe To Multiple Topics": {
-        "prefix": "Subscribe To Multiple Topics ",
+        "prefix": "Subscribe To Multiple Topics",
         "scope": "javascript,javascriptreact",
         "body": [
             "PubSub.subscribe(['myTopic1','myTopic1']).subscribe({",
@@ -2199,21 +2199,21 @@
         ]
     },
     "Pub_Sub Publish To A Topic": {
-        "prefix": "Publish To A Topic ",
+        "prefix": "Publish To A Topic",
         "scope": "javascript,javascriptreact",
         "body": [
             "await PubSub.publish('myTopic1', { msg: 'Hello to all subscribers!' });",
         ]
     },
     "Pub_Sub Publish To A Topic 2": {
-        "prefix": "Publish To A Topic  2",
+        "prefix": "Publish To A Topic 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "await PubSub.publish(['myTopic1','myTopic2'], { msg: 'Hello to all subscribers!' });",
         ]
     },
     "Pub_Sub Unsubscribe From A Topic": {
-        "prefix": "Unsubscribe From A Topic ",
+        "prefix": "Unsubscribe From A Topic",
         "scope": "javascript,javascriptreact",
         "body": [
             "const sub1 = PubSub.subscribe('myTopicA').subscribe({",
@@ -2227,7 +2227,7 @@
         ]
     },
     "Push_Notifications_Setup.M Setup For Ios": {
-        "prefix": "Setup For Ios ",
+        "prefix": "Setup For Ios",
         "scope": "javascript,javascriptreact",
         "body": [
             "\\$ react-native init myapp",
@@ -2239,7 +2239,7 @@
         ]
     },
     "Push_Notifications_Setup.M Configure Your App": {
-        "prefix": "Configure Your App ",
+        "prefix": "Configure Your App",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { PushNotificationIOS } from 'react-native';",
@@ -2263,7 +2263,7 @@
         ]
     },
     "Push_Notifications_Setup.M Configure Your App 2": {
-        "prefix": "Configure Your App  2",
+        "prefix": "Configure Your App 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { PushNotificationIOS } from 'react-native';",
@@ -2278,7 +2278,7 @@
         ]
     },
     "Push_Notifications_Setup.M Working With The Api": {
-        "prefix": "Working With The Api ",
+        "prefix": "Working With The Api",
         "scope": "javascript,javascriptreact",
         "body": [
             "// get the notification data",
@@ -2297,7 +2297,7 @@
         ]
     },
     "Storage Automated Setup": {
-        "prefix": "Automated Setup ",
+        "prefix": "Automated Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { Storage } from 'aws-amplify';",
@@ -2306,7 +2306,7 @@
         ]
     },
     "Storage Manual Setup": {
-        "prefix": "Manual Setup ",
+        "prefix": "Manual Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify from 'aws-amplify';",
@@ -2327,7 +2327,7 @@
         ]
     },
     "Storage File Access Levels": {
-        "prefix": "File Access Levels ",
+        "prefix": "File Access Levels",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.configure({ level: 'private' });",
@@ -2336,35 +2336,35 @@
         ]
     },
     "Storage File Access Levels 2": {
-        "prefix": "File Access Levels  2",
+        "prefix": "File Access Levels 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get('welcome.png', { level: 'public' }); // Gets welcome.png in public space",
         ]
     },
     "Storage File Access Levels 3": {
-        "prefix": "File Access Levels  3",
+        "prefix": "File Access Levels 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get('welcome.png'); // Get welcome.png in public space",
         ]
     },
     "Storage File Access Levels 4": {
-        "prefix": "File Access Levels  4",
+        "prefix": "File Access Levels 4",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.vault.get('welcome.png'); // Get the welcome.png belonging to current user",
         ]
     },
     "Storage Working With The Api": {
-        "prefix": "Working With The Api ",
+        "prefix": "Working With The Api",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Storage } from 'aws-amplify';",
         ]
     },
     "Storage Working With The Api 2": {
-        "prefix": "Working With The Api  2",
+        "prefix": "Working With The Api 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.configure({",
@@ -2375,7 +2375,7 @@
         ]
     },
     "Storage Put": {
-        "prefix": "Put ",
+        "prefix": "Put",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.put('test.txt', 'Hello')",
@@ -2384,7 +2384,7 @@
         ]
     },
     "Storage Put 2": {
-        "prefix": "Put  2",
+        "prefix": "Put 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.put('test.txt', 'Protected Content', {",
@@ -2396,7 +2396,7 @@
         ]
     },
     "Storage Put 3": {
-        "prefix": "Put  3",
+        "prefix": "Put 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.put('test.txt', 'Private Content', {",
@@ -2408,7 +2408,7 @@
         ]
     },
     "Storage Put 4": {
-        "prefix": "Put  4",
+        "prefix": "Put 4",
         "scope": "javascript,javascriptreact",
         "body": [
             "class S3ImageUpload extends React.Component {",
@@ -2433,7 +2433,7 @@
         ]
     },
     "Storage Put 5": {
-        "prefix": "Put  5",
+        "prefix": "Put 5",
         "scope": "javascript,javascriptreact",
         "body": [
             "import RNFetchBlob from 'react-native-fetch-blob';",
@@ -2452,7 +2452,7 @@
         ]
     },
     "Storage Get": {
-        "prefix": "Get ",
+        "prefix": "Get",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get('test.txt')",
@@ -2461,7 +2461,7 @@
         ]
     },
     "Storage Get 2": {
-        "prefix": "Get  2",
+        "prefix": "Get 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get('test.txt', { level: 'protected' })",
@@ -2470,7 +2470,7 @@
         ]
     },
     "Storage Get 3": {
-        "prefix": "Get  3",
+        "prefix": "Get 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get('test.txt', { ",
@@ -2482,7 +2482,7 @@
         ]
     },
     "Storage Get 4": {
-        "prefix": "Get  4",
+        "prefix": "Get 4",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get('test.txt', {level: 'private'})",
@@ -2491,7 +2491,7 @@
         ]
     },
     "Storage Get 5": {
-        "prefix": "Get  5",
+        "prefix": "Get 5",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get('test.txt', {expires: 60})",
@@ -2500,7 +2500,7 @@
         ]
     },
     "Storage Remove": {
-        "prefix": "Remove ",
+        "prefix": "Remove",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.remove('test.txt')",
@@ -2509,7 +2509,7 @@
         ]
     },
     "Storage Remove 2": {
-        "prefix": "Remove  2",
+        "prefix": "Remove 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.remove('test.txt', {level: 'protected'})",
@@ -2518,7 +2518,7 @@
         ]
     },
     "Storage Remove 3": {
-        "prefix": "Remove  3",
+        "prefix": "Remove 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.remove('test.txt', {level: 'private'})",
@@ -2527,7 +2527,7 @@
         ]
     },
     "Storage List": {
-        "prefix": "List ",
+        "prefix": "List",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.list('photos/')",
@@ -2536,7 +2536,7 @@
         ]
     },
     "Storage List 2": {
-        "prefix": "List  2",
+        "prefix": "List 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.list('photos/', { level: 'protected' })",
@@ -2545,7 +2545,7 @@
         ]
     },
     "Storage List 3": {
-        "prefix": "List  3",
+        "prefix": "List 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.list('photos/', { ",
@@ -2557,7 +2557,7 @@
         ]
     },
     "Storage List 4": {
-        "prefix": "List  4",
+        "prefix": "List 4",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.list('photos/', {level: 'private'})",
@@ -2566,21 +2566,21 @@
         ]
     },
     "Storage Tracking Events": {
-        "prefix": "Tracking Events ",
+        "prefix": "Tracking Events",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.configure({ track: true })",
         ]
     },
     "Storage Tracking Events 2": {
-        "prefix": "Tracking Events  2",
+        "prefix": "Tracking Events 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get('welcome.png', { track: true });",
         ]
     },
     "Storage Customize Upload Path ": {
-        "prefix": "Customize Upload Path  ",
+        "prefix": "Customize Upload Path ",
         "scope": "javascript,javascriptreact",
         "body": [
             "const customPrefix: {",

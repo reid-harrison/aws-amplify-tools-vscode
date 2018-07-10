@@ -40,9 +40,9 @@ for guide in guides:
         if lines[line_index] == '```js\n':
             # Adds beginning snippet formatting to doc file and snippet file
             snippet_number = '' if snippet_index == 1 else (' ' + str(snippet_index))
-            docs.write('##### prefix: ```' + header + ' ' + snippet_number + '```\n```js\n')
+            docs.write('##### prefix: ```' + header + snippet_number + '```\n```js\n')
             snippets.write('    "' + title.title() + ' ' + header + snippet_number + '": {\n')
-            snippets.write('        "prefix": "' + header + ' ' + snippet_number + '",\n')
+            snippets.write('        "prefix": "' + header + snippet_number + '",\n')
             snippets.write('        "scope": "javascript,javascriptreact",\n')
             snippets.write('        "body": [\n')           
             line_index += 1 # increment line index
