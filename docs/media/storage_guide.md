@@ -147,14 +147,27 @@ Storage.configure({
 
 Puts data into Amazon S3.
 
-Public bucket:
+Public level:
+
 ```js
 Storage.put('test.txt', 'Hello')
     .then (result => console.log(result))
     .catch(err => console.log(err));
 ```
 
-Private bucket:
+Protected level:
+
+```js
+Storage.put('test.txt', 'Protected Content', {
+    level: 'protected',
+    contentType: 'text/plain'
+})
+.then (result => console.log(result))
+.catch(err => console.log(err));
+```
+
+Private level:
+
 ```js
 Storage.put('test.txt', 'Private Content', {
     level: 'private',
@@ -164,30 +177,32 @@ Storage.put('test.txt', 'Private Content', {
 .catch(err => console.log(err));
 ```
 
-Upload an image from browser:
+Upload an image in the browser:
+
 ```js
 class S3ImageUpload extends React.Component {
-    function onChange(e) {
-        const file = e.target.files[0];
-        Storage.put('example.png', file, {
-            contentType: 'image/png'
-        })
-        .then (result => console.log(result))
-        .catch(err => console.log(err));
-    }
+  onChange(e) {
+      const file = e.target.files[0];
+      Storage.put('example.png', file, {
+          contentType: 'image/png'
+      })
+      .then (result => console.log(result))
+      .catch(err => console.log(err));
+  }
 
-    render() {
-        return ()
-            <input
-                type="file" accept='image/png'
-                onChange={(e) => this.onChange(e)}
-            />
-        )
-    }
+  render() {
+      return (
+          <input
+              type="file" accept='image/png'
+              onChange={(e) => this.onChange(e)}
+          />
+      )
+  }
 }
 ```
 
-Upload an image from react-native app:
+Upload an image in React Native app:
+
 ```js
 import RNFetchBlob from 'react-native-fetch-blob';
 
@@ -204,18 +219,38 @@ readFile(imagePath).then(buffer => {
 });
 ```
 
+When a networking error happens during the upload, Storage module retries upload for a maximum of  4 attempts. If the upload fails after all retries, you will get an error.
+{: .callout .callout--info}
+
 #### Get
 
 Retrieves a publicly accessible URL for data stored.
 
-Public bucket:
+Public level:
 ```js
 Storage.get('test.txt')
     .then(result => console.log(result))
     .catch(err => console.log(err));
 ```
 
-Private bucket:
+Protected level:
+To get current user's objects
+```js
+Storage.get('test.txt', { level: 'protected' })
+    .then(result => console.log(result))
+    .catch(err => console.log(err));
+```
+To get other users' objects
+```js
+Storage.get('test.txt', { 
+    level: 'protected', 
+    identityId: 'xxxxxxx' // the identityId of that user
+})
+.then(result => console.log(result))
+.catch(err => console.log(err));
+```
+
+Private level:
 ```js
 Storage.get('test.txt', {level: 'private'})
     .then(result => console.log(result))
@@ -233,14 +268,21 @@ Storage.get('test.txt', {expires: 60})
 
 Delete stored data from the storage bucket.
 
-Public
+Public level: 
 ```js
 Storage.remove('test.txt')
     .then(result => console.log(result))
     .catch(err => console.log(err));
 ```
 
-Private
+Protected level: 
+```js
+Storage.remove('test.txt', {level: 'protected'})
+    .then(result => console.log(result))
+    .catch(err => console.log(err));
+```
+
+Private level:
 ```js
 Storage.remove('test.txt', {level: 'private'})
     .then(result => console.log(result))
@@ -251,19 +293,37 @@ Storage.remove('test.txt', {level: 'private'})
 
 List keys under path specified.
 
-Public
+Public level:
 ```js
 Storage.list('photos/')
     .then(result => console.log(result))
     .catch(err => console.log(err));
 ```
 
-Private
+Protected level:
+To list current user's objects
+```js
+Storage.list('photos/', { level: 'protected' })
+    .then(result => console.log(result))
+    .catch(err => console.log(err));
+```
+To get other users' objects
+```js
+Storage.list('photos/', { 
+    level: 'protected', 
+    identityId: 'xxxxxxx' // the identityId of that user
+})
+.then(result => console.log(result))
+.catch(err => console.log(err));
+```
+
+Private level:
 ```js
 Storage.list('photos/', {level: 'private'})
     .then(result => console.log(result))
     .catch(err => console.log(err));
 ```
+
 
 #### API Reference
 

@@ -3,7 +3,7 @@
 
 # Angular
 
-AWS Amplify provides Angular Components with `aws-amplify-angular` npm package.
+AWS Amplify provides Angular Components with [aws-amplify-angular](https://www.npmjs.com/package/aws-amplify-angular) npm package.
 
 ## Installation and Configuration
 
@@ -25,7 +25,7 @@ $ npm install -g awsmobile-cli
 $ awsmobile init
 $ awsmobile user-signin enable
 $ awsmobile user-files enable
-$ awsmobile push # Update your backend
+$ awsmobile push # Updates your backend
 ```
 
 After creating your backend, the configuration file is copied to `/awsmobilejs/#current-backend-info/aws-exports.js`, and the source folder you have identified in the `awmobile init` command.
@@ -43,7 +43,7 @@ Import the configuration file and load it in your `main.ts`, which is the entry 
 ```js
 import Amplify from 'aws-amplify';
 import awsmobile from './aws-exports';
-Amplify.configure(aws_exports);
+Amplify.configure(awsmobile);
 ```
 
 When working with underlying `aws-js-sdk`, the "node" package should be included in *types* compiler option. Please make sure that you edit `tsconfig.app.json` file in your source file folder, e.g. *src/tsconfig.app.json*.
@@ -263,3 +263,24 @@ onAlbumImageSelected( event ) {
 ### Custom Styles
 
 You can use custom styling for AWS Amplify components. Just import your custom *styles.css* that overrides the default styles which can be found in `/node_modules/aws-amplify-angular/theme.css`.
+
+## Angular 6 Support
+
+Currently, the newest version of Angular (6.x) does not provide the shim for the  `global` object, which was provided in previous versions. Specific AWS Amplify dependencies rely on this shim.  While we evaluate the best path forward to address this issue, you have a couple of options for re-creating the shim in your Angular 6 app to make it compatible with Amplify.
+
+1.  Add the following to your polyfills.ts: ```(window as any).global = window;```.
+
+2.  Add the following script to your index.html ```<head>``` tag:
+``` 
+    <script>
+        if (global === undefined) {
+            var global = window;
+        }
+    </script>
+  ```
+
+## Tutorials
+
+Learn more with tutorials:
+
+- [How to use AWS Amplify and Angular to Build Cloud Enabled JavaScript Applications](https://medium.freecodecamp.org/building-cloud-enabled-javascript-applications-with-aws-amplify-angular-682547fc6477){: target='_new'}

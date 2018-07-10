@@ -65,10 +65,18 @@ AWS Amplify is available as an npm package. Run the following commands at the ro
 
 <div class="nav-tab install" data-group='install'>
 <ul class="tabs">
+    <li class="tab-link angular" data-tab="angular">Angular</li>
+    <li class="tab-link purejs" data-tab="purejs">JavaScript (no library)</li>
     <li class="tab-link react current" data-tab="react">React</li>
     <li class="tab-link react-native" data-tab="react-native">React Native</li>
-    <li class="tab-link angular" data-tab="angular">Angular</li>
 </ul>
+<div id="purejs" class="tab-content">
+
+```bash
+$ npm install --save aws-amplify
+```
+
+</div>
 <div id="react" class="tab-content current">
 
 ```bash
@@ -141,6 +149,14 @@ $ awsmobile configure
 ```
 
 If prompted for credentials, follow the steps provided by the CLI. For more information, see [Provide IAM credentials to AWS Mobile CLI](https://docs.aws.amazon.com/aws-mobile/latest/developerguide/aws-mobile-cli-credentials.html){:target="_blank"}.
+
+AWS Mobile CLI uses `yarn` package manager to install dependencies. You can install `yarn` with npm:
+
+```bash
+$ npm install -g yarn
+```
+
+Please see other [installation options for *yarn*](https://yarnpkg.com/en/docs/install) for more information.
 
 ## Set up Your Backend
 
@@ -249,6 +265,28 @@ Amplify.configure(aws_exports);
 
 If you used Manual Setup with existing AWS Resources, you will need to call `Amplify.configure()` with your custom configuration details as described in *Manual Setup* section.
 
+### Using with Script Tag
+
+If you are importing AWS Amplify library with a **HTML script tag**, please add the following definition in your code, and access categories with `Amplify` prefix, e.g., **Amplify.Analytics.configure** instead of **Analytics.configure**:
+
+```js
+const Amplify = window['aws-amplify'];
+
+Amplify.Analytics.configure({
+    // ....
+ });
+```
+
+See a sample app which uses script tag [here](https://jsfiddle.net/0gmqtq7g/226/).
+
+### Using with TypeScript
+
+If you are using TypeScript, importing the configuration file is done differently. You can rename **aws-exports.js** to **aws-exports.ts** and use import statement. Alternatively, you can use:
+
+```js
+const aws_exports = require('../../aws-exports').default;
+```
+
 ## Adding Services to Your Backend
 
 You can use the [awsmobile-cli](https://github.com/aws/awsmobile-cli) to manage your AWS backend.The `awsmobile features` command enables or disables services. 
@@ -265,6 +303,7 @@ $ awsmobile features
  ◯ database
  ◉ analytics
  ◉ hosting
+ ◯ appsync
 ```
 
 Remember to use `awsmobile push` to update your backend with the new configuration. This will refresh your `/src/aws-exports.js` file.
@@ -300,7 +339,7 @@ import { Analytics } from 'aws-amplify';
 
 This will record an **appRender** event every time a user launches your app.
 
-You can easily add custom analytics events to suit your purposes. For more information about Analytics Category, see [AWS Amplify Analytics Developer Guide]({%if jekyll.environment == 'production'%}{{site.amplify.baseurl}}{%endif%}/media/authentication_guide)
+You can easily add custom analytics events to suit your purposes. For more information about Analytics Category, see [AWS Amplify Analytics Developer Guide]({%if jekyll.environment == 'production'%}{{site.amplify.baseurl}}{%endif%}/media/analytics_guide)
 {: .callout .callout--info}
 
 ## Add User Authentication to Your App

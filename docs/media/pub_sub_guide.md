@@ -18,7 +18,7 @@ When used with `AwsIOTProvider`, PubSub is capable of signing request according 
 To use in your app, import `AWSIoTProvider`:
 
 ```js
-import { PubSub } from 'aws-amplify';
+import Amplify, { PubSub } from 'aws-amplify';
 import { AWSIoTProvider } from 'aws-amplify/lib/PubSub/Providers';
 ```
 
@@ -48,7 +48,7 @@ The next step is attaching the policy to your *Cognito Identity*.
 You can retrieve *Cognito Identity Id* from your `aws-exports.js` file in `aws_cognito_identity_pool_id` property. 
 
 Alternatively, you can retrieve the `Cognito Identity Id` of a logged in user with Auth Module:
-```
+```js
     Auth.currentCredentials().then((info) => {
       const cognitoIdentityId = info._identityId;
     });
