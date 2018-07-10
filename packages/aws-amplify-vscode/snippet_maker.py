@@ -16,7 +16,7 @@ snippets.write('{\n')
 
 # Loops through all guide pages
 for guide in guides:
-    snippet_index = 1 # counts number of snippets in each file for snippet naming
+    snippet_index = 1 # counts number of snippets in each section for snippet naming
     _guide_index = guide.find('_guide')
     title = guide[:_guide_index] # gets doc title for snippet naming
     
@@ -27,12 +27,22 @@ for guide in guides:
     
     line_index = 0 # index for which line is being used
     while line_index < len(lines):
+        # Finds most recent header
+        heading = title.title()
+        if lines[line_index][0] == '#':
+            snippet_index = 1
+            line = lines[line_index]
+            for char_index in range(len(line)):
+                if line[char_index].isalpha():
+                    header = line[char_index:len(line)-1].title()
+                    break
         # Finds start of javascript codeblock
         if lines[line_index] == '```js\n':
             # Adds beginning snippet formatting to doc file and snippet file
-            docs.write('##### prefix: ```' + title + ' ' + str(snippet_index) + '```\n```js\n')
-            snippets.write('    "' + title + ' ' + str(snippet_index) + '": {\n')
-            snippets.write('        "prefix": "' + title + ' ' + str(snippet_index) + '",\n')
+            snippet_number = '' if snippet_index == 1 else (' ' + str(snippet_index))
+            docs.write('##### prefix: ```' + header + ' ' + snippet_number + '```\n```js\n')
+            snippets.write('    "' + title.title() + ' ' + header + snippet_number + '": {\n')
+            snippets.write('        "prefix": "' + header + ' ' + snippet_number + '",\n')
             snippets.write('        "scope": "javascript,javascriptreact",\n')
             snippets.write('        "body": [\n')           
             line_index += 1 # increment line index
