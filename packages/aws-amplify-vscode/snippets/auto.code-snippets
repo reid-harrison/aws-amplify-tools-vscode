@@ -1,6 +1,6 @@
 {
-    "Analytics Automated Setup": {
-        "prefix": "Automated Setup",
+    "Amplify Analytics Automated Setup": {
+        "prefix": "Amplify Automated Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { Analytics } from 'aws-amplify';",
@@ -9,8 +9,8 @@
             "Amplify.configure(aws_exports);",
         ]
     },
-    "Analytics Manual Setup": {
-        "prefix": "Manual Setup",
+    "Amplify Analytics Manual Setup": {
+        "prefix": "Amplify Manual Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics } from 'aws-amplify';",
@@ -60,8 +60,8 @@
             "});",
         ]
     },
-    "Analytics Recording A Custom Tracking Event": {
-        "prefix": "Recording A Custom Tracking Event",
+    "Amplify Analytics Recording A Custom Tracking Event": {
+        "prefix": "Amplify Recording A Custom Tracking Event",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics } from 'aws-amplify';",
@@ -69,8 +69,8 @@
             "Analytics.record({ name: 'albumVisit' });",
         ]
     },
-    "Analytics Record A Custom Tracking Event With Attributes": {
-        "prefix": "Record A Custom Tracking Event With Attributes",
+    "Amplify Analytics Record A Custom Tracking Event With Attributes": {
+        "prefix": "Amplify Record A Custom Tracking Event With Attributes",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics } from 'aws-amplify';",
@@ -81,8 +81,8 @@
             "});",
         ]
     },
-    "Analytics Record Engagement Metrics": {
-        "prefix": "Record Engagement Metrics",
+    "Amplify Analytics Record Engagement Metrics": {
+        "prefix": "Amplify Record Engagement Metrics",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics } from 'aws-amplify';",
@@ -94,8 +94,8 @@
             "});",
         ]
     },
-    "Analytics Disable/Enable Analytics": {
-        "prefix": "Disable/Enable Analytics",
+    "Amplify Analytics Disable/Enable Analytics": {
+        "prefix": "Amplify Disable/Enable Analytics",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics } from 'aws-amplify';",
@@ -107,8 +107,8 @@
             "Analytics.enable();",
         ]
     },
-    "Analytics Record Authentication Events": {
-        "prefix": "Record Authentication Events",
+    "Amplify Analytics Record Authentication Events": {
+        "prefix": "Amplify Record Authentication Events",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics } from 'aws-amplify';",
@@ -129,8 +129,8 @@
             "});",
         ]
     },
-    "Analytics Update User Attributes": {
-        "prefix": "Update User Attributes",
+    "Amplify Analytics Update User Attributes": {
+        "prefix": "Amplify Update User Attributes",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics } from 'aws-amplify';",
@@ -151,8 +151,8 @@
             "})",
         ]
     },
-    "Analytics Installation And Configuration": {
-        "prefix": "Installation And Configuration",
+    "Amplify Analytics Installation And Configuration": {
+        "prefix": "Amplify Installation And Configuration",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics, AWSKinesisProvider } from 'aws-amplify';",
@@ -160,8 +160,8 @@
             "",
         ]
     },
-    "Analytics Installation And Configuration 2": {
-        "prefix": "Installation And Configuration 2",
+    "Amplify Analytics Installation And Configuration 2": {
+        "prefix": "Amplify Installation And Configuration 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "",
@@ -188,8 +188,8 @@
             "",
         ]
     },
-    "Analytics Working With The Api": {
-        "prefix": "Working With The Api",
+    "Amplify Analytics Working With The Api": {
+        "prefix": "Amplify Working With The Api",
         "scope": "javascript,javascriptreact",
         "body": [
             "Analytics.record({",
@@ -202,8 +202,8 @@
             "}, 'AWSKinesis');",
         ]
     },
-    "Analytics Using A Custom Plugin": {
-        "prefix": "Using A Custom Plugin",
+    "Amplify Analytics Using A Custom Plugin": {
+        "prefix": "Amplify Using A Custom Plugin",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Analytics, AnalyticsProvider } from 'aws-amplify';",
@@ -228,8 +228,8 @@
             "}",
         ]
     },
-    "Analytics Using A Custom Plugin 2": {
-        "prefix": "Using A Custom Plugin 2",
+    "Amplify Analytics Using A Custom Plugin 2": {
+        "prefix": "Amplify Using A Custom Plugin 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "// add the plugin",
@@ -250,8 +250,8 @@
             "",
         ]
     },
-    "Angular Setup": {
-        "prefix": "Setup",
+    "Amplify Angular Setup": {
+        "prefix": "Amplify Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "\"scripts\": {",
@@ -260,8 +260,8 @@
             "}",
         ]
     },
-    "Angular Setup 2": {
-        "prefix": "Setup 2",
+    "Amplify Angular Setup 2": {
+        "prefix": "Amplify Setup 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify from 'aws-amplify';",
@@ -269,8 +269,8 @@
             "Amplify.configure(awsmobile);",
         ]
     },
-    "Angular Setup 3": {
-        "prefix": "Setup 3",
+    "Amplify Angular Setup 3": {
+        "prefix": "Amplify Setup 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "\"defaults\": {",
@@ -282,8 +282,8 @@
             "}",
         ]
     },
-    "Angular Importing Amplify": {
-        "prefix": "Importing Amplify",
+    "Amplify Angular Importing Amplify": {
+        "prefix": "Amplify Importing Amplify",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';",
@@ -303,8 +303,8 @@
             "});",
         ]
     },
-    "Angular Using Dependency Injection": {
-        "prefix": "Using Dependency Injection",
+    "Amplify Angular Using Dependency Injection": {
+        "prefix": "Amplify Using Dependency Injection",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { AmplifyService } from 'aws-amplify-angular';",
@@ -320,8 +320,8 @@
             "...",
         ]
     },
-    "Angular Using Aws Amplify Categories": {
-        "prefix": "Using Aws Amplify Categories",
+    "Amplify Angular Using Aws Amplify Categories": {
+        "prefix": "Amplify Using Aws Amplify Categories",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Component } from '@angular/core';",
@@ -352,8 +352,8 @@
             "}",
         ]
     },
-    "Angular Usage Example: Subscribe To Authentication State Changes": {
-        "prefix": "Usage Example: Subscribe To Authentication State Changes",
+    "Amplify Angular Usage Example: Subscribe To Authentication State Changes": {
+        "prefix": "Amplify Usage Example: Subscribe To Authentication State Changes",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { AmplifyService }  from 'aws-amplify-angular';",
@@ -377,8 +377,8 @@
             "}",
         ]
     },
-    "Angular Photo Picker": {
-        "prefix": "Photo Picker",
+    "Amplify Angular Photo Picker": {
+        "prefix": "Amplify Photo Picker",
         "scope": "javascript,javascriptreact",
         "body": [
             "onImagePicked( file ) {",
@@ -395,8 +395,8 @@
             "}",
         ]
     },
-    "Angular S3 Album": {
-        "prefix": "S3 Album",
+    "Amplify Angular S3 Album": {
+        "prefix": "Amplify S3 Album",
         "scope": "javascript,javascriptreact",
         "body": [
             "onAlbumImageSelected( event ) {",
@@ -404,8 +404,8 @@
             "}",
         ]
     },
-    "Api Automated Setup": {
-        "prefix": "Automated Setup",
+    "Amplify Api Automated Setup": {
+        "prefix": "Amplify Automated Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { API } from 'aws-amplify';",
@@ -414,8 +414,8 @@
             "Amplify.configure(aws_exports);",
         ]
     },
-    "Api Manual Setup": {
-        "prefix": "Manual Setup",
+    "Amplify Api Manual Setup": {
+        "prefix": "Amplify Manual Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { API } from 'aws-amplify';",
@@ -453,8 +453,8 @@
             "});",
         ]
     },
-    "Api Aws Regional Endpoints": {
-        "prefix": "Aws Regional Endpoints",
+    "Amplify Api Aws Regional Endpoints": {
+        "prefix": "Amplify Aws Regional Endpoints",
         "scope": "javascript,javascriptreact",
         "body": [
             "API: {",
@@ -469,8 +469,8 @@
             "}",
         ]
     },
-    "Api Get**": {
-        "prefix": "Get**",
+    "Amplify Api Get**": {
+        "prefix": "Amplify Get**",
         "scope": "javascript,javascriptreact",
         "body": [
             "let apiName = 'MyApiName';",
@@ -487,8 +487,8 @@
             "});",
         ]
     },
-    "Api Get** 2": {
-        "prefix": "Get** 2",
+    "Amplify Api Get** 2": {
+        "prefix": "Amplify Get** 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "async function getData() { ",
@@ -503,8 +503,8 @@
             "getData();",
         ]
     },
-    "Api Get** 3": {
-        "prefix": "Get** 3",
+    "Amplify Api Get** 3": {
+        "prefix": "Amplify Get** 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "let items = await API.get('myCloudApi', '/items', {",
@@ -514,8 +514,8 @@
             "});",
         ]
     },
-    "Api Get** 4": {
-        "prefix": "Get** 4",
+    "Amplify Api Get** 4": {
+        "prefix": "Amplify Get** 4",
         "scope": "javascript,javascriptreact",
         "body": [
             "exports.handler = function(event, context, callback) {",
@@ -523,16 +523,16 @@
             "}",
         ]
     },
-    "Api Get** 5": {
-        "prefix": "Get** 5",
+    "Amplify Api Get** 5": {
+        "prefix": "Amplify Get** 5",
         "scope": "javascript,javascriptreact",
         "body": [
             "var awsServerlessExpressMiddleware = require('aws-serverless-express/middleware')",
             "app.use(awsServerlessExpressMiddleware.eventContext())",
         ]
     },
-    "Api Get** 6": {
-        "prefix": "Get** 6",
+    "Amplify Api Get** 6": {
+        "prefix": "Amplify Get** 6",
         "scope": "javascript,javascriptreact",
         "body": [
             "app.get('/items', function(req, res) {",
@@ -541,15 +541,15 @@
             "});",
         ]
     },
-    "Api Get** 7": {
-        "prefix": "Get** 7",
+    "Amplify Api Get** 7": {
+        "prefix": "Amplify Get** 7",
         "scope": "javascript,javascriptreact",
         "body": [
             "API.get('sampleCloudApi', '/items?q=test');",
         ]
     },
-    "Api Post**": {
-        "prefix": "Post**",
+    "Amplify Api Post**": {
+        "prefix": "Amplify Post**",
         "scope": "javascript,javascriptreact",
         "body": [
             "let apiName = 'MyApiName'; // replace this with your api name.",
@@ -566,8 +566,8 @@
             "});",
         ]
     },
-    "Api Post** 2": {
-        "prefix": "Post** 2",
+    "Amplify Api Post** 2": {
+        "prefix": "Amplify Post** 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "async function postData() { ",
@@ -583,8 +583,8 @@
             "postData();",
         ]
     },
-    "Api Put**": {
-        "prefix": "Put**",
+    "Amplify Api Put**": {
+        "prefix": "Amplify Put**",
         "scope": "javascript,javascriptreact",
         "body": [
             "let apiName = 'MyApiName'; // replace this with your api name.",
@@ -601,8 +601,8 @@
             "});",
         ]
     },
-    "Api Put** 2": {
-        "prefix": "Put** 2",
+    "Amplify Api Put** 2": {
+        "prefix": "Amplify Put** 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "async function putData() { ",
@@ -618,8 +618,8 @@
             "putData();",
         ]
     },
-    "Api Put** 3": {
-        "prefix": "Put** 3",
+    "Amplify Api Put** 3": {
+        "prefix": "Amplify Put** 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "const params = {",
@@ -631,8 +631,8 @@
             "const apiResponse = await API.put('MyTableCRUD', '/manage-items', params);",
         ]
     },
-    "Api Delete**": {
-        "prefix": "Delete**",
+    "Amplify Api Delete**": {
+        "prefix": "Amplify Delete**",
         "scope": "javascript,javascriptreact",
         "body": [
             "let apiName = 'MyApiName'; // replace this with your api name.",
@@ -648,8 +648,8 @@
             "});",
         ]
     },
-    "Api Delete** 2": {
-        "prefix": "Delete** 2",
+    "Amplify Api Delete** 2": {
+        "prefix": "Amplify Delete** 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "async function deleteData() { ",
@@ -664,8 +664,8 @@
             "deleteData();",
         ]
     },
-    "Api Head**": {
-        "prefix": "Head**",
+    "Amplify Api Head**": {
+        "prefix": "Amplify Head**",
         "scope": "javascript,javascriptreact",
         "body": [
             "let apiName = 'MyApiName'; // replace this with your api name.",
@@ -678,8 +678,8 @@
             "});",
         ]
     },
-    "Api Head** 2": {
-        "prefix": "Head** 2",
+    "Amplify Api Head** 2": {
+        "prefix": "Amplify Head** 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "async function head() { ",
@@ -694,8 +694,8 @@
             "head();",
         ]
     },
-    "Api Custom Request Headers": {
-        "prefix": "Custom Request Headers",
+    "Amplify Api Custom Request Headers": {
+        "prefix": "Amplify Custom Request Headers",
         "scope": "javascript,javascriptreact",
         "body": [
             "Amplify.configure({",
@@ -715,8 +715,8 @@
             "});",
         ]
     },
-    "Api Configuration For Graphql Server": {
-        "prefix": "Configuration For Graphql Server",
+    "Amplify Api Configuration For Graphql Server": {
+        "prefix": "Amplify Configuration For Graphql Server",
         "scope": "javascript,javascriptreact",
         "body": [
             "",
@@ -735,8 +735,8 @@
             "",
         ]
     },
-    "Api Set Custom Request Headers For Graphql ": {
-        "prefix": "Set Custom Request Headers For Graphql ",
+    "Amplify Api Set Custom Request Headers For Graphql ": {
+        "prefix": "Amplify Set Custom Request Headers For Graphql ",
         "scope": "javascript,javascriptreact",
         "body": [
             "Amplify.configure({",
@@ -748,16 +748,16 @@
             "});",
         ]
     },
-    "Api Automated Configuration With Cli": {
-        "prefix": "Automated Configuration With Cli",
+    "Amplify Api Automated Configuration With Cli": {
+        "prefix": "Amplify Automated Configuration With Cli",
         "scope": "javascript,javascriptreact",
         "body": [
             "import aws_config from \"./aws-exports\";",
             "Amplify.configure(aws_config);",
         ]
     },
-    "Api Using Api_Key": {
-        "prefix": "Using Api_Key",
+    "Amplify Api Using Api_Key": {
+        "prefix": "Amplify Using Api_Key",
         "scope": "javascript,javascriptreact",
         "body": [
             "let myAppConfig = {",
@@ -772,8 +772,8 @@
             "Amplify.configure(myAppConfig);",
         ]
     },
-    "Api Using Aws_Iam": {
-        "prefix": "Using Aws_Iam",
+    "Amplify Api Using Aws_Iam": {
+        "prefix": "Amplify Using Aws_Iam",
         "scope": "javascript,javascriptreact",
         "body": [
             "let myAppConfig = {",
@@ -787,8 +787,8 @@
             "Amplify.configure(myAppConfig);",
         ]
     },
-    "Api Using Amazon_Cognito_User_Pools": {
-        "prefix": "Using Amazon_Cognito_User_Pools",
+    "Amplify Api Using Amazon_Cognito_User_Pools": {
+        "prefix": "Amplify Using Amazon_Cognito_User_Pools",
         "scope": "javascript,javascriptreact",
         "body": [
             "let myAppConfig = {",
@@ -802,8 +802,8 @@
             "Amplify.configure(myAppConfig);",
         ]
     },
-    "Api Using Openid_Connect": {
-        "prefix": "Using Openid_Connect",
+    "Amplify Api Using Openid_Connect": {
+        "prefix": "Amplify Using Openid_Connect",
         "scope": "javascript,javascriptreact",
         "body": [
             "let myAppConfig = {",
@@ -817,8 +817,8 @@
             "Amplify.configure(myAppConfig);",
         ]
     },
-    "Api Query Declarations": {
-        "prefix": "Query Declarations",
+    "Amplify Api Query Declarations": {
+        "prefix": "Amplify Query Declarations",
         "scope": "javascript,javascriptreact",
         "body": [
             "const ListEvents = `query ListEvents {",
@@ -832,8 +832,8 @@
             "}`;",
         ]
     },
-    "Api Query Declarations 2": {
-        "prefix": "Query Declarations 2",
+    "Amplify Api Query Declarations 2": {
+        "prefix": "Amplify Query Declarations 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "const GetEvent = `query GetEvent(\\$id: ID! \\$nextToken: String) {",
@@ -850,8 +850,8 @@
             "}`;",
         ]
     },
-    "Api Simple Query": {
-        "prefix": "Simple Query",
+    "Amplify Api Simple Query": {
+        "prefix": "Amplify Simple Query",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { API, graphqlOperation } from \"aws-amplify\";",
@@ -888,8 +888,8 @@
             "",
         ]
     },
-    "Api Mutations": {
-        "prefix": "Mutations",
+    "Amplify Api Mutations": {
+        "prefix": "Amplify Mutations",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { API, graphqlOperation } from \"aws-amplify\";",
@@ -916,8 +916,8 @@
             "console.log(newEvent);",
         ]
     },
-    "Api Subscriptions": {
-        "prefix": "Subscriptions",
+    "Amplify Api Subscriptions": {
+        "prefix": "Amplify Subscriptions",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { API, graphqlOperation } from \"aws-amplify\";",
@@ -942,8 +942,8 @@
             "",
         ]
     },
-    "Api Subscriptions 2": {
-        "prefix": "Subscriptions 2",
+    "Amplify Api Subscriptions 2": {
+        "prefix": "Amplify Subscriptions 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Amplify.configure({",
@@ -963,8 +963,8 @@
             "});",
         ]
     },
-    "Api Signing Request With Iam": {
-        "prefix": "Signing Request With Iam",
+    "Amplify Api Signing Request With Iam": {
+        "prefix": "Amplify Signing Request With Iam",
         "scope": "javascript,javascriptreact",
         "body": [
             "Amplify.configure({",
@@ -975,8 +975,8 @@
             "});",
         ]
     },
-    "Api Connect": {
-        "prefix": "Connect",
+    "Amplify Api Connect": {
+        "prefix": "Amplify Connect",
         "scope": "javascript,javascriptreact",
         "body": [
             "import React from 'react';",
@@ -1020,8 +1020,8 @@
             "",
         ]
     },
-    "Api Connect 2": {
-        "prefix": "Connect 2",
+    "Amplify Api Connect 2": {
+        "prefix": "Amplify Connect 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "",
@@ -1037,8 +1037,8 @@
             "",
         ]
     },
-    "Api Connect 3": {
-        "prefix": "Connect 3",
+    "Amplify Api Connect 3": {
+        "prefix": "Amplify Connect 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "class CreateEvent extends React.Component {",
@@ -1053,8 +1053,8 @@
             "</Connect>",
         ]
     },
-    "Authentication Automated Setup": {
-        "prefix": "Automated Setup",
+    "Amplify Authentication Automated Setup": {
+        "prefix": "Amplify Automated Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { Auth } from 'aws-amplify';",
@@ -1062,8 +1062,8 @@
             "Amplify.configure(aws_exports);",
         ]
     },
-    "Authentication Manual Setup": {
-        "prefix": "Manual Setup",
+    "Amplify Authentication Manual Setup": {
+        "prefix": "Amplify Manual Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify from 'aws-amplify';",
@@ -1101,15 +1101,15 @@
             "});",
         ]
     },
-    "Authentication Node.Js Support": {
-        "prefix": "Node.Js Support",
+    "Amplify Authentication Node.Js Support": {
+        "prefix": "Amplify Node.Js Support",
         "scope": "javascript,javascriptreact",
         "body": [
             "global.fetch = require('node-fetch');",
         ]
     },
-    "Authentication Sign In": {
-        "prefix": "Sign In",
+    "Amplify Authentication Sign In": {
+        "prefix": "Amplify Sign In",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Auth } from 'aws-amplify';",
@@ -1127,8 +1127,8 @@
             "\t.catch(err => console.log(err));",
         ]
     },
-    "Authentication Sign Up": {
-        "prefix": "Sign Up",
+    "Amplify Authentication Sign Up": {
+        "prefix": "Amplify Sign Up",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Auth } from 'aws-amplify';",
@@ -1154,8 +1154,8 @@
             ".catch(err => console.log(err));",
         ]
     },
-    "Authentication Sign Out": {
-        "prefix": "Sign Out",
+    "Amplify Authentication Sign Out": {
+        "prefix": "Amplify Sign Out",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Auth } from 'aws-amplify';",
@@ -1165,8 +1165,8 @@
             "\t.catch(err => console.log(err));",
         ]
     },
-    "Authentication Change Password": {
-        "prefix": "Change Password",
+    "Amplify Authentication Change Password": {
+        "prefix": "Amplify Change Password",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Auth } from 'aws-amplify';",
@@ -1179,8 +1179,8 @@
             "\t.catch(err => console.log(err));",
         ]
     },
-    "Authentication Forgot Password": {
-        "prefix": "Forgot Password",
+    "Amplify Authentication Forgot Password": {
+        "prefix": "Amplify Forgot Password",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Auth } from 'aws-amplify';",
@@ -1195,16 +1195,16 @@
             "\t.catch(err => console.log(err));",
         ]
     },
-    "Authentication Retrieve Current Session": {
-        "prefix": "Retrieve Current Session",
+    "Amplify Authentication Retrieve Current Session": {
+        "prefix": "Amplify Retrieve Current Session",
         "scope": "javascript,javascriptreact",
         "body": [
             "let session = Auth.currentSession();",
             "// CognitoUserSession => { idToken, refreshToken, accessToken }",
         ]
     },
-    "Authentication Managing Security Tokens": {
-        "prefix": "Managing Security Tokens",
+    "Amplify Authentication Managing Security Tokens": {
+        "prefix": "Amplify Managing Security Tokens",
         "scope": "javascript,javascriptreact",
         "body": [
             "var data = { UserPoolId : 'us-east-1_resgd', ClientId : 'xyz' };",
@@ -1237,8 +1237,8 @@
             "",
         ]
     },
-    "Authentication Using Withauthenticator Hoc": {
-        "prefix": "Using Withauthenticator Hoc",
+    "Amplify Authentication Using Withauthenticator Hoc": {
+        "prefix": "Amplify Using Withauthenticator Hoc",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native';",
@@ -1246,8 +1246,8 @@
             "export default withAuthenticator(App);",
         ]
     },
-    "Authentication Enabling Federated Identities": {
-        "prefix": "Enabling Federated Identities",
+    "Amplify Authentication Enabling Federated Identities": {
+        "prefix": "Amplify Enabling Federated Identities",
         "scope": "javascript,javascriptreact",
         "body": [
             "const AppWithAuth = withAuthenticator(App);",
@@ -1261,8 +1261,8 @@
             "ReactDOM.render(<AppWithAuth federated={federated}/>, document.getElementById('root'));",
         ]
     },
-    "Authentication Enabling Federated Identities 2": {
-        "prefix": "Enabling Federated Identities 2",
+    "Amplify Authentication Enabling Federated Identities 2": {
+        "prefix": "Amplify Enabling Federated Identities 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Auth } from 'aws-amplify';",
@@ -1294,8 +1294,8 @@
             "});",
         ]
     },
-    "Authentication Enabling Federated Identities 3": {
-        "prefix": "Enabling Federated Identities 3",
+    "Amplify Authentication Enabling Federated Identities 3": {
+        "prefix": "Amplify Enabling Federated Identities 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Cache } from 'aws-amplify';",
@@ -1306,15 +1306,15 @@
             "});",
         ]
     },
-    "Authentication Rendering A Sign Out Button": {
-        "prefix": "Rendering A Sign Out Button",
+    "Amplify Authentication Rendering A Sign Out Button": {
+        "prefix": "Amplify Rendering A Sign Out Button",
         "scope": "javascript,javascriptreact",
         "body": [
             "export default withAuthenticator(App, { includeGreetings: true });",
         ]
     },
-    "Authentication Wrapping Your Component": {
-        "prefix": "Wrapping Your Component",
+    "Amplify Authentication Wrapping Your Component": {
+        "prefix": "Amplify Wrapping Your Component",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Authenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native'",
@@ -1335,15 +1335,15 @@
             "export default AppWithAuth;",
         ]
     },
-    "Authentication Show Your App After Sign-In": {
-        "prefix": "Show Your App After Sign-In",
+    "Amplify Authentication Show Your App After Sign-In": {
+        "prefix": "Amplify Show Your App After Sign-In",
         "scope": "javascript,javascriptreact",
         "body": [
             "this._validAuthStates = ['signedIn'];",
         ]
     },
-    "Authentication Federated Identities (Social Sign-In)": {
-        "prefix": "Federated Identities (Social Sign-In)",
+    "Amplify Authentication Federated Identities (Social Sign-In)": {
+        "prefix": "Amplify Federated Identities (Social Sign-In)",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Expo from 'expo';",
@@ -1380,8 +1380,8 @@
             "}",
         ]
     },
-    "Authentication Configuring The Hosted Ui": {
-        "prefix": "Configuring The Hosted Ui",
+    "Amplify Authentication Configuring The Hosted Ui": {
+        "prefix": "Amplify Configuring The Hosted Ui",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify from 'aws-amplify';",
@@ -1420,8 +1420,8 @@
             "});",
         ]
     },
-    "Authentication Launching The Hosted Ui": {
-        "prefix": "Launching The Hosted Ui",
+    "Amplify Authentication Launching The Hosted Ui": {
+        "prefix": "Amplify Launching The Hosted Ui",
         "scope": "javascript,javascriptreact",
         "body": [
             "const config = Auth.configure();",
@@ -1438,8 +1438,8 @@
             "window.location.assign(url);",
         ]
     },
-    "Authentication Launching The Hosted Ui In React ": {
-        "prefix": "Launching The Hosted Ui In React ",
+    "Amplify Authentication Launching The Hosted Ui In React ": {
+        "prefix": "Amplify Launching The Hosted Ui In React ",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { withOAuth } from 'aws-amplify-react';",
@@ -1497,8 +1497,8 @@
             "});",
         ]
     },
-    "Authentication Setup Mfa Type": {
-        "prefix": "Setup Mfa Type",
+    "Amplify Authentication Setup Mfa Type": {
+        "prefix": "Amplify Setup Mfa Type",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Auth } from 'aws-amplify';",
@@ -1517,8 +1517,8 @@
             "Auth.setPreferredMFA(user, 'NOMFA');",
         ]
     },
-    "Authentication Letting User Select Mfa Type": {
-        "prefix": "Letting User Select Mfa Type",
+    "Amplify Authentication Letting User Select Mfa Type": {
+        "prefix": "Amplify Letting User Select Mfa Type",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify from 'aws-amplify';",
@@ -1548,8 +1548,8 @@
             "export default withAuthenticator(App, true);",
         ]
     },
-    "Authentication Creating A Captcha": {
-        "prefix": "Creating A Captcha",
+    "Amplify Authentication Creating A Captcha": {
+        "prefix": "Amplify Creating A Captcha",
         "scope": "javascript,javascriptreact",
         "body": [
             "export const handler = async (event) => {",
@@ -1566,8 +1566,8 @@
             "};",
         ]
     },
-    "Authentication Defining A Custom Challange": {
-        "prefix": "Defining A Custom Challange",
+    "Amplify Authentication Defining A Custom Challange": {
+        "prefix": "Amplify Defining A Custom Challange",
         "scope": "javascript,javascriptreact",
         "body": [
             "export const handler = async (event) => {",
@@ -1590,8 +1590,8 @@
             "};",
         ]
     },
-    "Authentication Defining A Custom Challange 2": {
-        "prefix": "Defining A Custom Challange 2",
+    "Amplify Authentication Defining A Custom Challange 2": {
+        "prefix": "Amplify Defining A Custom Challange 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "export const handler = async (event, context) => {",
@@ -1605,8 +1605,8 @@
             "};",
         ]
     },
-    "Authentication Using A Custom Challange ": {
-        "prefix": "Using A Custom Challange ",
+    "Amplify Authentication Using A Custom Challange ": {
+        "prefix": "Amplify Using A Custom Challange ",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Auth } from 'aws-amplify';",
@@ -1625,8 +1625,8 @@
             "\t.catch(err => console.log(err));",
         ]
     },
-    "Authentication Working With User Attributes": {
-        "prefix": "Working With User Attributes",
+    "Amplify Authentication Working With User Attributes": {
+        "prefix": "Amplify Working With User Attributes",
         "scope": "javascript,javascriptreact",
         "body": [
             "Auth.signUp({",
@@ -1642,15 +1642,15 @@
             "});",
         ]
     },
-    "Authentication Working With User Attributes 2": {
-        "prefix": "Working With User Attributes 2",
+    "Amplify Authentication Working With User Attributes 2": {
+        "prefix": "Amplify Working With User Attributes 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "let user = await Auth.currentAuthenticatedUser();",
         ]
     },
-    "Authentication Working With User Attributes 3": {
-        "prefix": "Working With User Attributes 3",
+    "Amplify Authentication Working With User Attributes 3": {
+        "prefix": "Amplify Working With User Attributes 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "let result = await Auth.updateUserAttributes(user, {",
@@ -1660,15 +1660,15 @@
             "console.log(result); // SUCCESS",
         ]
     },
-    "Authentication Working With User Attributes 4": {
-        "prefix": "Working With User Attributes 4",
+    "Amplify Authentication Working With User Attributes 4": {
+        "prefix": "Amplify Working With User Attributes 4",
         "scope": "javascript,javascriptreact",
         "body": [
             "let result = await Auth.verifyCurrentUserAttributeSubmit('email', 'abc123');",
         ]
     },
-    "Authentication Working With Aws Service Objects": {
-        "prefix": "Working With Aws Service Objects",
+    "Amplify Authentication Working With Aws Service Objects": {
+        "prefix": "Amplify Working With Aws Service Objects",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Route53 from 'aws-sdk/clients/route53';",
@@ -1685,8 +1685,8 @@
             "})",
         ]
     },
-    "Authentication Customize `Withauthenticator`": {
-        "prefix": "Customize `Withauthenticator`",
+    "Amplify Authentication Customize `Withauthenticator`": {
+        "prefix": "Amplify Customize `Withauthenticator`",
         "scope": "javascript,javascriptreact",
         "body": [
             "import React, { Component } from 'react';",
@@ -1715,22 +1715,22 @@
             "]);",
         ]
     },
-    "Cache Working With The Api": {
-        "prefix": "Working With The Api",
+    "Amplify Cache Working With The Api": {
+        "prefix": "Amplify Working With The Api",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Cache } from 'aws-amplify';",
         ]
     },
-    "Cache Setitem()": {
-        "prefix": "Setitem()",
+    "Amplify Cache Setitem()": {
+        "prefix": "Amplify Setitem()",
         "scope": "javascript,javascriptreact",
         "body": [
             "Cache.setItem(key, value, [options]);",
         ]
     },
-    "Cache Setitem() 2": {
-        "prefix": "Setitem() 2",
+    "Amplify Cache Setitem() 2": {
+        "prefix": "Amplify Setitem() 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "// Standard case",
@@ -1744,23 +1744,23 @@
             "Cache.setItem('key', 'value', { expires: expiration.getTime() });",
         ]
     },
-    "Cache Setitem() 3": {
-        "prefix": "Setitem() 3",
+    "Amplify Cache Setitem() 3": {
+        "prefix": "Amplify Setitem() 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "Cache.setItem('mothersBirthday', 'July 18th', { priority: 1 });",
             "Cache.setItem('breakfastFoodOrder', 'Pancakes', { priority: 3 });",
         ]
     },
-    "Cache Getitem()": {
-        "prefix": "Getitem()",
+    "Amplify Cache Getitem()": {
+        "prefix": "Amplify Getitem()",
         "scope": "javascript,javascriptreact",
         "body": [
             "Cache.getItem(key[, options]);",
         ]
     },
-    "Cache Getitem() 2": {
-        "prefix": "Getitem() 2",
+    "Amplify Cache Getitem() 2": {
+        "prefix": "Amplify Getitem() 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "// Standard case",
@@ -1772,36 +1772,36 @@
             "Cache.getItem('key', { callback: callback });",
         ]
     },
-    "Cache Removeitem()": {
-        "prefix": "Removeitem()",
+    "Amplify Cache Removeitem()": {
+        "prefix": "Amplify Removeitem()",
         "scope": "javascript,javascriptreact",
         "body": [
             "Cache.removeItem(key);",
         ]
     },
-    "Cache Clear()": {
-        "prefix": "Clear()",
+    "Amplify Cache Clear()": {
+        "prefix": "Amplify Clear()",
         "scope": "javascript,javascriptreact",
         "body": [
             "Cache.clear();",
         ]
     },
-    "Cache Getallkeys()": {
-        "prefix": "Getallkeys()",
+    "Amplify Cache Getallkeys()": {
+        "prefix": "Amplify Getallkeys()",
         "scope": "javascript,javascriptreact",
         "body": [
             "Cache.getAllKeys();",
         ]
     },
-    "Cache Getcachecursize()": {
-        "prefix": "Getcachecursize()",
+    "Amplify Cache Getcachecursize()": {
+        "prefix": "Amplify Getcachecursize()",
         "scope": "javascript,javascriptreact",
         "body": [
             "const size = Cache.getCacheCurSize();",
         ]
     },
-    "Cache Configure()": {
-        "prefix": "Configure()",
+    "Amplify Cache Configure()": {
+        "prefix": "Amplify Configure()",
         "scope": "javascript,javascriptreact",
         "body": [
             "const config = {",
@@ -1815,8 +1815,8 @@
             "// But don't try to modify keyPrefix which is the identifier of Cache.",
         ]
     },
-    "Cache Createinstance()": {
-        "prefix": "Createinstance()",
+    "Amplify Cache Createinstance()": {
+        "prefix": "Amplify Createinstance()",
         "scope": "javascript,javascriptreact",
         "body": [
             "const config = {",
@@ -1828,22 +1828,22 @@
             "// Please provide a new keyPrefix which is the identifier of Cache.",
         ]
     },
-    "Hub Installation": {
-        "prefix": "Installation",
+    "Amplify Hub Installation": {
+        "prefix": "Amplify Installation",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Hub } from 'aws-amplify';",
         ]
     },
-    "Hub Dispatch()": {
-        "prefix": "Dispatch()",
+    "Amplify Hub Dispatch()": {
+        "prefix": "Amplify Dispatch()",
         "scope": "javascript,javascriptreact",
         "body": [
             "Hub.dispatch('auth', { event: 'signIn', data: user }, 'Auth');",
         ]
     },
-    "Hub Listen()": {
-        "prefix": "Listen()",
+    "Amplify Hub Listen()": {
+        "prefix": "Amplify Listen()",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Hub, Logger } from 'aws-amplify';",
@@ -1863,8 +1863,8 @@
             "}",
         ]
     },
-    "Hub Listening Authentication Events": {
-        "prefix": "Listening Authentication Events",
+    "Amplify Hub Listening Authentication Events": {
+        "prefix": "Amplify Listening Authentication Events",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Hub, Logger } from 'aws-amplify';",
@@ -1894,22 +1894,22 @@
             "Hub.listen('auth', alex);",
         ]
     },
-    "I18N Installation": {
-        "prefix": "Installation",
+    "Amplify I18N Installation": {
+        "prefix": "Amplify Installation",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { I18n } from 'aws-amplify';",
         ]
     },
-    "I18N Setlanguage()": {
-        "prefix": "Setlanguage()",
+    "Amplify I18N Setlanguage()": {
+        "prefix": "Amplify Setlanguage()",
         "scope": "javascript,javascriptreact",
         "body": [
             "I18n.setLanguage('fr');",
         ]
     },
-    "I18N Putvocabularies()": {
-        "prefix": "Putvocabularies()",
+    "Amplify I18N Putvocabularies()": {
+        "prefix": "Amplify Putvocabularies()",
         "scope": "javascript,javascriptreact",
         "body": [
             "const dict = {",
@@ -1926,15 +1926,15 @@
             "I18n.putVocabularies(dict);",
         ]
     },
-    "I18N Get()": {
-        "prefix": "Get()",
+    "Amplify I18N Get()": {
+        "prefix": "Amplify Get()",
         "scope": "javascript,javascriptreact",
         "body": [
             "I18n.get('Sign In');",
         ]
     },
-    "Interactions Automated Setup": {
-        "prefix": "Automated Setup",
+    "Amplify Interactions Automated Setup": {
+        "prefix": "Amplify Automated Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { Auth } from 'aws-amplify';",
@@ -1942,8 +1942,8 @@
             "Amplify.configure(aws_exports);",
         ]
     },
-    "Interactions Manual Setup": {
-        "prefix": "Manual Setup",
+    "Amplify Interactions Manual Setup": {
+        "prefix": "Amplify Manual Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify from 'aws-amplify';",
@@ -1965,15 +1965,15 @@
             "});",
         ]
     },
-    "Interactions Working With The Api": {
-        "prefix": "Working With The Api",
+    "Amplify Interactions Working With The Api": {
+        "prefix": "Amplify Working With The Api",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Interactions } from 'aws-amplify';",
         ]
     },
-    "Interactions Send() Method": {
-        "prefix": "Send() Method",
+    "Amplify Interactions Send() Method": {
+        "prefix": "Amplify Send() Method",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Interactions } from 'aws-amplify';",
@@ -1987,8 +1987,8 @@
             "console.log (response.message);",
         ]
     },
-    "Interactions Oncomplete() Method": {
-        "prefix": "Oncomplete() Method",
+    "Amplify Interactions Oncomplete() Method": {
+        "prefix": "Amplify Oncomplete() Method",
         "scope": "javascript,javascriptreact",
         "body": [
             "",
@@ -2005,8 +2005,8 @@
             "Interactions.onComplete(botName, handleComplete );",
         ]
     },
-    "Interactions Using With React": {
-        "prefix": "Using With React",
+    "Amplify Interactions Using With React": {
+        "prefix": "Amplify Using With React",
         "scope": "javascript,javascriptreact",
         "body": [
             "import React, { Component } from 'react';",
@@ -2073,16 +2073,16 @@
             "export default App;",
         ]
     },
-    "Logger Installation": {
-        "prefix": "Installation",
+    "Amplify Logger Installation": {
+        "prefix": "Amplify Installation",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Logger } from 'aws-amplify';",
             "",
         ]
     },
-    "Logger Working With The Api": {
-        "prefix": "Working With The Api",
+    "Amplify Logger Working With The Api": {
+        "prefix": "Amplify Working With The Api",
         "scope": "javascript,javascriptreact",
         "body": [
             "",
@@ -2094,8 +2094,8 @@
             "logger.error('error bar');",
         ]
     },
-    "Logger Working With The Api 2": {
-        "prefix": "Working With The Api 2",
+    "Amplify Logger Working With The Api 2": {
+        "prefix": "Amplify Working With The Api 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "try {",
@@ -2105,8 +2105,8 @@
             "}",
         ]
     },
-    "Logger Setting Logging Levels": {
-        "prefix": "Setting Logging Levels",
+    "Amplify Logger Setting Logging Levels": {
+        "prefix": "Amplify Setting Logging Levels",
         "scope": "javascript,javascriptreact",
         "body": [
             "const logger = new Logger('foo', 'INFO');",
@@ -2114,8 +2114,8 @@
             "logger.debug('callback data', data); // this will not write the message",
         ]
     },
-    "Logger Setting Logging Levels 2": {
-        "prefix": "Setting Logging Levels 2",
+    "Amplify Logger Setting Logging Levels 2": {
+        "prefix": "Amplify Setting Logging Levels 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Amplify.Logger.LOG_LEVEL = 'DEBUG';",
@@ -2125,23 +2125,23 @@
             "logger.debug('callback data', data); //  this will write the message since the global log level is 'DEBUG'",
         ]
     },
-    "Logger Setting Logging Levels 3": {
-        "prefix": "Setting Logging Levels 3",
+    "Amplify Logger Setting Logging Levels 3": {
+        "prefix": "Amplify Setting Logging Levels 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "window.LOG_LEVEL = 'DEBUG';",
         ]
     },
-    "Pub_Sub Aws Iot": {
-        "prefix": "Aws Iot",
+    "Amplify Pub_Sub Aws Iot": {
+        "prefix": "Amplify Aws Iot",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { PubSub } from 'aws-amplify';",
             "import { AWSIoTProvider } from 'aws-amplify/lib/PubSub/Providers';",
         ]
     },
-    "Pub_Sub Aws Iot 2": {
-        "prefix": "Aws Iot 2",
+    "Amplify Pub_Sub Aws Iot 2": {
+        "prefix": "Amplify Aws Iot 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "// Apply plugin with configuration",
@@ -2151,8 +2151,8 @@
             "}));",
         ]
     },
-    "Pub_Sub Aws Iot 3": {
-        "prefix": "Aws Iot 3",
+    "Amplify Pub_Sub Aws Iot 3": {
+        "prefix": "Amplify Aws Iot 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "\tAuth.currentCredentials().then((info) => {",
@@ -2160,16 +2160,16 @@
             "\t});",
         ]
     },
-    "Pub_Sub Third Party Mqtt Providers": {
-        "prefix": "Third Party Mqtt Providers",
+    "Amplify Pub_Sub Third Party Mqtt Providers": {
+        "prefix": "Amplify Third Party Mqtt Providers",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { PubSub } from 'aws-amplify';",
             "import { MqttOverWSProvider } from \"aws-amplify/lib/PubSub/Providers\";",
         ]
     },
-    "Pub_Sub Third Party Mqtt Providers 2": {
-        "prefix": "Third Party Mqtt Providers 2",
+    "Amplify Pub_Sub Third Party Mqtt Providers 2": {
+        "prefix": "Amplify Third Party Mqtt Providers 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "// Apply plugin with configuration",
@@ -2178,8 +2178,8 @@
             "}));",
         ]
     },
-    "Pub_Sub Subscribe To A Topic": {
-        "prefix": "Subscribe To A Topic",
+    "Amplify Pub_Sub Subscribe To A Topic": {
+        "prefix": "Amplify Subscribe To A Topic",
         "scope": "javascript,javascriptreact",
         "body": [
             "PubSub.subscribe('myTopic').subscribe({",
@@ -2189,8 +2189,8 @@
             "});",
         ]
     },
-    "Pub_Sub Subscribe To Multiple Topics": {
-        "prefix": "Subscribe To Multiple Topics",
+    "Amplify Pub_Sub Subscribe To Multiple Topics": {
+        "prefix": "Amplify Subscribe To Multiple Topics",
         "scope": "javascript,javascriptreact",
         "body": [
             "PubSub.subscribe(['myTopic1','myTopic1']).subscribe({",
@@ -2198,22 +2198,22 @@
             "});",
         ]
     },
-    "Pub_Sub Publish To A Topic": {
-        "prefix": "Publish To A Topic",
+    "Amplify Pub_Sub Publish To A Topic": {
+        "prefix": "Amplify Publish To A Topic",
         "scope": "javascript,javascriptreact",
         "body": [
             "await PubSub.publish('myTopic1', { msg: 'Hello to all subscribers!' });",
         ]
     },
-    "Pub_Sub Publish To A Topic 2": {
-        "prefix": "Publish To A Topic 2",
+    "Amplify Pub_Sub Publish To A Topic 2": {
+        "prefix": "Amplify Publish To A Topic 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "await PubSub.publish(['myTopic1','myTopic2'], { msg: 'Hello to all subscribers!' });",
         ]
     },
-    "Pub_Sub Unsubscribe From A Topic": {
-        "prefix": "Unsubscribe From A Topic",
+    "Amplify Pub_Sub Unsubscribe From A Topic": {
+        "prefix": "Amplify Unsubscribe From A Topic",
         "scope": "javascript,javascriptreact",
         "body": [
             "const sub1 = PubSub.subscribe('myTopicA').subscribe({",
@@ -2226,8 +2226,8 @@
             "// You will no longer get messages for 'myTopicA'",
         ]
     },
-    "Push_Notifications_Setup.M Setup For Ios": {
-        "prefix": "Setup For Ios",
+    "Amplify Push_Notifications_Setup.M Setup For Ios": {
+        "prefix": "Amplify Setup For Ios",
         "scope": "javascript,javascriptreact",
         "body": [
             "\\$ react-native init myapp",
@@ -2238,8 +2238,8 @@
             "\\$ react-native link aws-amplify-react-native",
         ]
     },
-    "Push_Notifications_Setup.M Configure Your App": {
-        "prefix": "Configure Your App",
+    "Amplify Push_Notifications_Setup.M Configure Your App": {
+        "prefix": "Amplify Configure Your App",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { PushNotificationIOS } from 'react-native';",
@@ -2262,8 +2262,8 @@
             "});",
         ]
     },
-    "Push_Notifications_Setup.M Configure Your App 2": {
-        "prefix": "Configure Your App 2",
+    "Amplify Push_Notifications_Setup.M Configure Your App 2": {
+        "prefix": "Amplify Configure Your App 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { PushNotificationIOS } from 'react-native';",
@@ -2277,8 +2277,8 @@
             "PushNotification.configure(aws_exports);",
         ]
     },
-    "Push_Notifications_Setup.M Working With The Api": {
-        "prefix": "Working With The Api",
+    "Amplify Push_Notifications_Setup.M Working With The Api": {
+        "prefix": "Amplify Working With The Api",
         "scope": "javascript,javascriptreact",
         "body": [
             "// get the notification data",
@@ -2296,8 +2296,8 @@
             "});",
         ]
     },
-    "Storage Automated Setup": {
-        "prefix": "Automated Setup",
+    "Amplify Storage Automated Setup": {
+        "prefix": "Amplify Automated Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify, { Storage } from 'aws-amplify';",
@@ -2305,8 +2305,8 @@
             "Amplify.configure(aws_exports);",
         ]
     },
-    "Storage Manual Setup": {
-        "prefix": "Manual Setup",
+    "Amplify Storage Manual Setup": {
+        "prefix": "Amplify Manual Setup",
         "scope": "javascript,javascriptreact",
         "body": [
             "import Amplify from 'aws-amplify';",
@@ -2326,8 +2326,8 @@
             "",
         ]
     },
-    "Storage File Access Levels": {
-        "prefix": "File Access Levels",
+    "Amplify Storage File Access Levels": {
+        "prefix": "Amplify File Access Levels",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.configure({ level: 'private' });",
@@ -2335,36 +2335,36 @@
             "Storage.get('welcome.png'); // Gets the welcome.png belongs to current user",
         ]
     },
-    "Storage File Access Levels 2": {
-        "prefix": "File Access Levels 2",
+    "Amplify Storage File Access Levels 2": {
+        "prefix": "Amplify File Access Levels 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get('welcome.png', { level: 'public' }); // Gets welcome.png in public space",
         ]
     },
-    "Storage File Access Levels 3": {
-        "prefix": "File Access Levels 3",
+    "Amplify Storage File Access Levels 3": {
+        "prefix": "Amplify File Access Levels 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get('welcome.png'); // Get welcome.png in public space",
         ]
     },
-    "Storage File Access Levels 4": {
-        "prefix": "File Access Levels 4",
+    "Amplify Storage File Access Levels 4": {
+        "prefix": "Amplify File Access Levels 4",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.vault.get('welcome.png'); // Get the welcome.png belonging to current user",
         ]
     },
-    "Storage Working With The Api": {
-        "prefix": "Working With The Api",
+    "Amplify Storage Working With The Api": {
+        "prefix": "Amplify Working With The Api",
         "scope": "javascript,javascriptreact",
         "body": [
             "import { Storage } from 'aws-amplify';",
         ]
     },
-    "Storage Working With The Api 2": {
-        "prefix": "Working With The Api 2",
+    "Amplify Storage Working With The Api 2": {
+        "prefix": "Amplify Working With The Api 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.configure({",
@@ -2374,8 +2374,8 @@
             "});",
         ]
     },
-    "Storage Put": {
-        "prefix": "Put",
+    "Amplify Storage Put": {
+        "prefix": "Amplify Put",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.put('test.txt', 'Hello')",
@@ -2383,8 +2383,8 @@
             "\t.catch(err => console.log(err));",
         ]
     },
-    "Storage Put 2": {
-        "prefix": "Put 2",
+    "Amplify Storage Put 2": {
+        "prefix": "Amplify Put 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.put('test.txt', 'Protected Content', {",
@@ -2395,8 +2395,8 @@
             ".catch(err => console.log(err));",
         ]
     },
-    "Storage Put 3": {
-        "prefix": "Put 3",
+    "Amplify Storage Put 3": {
+        "prefix": "Amplify Put 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.put('test.txt', 'Private Content', {",
@@ -2407,8 +2407,8 @@
             ".catch(err => console.log(err));",
         ]
     },
-    "Storage Put 4": {
-        "prefix": "Put 4",
+    "Amplify Storage Put 4": {
+        "prefix": "Amplify Put 4",
         "scope": "javascript,javascriptreact",
         "body": [
             "class S3ImageUpload extends React.Component {",
@@ -2432,8 +2432,8 @@
             "}",
         ]
     },
-    "Storage Put 5": {
-        "prefix": "Put 5",
+    "Amplify Storage Put 5": {
+        "prefix": "Amplify Put 5",
         "scope": "javascript,javascriptreact",
         "body": [
             "import RNFetchBlob from 'react-native-fetch-blob';",
@@ -2451,8 +2451,8 @@
             "});",
         ]
     },
-    "Storage Get": {
-        "prefix": "Get",
+    "Amplify Storage Get": {
+        "prefix": "Amplify Get",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get('test.txt')",
@@ -2460,8 +2460,8 @@
             "\t.catch(err => console.log(err));",
         ]
     },
-    "Storage Get 2": {
-        "prefix": "Get 2",
+    "Amplify Storage Get 2": {
+        "prefix": "Amplify Get 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get('test.txt', { level: 'protected' })",
@@ -2469,8 +2469,8 @@
             "\t.catch(err => console.log(err));",
         ]
     },
-    "Storage Get 3": {
-        "prefix": "Get 3",
+    "Amplify Storage Get 3": {
+        "prefix": "Amplify Get 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get('test.txt', { ",
@@ -2481,8 +2481,8 @@
             ".catch(err => console.log(err));",
         ]
     },
-    "Storage Get 4": {
-        "prefix": "Get 4",
+    "Amplify Storage Get 4": {
+        "prefix": "Amplify Get 4",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get('test.txt', {level: 'private'})",
@@ -2490,8 +2490,8 @@
             "\t.catch(err => console.log(err));",
         ]
     },
-    "Storage Get 5": {
-        "prefix": "Get 5",
+    "Amplify Storage Get 5": {
+        "prefix": "Amplify Get 5",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get('test.txt', {expires: 60})",
@@ -2499,8 +2499,8 @@
             "\t.catch(err => console.log(err));",
         ]
     },
-    "Storage Remove": {
-        "prefix": "Remove",
+    "Amplify Storage Remove": {
+        "prefix": "Amplify Remove",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.remove('test.txt')",
@@ -2508,8 +2508,8 @@
             "\t.catch(err => console.log(err));",
         ]
     },
-    "Storage Remove 2": {
-        "prefix": "Remove 2",
+    "Amplify Storage Remove 2": {
+        "prefix": "Amplify Remove 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.remove('test.txt', {level: 'protected'})",
@@ -2517,8 +2517,8 @@
             "\t.catch(err => console.log(err));",
         ]
     },
-    "Storage Remove 3": {
-        "prefix": "Remove 3",
+    "Amplify Storage Remove 3": {
+        "prefix": "Amplify Remove 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.remove('test.txt', {level: 'private'})",
@@ -2526,8 +2526,8 @@
             "\t.catch(err => console.log(err));",
         ]
     },
-    "Storage List": {
-        "prefix": "List",
+    "Amplify Storage List": {
+        "prefix": "Amplify List",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.list('photos/')",
@@ -2535,8 +2535,8 @@
             "\t.catch(err => console.log(err));",
         ]
     },
-    "Storage List 2": {
-        "prefix": "List 2",
+    "Amplify Storage List 2": {
+        "prefix": "Amplify List 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.list('photos/', { level: 'protected' })",
@@ -2544,8 +2544,8 @@
             "\t.catch(err => console.log(err));",
         ]
     },
-    "Storage List 3": {
-        "prefix": "List 3",
+    "Amplify Storage List 3": {
+        "prefix": "Amplify List 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.list('photos/', { ",
@@ -2556,8 +2556,8 @@
             ".catch(err => console.log(err));",
         ]
     },
-    "Storage List 4": {
-        "prefix": "List 4",
+    "Amplify Storage List 4": {
+        "prefix": "Amplify List 4",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.list('photos/', {level: 'private'})",
@@ -2565,22 +2565,22 @@
             "\t.catch(err => console.log(err));",
         ]
     },
-    "Storage Tracking Events": {
-        "prefix": "Tracking Events",
+    "Amplify Storage Tracking Events": {
+        "prefix": "Amplify Tracking Events",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.configure({ track: true })",
         ]
     },
-    "Storage Tracking Events 2": {
-        "prefix": "Tracking Events 2",
+    "Amplify Storage Tracking Events 2": {
+        "prefix": "Amplify Tracking Events 2",
         "scope": "javascript,javascriptreact",
         "body": [
             "Storage.get('welcome.png', { track: true });",
         ]
     },
-    "Storage Customize Upload Path ": {
-        "prefix": "Customize Upload Path ",
+    "Amplify Storage Customize Upload Path ": {
+        "prefix": "Amplify Customize Upload Path ",
         "scope": "javascript,javascriptreact",
         "body": [
             "const customPrefix: {",
