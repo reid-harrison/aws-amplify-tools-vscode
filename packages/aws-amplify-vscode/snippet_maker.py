@@ -1,7 +1,3 @@
-# import packages - CHANGE FOR GITHUB
-import sys, os
-sys.path.append('/Library/Python/2.7/site-packages')
-from Naked.toolshed.shell import execute_js, muterun_js
 # List of guide files to search
 guides = ['analytics_guide.md','angular_guide.md','api_guide.md','authentication_guide.md','cache_guide.md','hub_guide.md','i18n_guide.md','interactions_guide.md','logger_guide.md','pub_sub_guide.md','push_notifications_setup.md','storage_guide.md']
 
@@ -13,9 +9,6 @@ snippets = open('snippets/auto.code-snippets','w')
 
 # Opens documentation file
 docs = open('auto_snippet_documentation.md','w')
-
-# Opens docs code file
-docs_code = open('docs_code.js','w')
 
 # Starts writing files
 docs.write('# Automatically Generated Snippet Documentation\n')
@@ -61,8 +54,6 @@ for guide in guides:
                 # Adds lines to snippet
                 while lines[line_index] != '```\n': # executes until end of code block
                     docs.write(lines[line_index]) # writes line directly to doc
-                    if language == 'js':
-                        docs_code.write(lines[line_index]) # writes line directly to docs_code
                     line_str = '            "'
                     # Adds \t's to snippet
                     space_count = 0
@@ -90,19 +81,9 @@ for guide in guides:
                 docs.write('```\n')
                 snippets.write('        ]\n')
                 snippets.write('    },\n')
-                docs_code.write('\n')
                 snippet_index += 1
         line_index += 1 # increment line index
 # Close snippet file and doc file           
 snippets.write('}')
 snippets.close()
 docs.close()
-docs_code.close()
-
-# Run JSHint file
-success = execute_js('test_docs.js')
-
-if success:
-    print ('success')
-else:
-    print ('fail')

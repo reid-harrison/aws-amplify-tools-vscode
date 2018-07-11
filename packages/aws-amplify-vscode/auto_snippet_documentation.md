@@ -420,8 +420,8 @@ API: {
 let apiName = 'MyApiName';
 let path = '/path'; 
 let myInit = { // OPTIONAL
-    headers: {} // OPTIONAL
-    response: true // OPTIONAL (return entire response object instead of response.data)
+    headers: {}, // OPTIONAL
+    response: true, // OPTIONAL (return entire response object instead of response.data)
     queryStringParameters: {} // OPTIONAL
 }
 API.get(apiName, path, myInit).then(response => {
