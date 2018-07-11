@@ -47,7 +47,7 @@
             "\t\t// OPTIONAL - The buffer size for events in number of items.",
             "\t\tbufferSize: 1000,",
             "",
-            "\t\t// OPTIONAL - The interval in milisecons to perform a buffer check and flush if necessary.",
+            "\t\t// OPTIONAL - The interval in milliseconds to perform a buffer check and flush if necessary.",
             "\t\tflushInterval: 5000, // 5s ",
             "",
             "\t\t// OPTIONAL - The number of events to be deleted from the buffer when flushed.",
@@ -55,7 +55,6 @@
             "",
             "\t\t// OPTIONAL - The limit for failed recording retries.",
             "\t\tresendLimit: 5",
-            "\t\t}",
             "\t} ",
             "});",
         ]
@@ -162,6 +161,25 @@
     },
     "Amplify Analytics Installation And Configuration 2": {
         "prefix": "Amplify Installation And Configuration 2",
+        "scope": "json",
+        "body": [
+            "{",
+            "\t\"Version\": \"2012-10-17\",",
+            "\t\"Statement\": [",
+            "\t\t{",
+            "\t\t\t\"Effect\": \"Allow\",",
+            "\t\t\t\"Action\": [",
+            "\t\t\t\t\"kinesis:PutRecord\",",
+            "\t\t\t\t\"kinesis:PutRecords\"",
+            "\t\t\t],",
+            "\t\t\t\"Resource\": \"*\"",
+            "\t\t}",
+            "\t]",
+            "}",
+        ]
+    },
+    "Amplify Analytics Installation And Configuration 3": {
+        "prefix": "Amplify Installation And Configuration 3",
         "scope": "javascript,javascriptreact",
         "body": [
             "",
@@ -172,14 +190,14 @@
             "\t\t// OPTIONAL -  Amazon Kinesis service region",
             "\t\tregion: 'XX-XXXX-X',",
             "\t\t",
-            "\t\t// OPTIONAL - The interval in milisecons to perform a buffer check and flush if necessary.",
-            "\t\tbufferSize: 1000",
+            "\t\t// OPTIONAL - The buffer size for events in number of items.",
+            "\t\tbufferSize: 1000,",
             "\t\t",
             "\t\t// OPTIONAL - The number of events to be deleted from the buffer when flushed.",
-            "\t\tflushSize: 100",
+            "\t\tflushSize: 100,",
             "\t\t",
             "\t\t// OPTIONAL - The interval in milliseconds to perform a buffer check and flush if necessary.",
-            "\t\tflushInterval: 5000 // 5s",
+            "\t\tflushInterval: 5000, // 5s",
             "\t\t",
             "\t\t// OPTIONAL - The limit for failed recording retries.",
             "\t\tresendLimit: 5",
@@ -204,7 +222,7 @@
     },
     "Amplify Analytics Using A Custom Plugin": {
         "prefix": "Amplify Using A Custom Plugin",
-        "scope": "javascript,javascriptreact",
+        "scope": "typescript",
         "body": [
             "import { Analytics, AnalyticsProvider } from 'aws-amplify';",
             "",
@@ -252,7 +270,7 @@
     },
     "Amplify Angular Setup": {
         "prefix": "Amplify Setup",
-        "scope": "javascript,javascriptreact",
+        "scope": "json",
         "body": [
             "\"scripts\": {",
             "\t\"start\": \"[ -f src/aws-exports.js ] && mv src/aws-exports.js src/aws-exports.ts || ng serve; ng serve\",",
@@ -271,6 +289,15 @@
     },
     "Amplify Angular Setup 3": {
         "prefix": "Amplify Setup 3",
+        "scope": "json",
+        "body": [
+            "\"compilerOptions\": {",
+            "\t\"types\" : [\"node\"]",
+            "}",
+        ]
+    },
+    "Amplify Angular Setup 4": {
+        "prefix": "Amplify Setup 4",
         "scope": "javascript,javascriptreact",
         "body": [
             "\"defaults\": {",
