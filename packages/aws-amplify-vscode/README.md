@@ -18,7 +18,7 @@ The snippets options that pop up are based on the prefix that you type. For the 
 
 Full code blocks from the documentation guides: https://github.com/tommypraeger/aws-amplify-tools-vscode/wiki/Full-Code-Block-Snippets
 
-Selected code segments from the documentation guides, broken down by documentation page:https://github.com/tommypraeger/aws-amplify-tools-vscode/wiki/Selected-Code-Segment-Snippets
+Selected code segments from the documentation guides, broken down by documentation page: https://github.com/tommypraeger/aws-amplify-tools-vscode/wiki/Selected-Code-Segment-Snippets
 
 Single word snippets (snippets that complete single words when clicked): https://github.com/tommypraeger/aws-amplify-tools-vscode/wiki/Single-Word-Snippets
 
