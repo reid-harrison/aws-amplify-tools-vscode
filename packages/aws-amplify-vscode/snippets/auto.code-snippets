@@ -2323,6 +2323,91 @@
             "});",
         ]
     },
+    "Amplify Service_Workers Installation": {
+        "prefix": "Amplify Installation",
+        "scope": "javascript,javascriptreact",
+        "body": [
+            "import { ServiceWorker } from 'aws-amplify';",
+            "const myServiceWorker = new ServiceWorker();",
+        ]
+    },
+    "Amplify Service_Workers Register()": {
+        "prefix": "Amplify Register()",
+        "scope": "javascript,javascriptreact",
+        "body": [
+            "// Register the service worker with `service-worker.js` with service worker scope `/`.",
+            "myServiceWorker = await this.serviceWorker.register('/service-worker.js', '/');",
+        ]
+    },
+    "Amplify Service_Workers Register() 2": {
+        "prefix": "Amplify Register() 2",
+        "scope": "javascript,javascriptreact",
+        "body": [
+            "\tmyServiceWorker.enablePush('BLx__NGvdasMNkjd6VYPdzQJVBkb2qafh')",
+        ]
+    },
+    "Amplify Service_Workers Handling A Push Notification": {
+        "prefix": "Amplify Handling A Push Notification",
+        "scope": "javascript,javascriptreact",
+        "body": [
+            "/**",
+            "* Listen for incoming Push events",
+            "*/",
+            "",
+            "addEventListener('push', (event) => {",
+            "\tvar data = {};",
+            "\tconsole.log('[Service Worker] Push Received.');",
+            "\tconsole.log(`[Service Worker] Push had this data: \"\\${event.data.text()}\"`);",
+            "",
+            "\tif (!(self.Notification && self.Notification.permission === 'granted')) ",
+            "\t\treturn;",
+            "\t",
+            "\tif (event.data) ",
+            "\t\tdata = event.data.json();",
+            "\t",
+            "\t// Customize the UI for the message box ",
+            "\tvar title = data.title || \"Web Push Notification\";",
+            "\tvar message = data.message || \"New Push Notification Received\";",
+            "\tvar icon = \"images/notification-icon.png\";",
+            "\tvar badge = 'images/notification-badge.png';",
+            "\tvar options = {",
+            "\t\tbody: message,",
+            "\t\ticon: icon,",
+            "\t\tbadge: badge",
+            "\t};",
+            "",
+            "\tevent.waitUntil(self.registration.showNotification(title,options));",
+            "",
+            "});",
+        ]
+    },
+    "Amplify Service_Workers Send()": {
+        "prefix": "Amplify Send()",
+        "scope": "javascript,javascriptreact",
+        "body": [
+            "",
+            "\tmyServiceWorker.send({",
+            "\t'message': 'CleanAllCache'",
+            "\t});",
+            "",
+        ]
+    },
+    "Amplify Service_Workers Receiving Messages ": {
+        "prefix": "Amplify Receiving Messages ",
+        "scope": "javascript,javascriptreact",
+        "body": [
+            "\t/**",
+            "\t* The message will receive messages sent from the application.",
+            "\t* This can be useful for updating a service worker or messaging",
+            "\t* other clients (browser restrictions currently exist)",
+            "\t* https://developer.mozilla.org/en-US/docs/Web/API/Client/postMessage",
+            "\t*/",
+            "\taddEventListener('message', (event) => {",
+            "\t\tconsole.log('[Service Worker] Message Event: ', event.data)",
+            "\t})",
+            "\t",
+        ]
+    },
     "Amplify Storage Automated Setup": {
         "prefix": "Amplify Automated Setup",
         "scope": "javascript,javascriptreact",

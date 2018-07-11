@@ -1,5 +1,5 @@
 # List of guide files to search
-guides = ['analytics_guide.md','angular_guide.md','api_guide.md','authentication_guide.md','cache_guide.md','hub_guide.md','i18n_guide.md','interactions_guide.md','logger_guide.md','pub_sub_guide.md','push_notifications_setup.md','storage_guide.md']
+guides = ['analytics_guide.md','angular_guide.md','api_guide.md','authentication_guide.md','cache_guide.md','hub_guide.md','i18n_guide.md','interactions_guide.md','logger_guide.md','pub_sub_guide.md','push_notifications_setup.md','service_workers_guide.md','storage_guide.md']
 
 # Start of file path - CHANGE FOR GITHUB
 filestart = '/Users/praegt/Documents/aws-amplify-tools-vscode/docs/media/'

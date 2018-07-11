@@ -1903,6 +1903,73 @@ PushNotification.onRegister((token) => {
   console.log('in app registration', token);
 });
 ```
+##### prefix: ```Amplify Installation```
+```js
+import { ServiceWorker } from 'aws-amplify';
+const myServiceWorker = new ServiceWorker();
+```
+##### prefix: ```Amplify Register()```
+```js
+// Register the service worker with `service-worker.js` with service worker scope `/`.
+myServiceWorker = await this.serviceWorker.register('/service-worker.js', '/');
+```
+##### prefix: ```Amplify Register() 2```
+```js
+    myServiceWorker.enablePush('BLx__NGvdasMNkjd6VYPdzQJVBkb2qafh')
+```
+##### prefix: ```Amplify Handling A Push Notification```
+```js
+/**
+ * Listen for incoming Push events
+ */
+
+addEventListener('push', (event) => {
+    var data = {};
+    console.log('[Service Worker] Push Received.');
+    console.log(`[Service Worker] Push had this data: "${event.data.text()}"`);
+
+    if (!(self.Notification && self.Notification.permission === 'granted')) 
+        return;
+    
+    if (event.data) 
+        data = event.data.json();
+    
+    // Customize the UI for the message box 
+    var title = data.title || "Web Push Notification";
+    var message = data.message || "New Push Notification Received";
+    var icon = "images/notification-icon.png";
+    var badge = 'images/notification-badge.png';
+    var options = {
+        body: message,
+        icon: icon,
+        badge: badge
+    };
+
+    event.waitUntil(self.registration.showNotification(title,options));
+
+});
+```
+##### prefix: ```Amplify Send()```
+```js
+
+    myServiceWorker.send({
+      'message': 'CleanAllCache'
+    });
+
+```
+##### prefix: ```Amplify Receiving Messages ```
+```js
+    /**
+     * The message will receive messages sent from the application.
+     * This can be useful for updating a service worker or messaging
+     * other clients (browser restrictions currently exist)
+     * https://developer.mozilla.org/en-US/docs/Web/API/Client/postMessage
+     */
+    addEventListener('message', (event) => {
+        console.log('[Service Worker] Message Event: ', event.data)
+    })
+    
+```
 ##### prefix: ```Amplify Automated Setup```
 ```js
 import Amplify, { Storage } from 'aws-amplify';
