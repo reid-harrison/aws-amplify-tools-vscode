@@ -12,9 +12,9 @@ Click install on the extension with title "AWS Amplify API", description "AWS Am
 
 ## Usage
 
-In a a JavaScript or JSX file*, start typing an AWS Amplify API command and choose the appropriate snippet by either clicking it or pressing "enter" or "tab" when the correct snippet is highlighted in the dropdown menu. You can scroll between snippets using the up and down arrow keys.
+In a JavaScript or JSX file*, start typing an AWS Amplify API command that has a corresponding snippet and choose the appropriate snippet by either clicking it or pressing "enter" or "tab" when the correct snippet is highlighted in the dropdown menu. You can scroll between snippets using the up and down arrow keys.
 
-The snippets options that pop up are based on the prefix that you type. For the complete set of prefix/snippets pairings for AWS Amplify, see the documentation:
+The snippets options that pop up are based on the prefix that you type. For the complete set of prefix/snippet pairings for AWS Amplify, see the documentation:
 
 Full code blocks from the documentation guides: https://github.com/tommypraeger/aws-amplify-tools-vscode/wiki/Full-Code-Block-Snippets
 
