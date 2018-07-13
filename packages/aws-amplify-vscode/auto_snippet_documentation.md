@@ -1238,20 +1238,8 @@ class MyApp extends React.Component {
 }
 
 export default withOAuth(MyApp);
-``` 
-    
-### Enabling MFA
-
-MFA (Multi-factor authentication increases security for your app by adding an authentication method and not relying solely on the username (or alias) and password. AWS Amplify uses Amazon Cognito to provide MFA. Please see [Amazon Cognito Developer Guide](https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-settings-mfa.html) for more information about setting up MFA in Amazon Cognito.
-
-Once you enable MFA on Amazon Cognito, you can configure your app to work with MFA.
-
-#### Enabling TOTP
-
-With TOTP (Time-based One-time Password), your app user is challenged to complete authentication using a time-based one-time (TOTP) password after their username and password have been verified.
-
-You can setup TOTP for a user in your app:
-
+```
+##### prefix: ```Amplify Enabling Totp```
 ```js
 import { Auth } from 'aws-amplify';
 
@@ -1739,6 +1727,88 @@ class App extends Component {
 }
 
 export default App;
+```
+##### prefix: ```Amplify Using With React Native```
+```js
+import React from 'react';
+import { StyleSheet, Text, SafeAreaView, Alert, StatusBar } from 'react-native';
+import Amplify from 'aws-amplify';
+import { ChatBot } from 'aws-amplify-react-native';
+
+Amplify.configure({
+  Auth: {
+    identityPoolId: 'us-east-1:xxx-xxx-xxx-xxx-xxx',
+    region: 'us-east-1'
+  },
+  Interactions: {
+    bots: {
+      "BookTripMOBILEHUB": {
+        "name": "BookTripMOBILEHUB",
+        "alias": "$LATEST",
+        "region": "us-east-1",
+      },
+    }
+  }
+});
+
+const styles = StyleSheet.create({
+  container: {
+      flex: 1,
+      backgroundColor: '#fff',
+      alignItems: 'center',
+      justifyContent: 'center',
+      paddingTop: StatusBar.currentHeight,
+  },
+});
+
+export default class App extends React.Component {
+
+    state = {
+        botName: 'BookTripMOBILEHUB',
+        welcomeMessage: 'Welcome, what would you like to do today?',
+    };
+
+    constructor(props) {
+        super(props);
+        this.handleComplete = this.handleComplete.bind(this);
+    }
+
+    handleComplete(err, confirmation) {
+        if (err) {
+        Alert.alert('Error', 'Bot conversation failed', [{ text: 'OK' }]);
+        return;
+        }
+
+        Alert.alert('Done', JSON.stringify(confirmation, null, 2), [{ text: 'OK' }]);
+
+        this.setState({
+        botName: 'BookTripMOBILEHUB',
+        });
+
+        return 'Trip booked. Thank you! what would you like to do next?';
+    }
+
+    render() {
+        const { botName, showChatBot, welcomeMessage } = this.state;
+
+        return (
+        <SafeAreaView style={styles.container}>
+            <ChatBot
+            botName={botName}
+            welcomeMessage={welcomeMessage}
+            onComplete={this.handleComplete}
+            clearOnComplete={false}
+            styles={StyleSheet.create({
+                itemMe: {
+                color: 'red'
+                }
+            })}
+            />
+        </SafeAreaView>
+        );
+    }
+
+}
 ```
 ##### prefix: ```Amplify Installation```
 ```js

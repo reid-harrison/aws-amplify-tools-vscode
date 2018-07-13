@@ -39,7 +39,7 @@ for guide in guides:
         # Finds start of javascript codeblock
         languages = ['js', 'typescript', 'json']
         for language in languages:
-            if lines[line_index] == '```' + language + '\n':
+            if lines[line_index].strip() == '```' + language:
                 # Adds beginning snippet formatting to doc file and snippet file
                 snippet_number = '' if snippet_index == 1 else (' ' + str(snippet_index))
                 docs.write('##### prefix: ```Amplify ' + header + snippet_number + '```\n```' + language + '\n')
@@ -52,7 +52,7 @@ for guide in guides:
                 snippets.write('        "body": [\n')           
                 line_index += 1 # increment line index
                 # Adds lines to snippet
-                while lines[line_index] != '```\n': # executes until end of code block
+                while lines[line_index].strip() != '```': # executes until end of code block
                     docs.write(lines[line_index]) # writes line directly to doc
                     line_str = '            "'
                     # Adds \t's to snippet
