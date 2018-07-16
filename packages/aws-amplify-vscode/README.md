@@ -24,6 +24,6 @@ Single word snippets (snippets that complete single words when clicked): https:/
 
 *The snippets also have limited TypeScript functionality.
 
-##### Example
+#### Example
 
 ![Alt Text](gifs/update_endpoint_example.gif)
