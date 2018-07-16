@@ -23,3 +23,7 @@ Selected code segments from the documentation guides, broken down by documentati
 Single word snippets (snippets that complete single words when clicked): https://github.com/tommypraeger/aws-amplify-tools-vscode/wiki/Single-Word-Snippets
 
 *The snippets also have limited TypeScript functionality.
+
+##### Example
+
+![Alt Text](gifs/update_endpoint_example.gif)
